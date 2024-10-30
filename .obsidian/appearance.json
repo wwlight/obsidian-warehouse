@@ -1,0 +1,14 @@
+{
+  "accentColor": "#8a5cf5",
+  "cssTheme": "Blue Topaz",
+  "theme": "obsidian",
+  "baseFontSizeAction": false,
+  "enabledCssSnippets": [
+    "Tab"
+  ],
+  "translucency": true,
+  "nativeMenus": true,
+  "monospaceFontFamily": "FiraCode Nerd Font Mono",
+  "textFontFamily": "",
+  "interfaceFontFamily": ""
+}
