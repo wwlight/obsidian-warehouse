@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/template.md",
+                "file": "工具集/Windows 系统工作环境.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "template"
+              "title": "Windows 系统工作环境"
             }
           }
         ],
@@ -153,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/template.md"
+                "file": "工具集/Windows 系统工作环境.md"
               },
               "icon": "lucide-list",
-              "title": "template 的大纲"
+              "title": "Windows 系统工作环境 的大纲"
             }
           },
           {
@@ -184,7 +184,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -207,9 +207,9 @@
   },
   "active": "34c482d60c64a134",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "TODO/单位换算.md",
     "日记/template.md",
+    "conflict-files-obsidian-git.md",
     "README.md",
     "工具集/Windows 系统工作环境.md",
     "日记",
