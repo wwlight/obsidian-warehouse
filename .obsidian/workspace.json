@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "学习笔记整理/css 相关/css 渐变角度理解.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "css 渐变角度理解"
             }
           }
         ]
@@ -138,10 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "学习笔记整理/css 相关/css 渐变角度理解.md"
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "css 渐变角度理解 的大纲"
             }
           },
           {
@@ -192,9 +192,10 @@
   },
   "active": "736f32738161797d",
   "lastOpenFiles": [
+    "README.md",
     "学习笔记/css 相关/css 中遇到的基本概念.md",
     "学习笔记整理/resources/dark-mode-angles.svg",
-    "学习笔记整理/css 相关/css 中遇到的基本概念.md",
+    "学习笔记整理/css 相关/css 渐变角度理解.md",
     "学习笔记整理/resources",
     "学习笔记整理/css 相关",
     "学习笔记整理",
@@ -204,7 +205,6 @@
     "TODO/单位换算.md",
     "TODO",
     "日记/template.md",
-    "README.md",
     "日记",
     "2024-10-30.md",
     "工具集整理",
