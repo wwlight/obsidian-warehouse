@@ -6,10 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "TiTools",
+      "SiWindowsxp",
+      "SiExcalidraw",
       "LiCalendarRange",
-      "LiBarChartHorizontal",
-      "LiNotebookPen",
-      "LiListTodo"
+      "LiBarChartHorizontal"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,6 +35,7 @@
   },
   "TODO": "LiListTodo",
   "日记": "LiNotebookPen",
-  "工具集整理": "LiBarChartHorizontal",
-  "学习笔记整理": "LiCalendarRange"
+  "学习笔记整理": "LiCalendarRange",
+  "Excalidraw": "SiExcalidraw",
+  "工具集整理": "TiTools"
 }
