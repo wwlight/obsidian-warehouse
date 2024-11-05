@@ -2,5 +2,9 @@
   "obsidian-excalidraw-plugin",
   "obsidian-icon-folder",
   "obsidian-git",
-  "obsidian-linter"
+  "obsidian-linter",
+  "obsidian-style-settings",
+  "obsidian-hover-editor",
+  "cmdr",
+  "editing-toolbar"
 ]
