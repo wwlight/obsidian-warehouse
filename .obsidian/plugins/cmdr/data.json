@@ -18,15 +18,15 @@
         },
         {
           "action": 1,
-          "delay": 250
+          "delay": "250"
         },
         {
           "action": 0,
-          "commandId": "obsidian-style-settings:style-settings-class-toggle-blue-topaz-theme-canvas-card-focus-mode"
+          "commandId": "obsidian-hover-editor:convert-active-pane-to-popover"
         }
       ],
       "name": "悬浮-样式设置",
-      "icon": "star",
+      "icon": "lucide-mouse-pointer-square-dashed",
       "startup": false
     }
   ],
