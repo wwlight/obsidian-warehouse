@@ -11,14 +11,13 @@
             "id": "ef43401bd8cafe31",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "工具集整理/Windows 系统工作环境.md",
-                "mode": "preview",
-                "source": false
+                "file": ".obsidian/plugins/cm-editor-syntax-highlight-obsidian/styles.css",
+                "staged": true
               },
-              "icon": "lucide-file",
-              "title": "Windows 系统工作环境"
+              "icon": "git-pull-request",
+              "title": "Diff View (styles.css)"
             }
           }
         ]
@@ -166,11 +165,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "工具集整理/Windows 系统工作环境.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Windows 系统工作环境 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -251,10 +248,10 @@
   },
   "active": "ef43401bd8cafe31",
   "lastOpenFiles": [
+    "工具集整理/Windows 系统工作环境.md",
     "工具集整理/Obsidian 使用入门.md",
     "未命名.md",
     "未命名 1.md",
-    "工具集整理/Windows 系统工作环境.md",
     "未命名 1",
     "未命名",
     "Excalidraw/Drawing 2024-11-05 22.26.12.excalidraw.md",
