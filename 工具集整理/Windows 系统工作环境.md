@@ -227,11 +227,11 @@ $ npm config set prefix ~/.npm_global
 C:\Users\wwlight\.npm_global
 
 $ npm i -g @antfu/ni
-#  powershell 7
+# powershell 7
 Remove-Alias -Name ni -Force
 # end
 
-#  powershell 5
+# powershell 5
 if (-not (Test-Path $profile)) {
   New-Item -ItemType File -Path (Split-Path $profile) -Force -Name (Split-Path $profile -Leaf)
 }
