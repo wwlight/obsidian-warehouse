@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "工具集整理/Windows 系统工作环境.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -249,7 +249,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "736f32738161797d",
+  "active": "ef43401bd8cafe31",
   "lastOpenFiles": [
     "工具集整理/Obsidian 使用入门.md",
     "未命名.md",
