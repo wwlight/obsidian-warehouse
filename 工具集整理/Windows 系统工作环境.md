@@ -14,8 +14,13 @@
     - 搜索下载 `FiraCode Nerd Font`
 + ✅ [Scoop](https://scoop.sh/) - 适用于 Windows 的命令行安装程序 | [镜像](https://gitee.com/scoop-installer/scoop)
 ```bash
+# 第一步
 $ $env:SCOOP='D:\DevelopmentApplication\Scoop'
 $ [Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
+
+# 第二步：开启代理，在 powershell 中安装
+$ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+$ iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
 ```
 + ✅ [SwitchHosts](https://switchhosts.vercel.app/zh) - 是一个管理、切换多个 hosts 方案的工具
     - [GitHub Hosts](https://ineo6.github.io/hosts/) - GitHub 最新 hosts
@@ -48,8 +53,6 @@ $ scoop install starship
 $ cd .config && mkdir starship && cd starship && type nul>starship.toml
 
 # powershell 7
-$ code $PROFILE
-# 添加以下内容
 Invoke-Expression (&starship init powershell)
 $ENV:STARSHIP_CONFIG = "$HOME\\.config\\starship\\starship.toml"
 # end
@@ -59,7 +62,7 @@ Invoke-Expression (& 'D:\DevelopmentApplication\Scoop\apps\starship\current\star
 $ENV:STARSHIP_CONFIG = "$HOME\\.config\\starship\\starship.toml"
 # end
 
-# cmd  --starship.lua
+# cmd 在 clink\current\scripts 文件中添加 starship.lua
 load(io.popen('starship init cmd'):read("*a"))()
 os.setenv('STARSHIP_CONFIG', 'C:\\Users\\<username>\\.config\\starship\\starship.toml')
 # end
@@ -164,6 +167,12 @@ $ git config --global --add safe.directory "*"
 # 管理员身份运行 PowerShell
 $ get-ExecutionPolicy
 $ set-ExecutionPolicy RemoteSigned
+
+# powershell 配置文件
+$ $PROFILE
+
+# powershell 版本
+$ $psversiontable
 ```
 + ✅ [fnm](https://github.com/Schniz/fnm) - 快速简单的 Node.js 版本管理器，用 Rust 构建
 ```bash
@@ -173,9 +182,6 @@ $ echo 'eval "$(fnm env --use-on-cd)"' >> ~/.zshrc
 $ source ~/.zshrc
 
 # powershell 7 & powershell 5 需配置
-$ code $PROFILE
-# powershell 中输入 $PROFILE，查看路径
-
 # fnm
 fnm env --use-on-cd | Out-String | Invoke-Expression
 # fnm end
@@ -226,7 +232,6 @@ Remove-Alias -Name ni -Force
 # end
 
 #  powershell 5
-$ code $PROFILE
 if (-not (Test-Path $profile)) {
   New-Item -ItemType File -Path (Split-Path $profile) -Force -Name (Split-Path $profile -Leaf)
 }

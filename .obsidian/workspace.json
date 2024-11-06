@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "工具集整理/Windows 系统工作环境.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -243,13 +243,13 @@
       "markdown-importer:打开 Markdown 格式转换器": false,
       "publish:发布更改": false,
       "workspaces:管理工作区布局": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "custom-sort:Toggle custom sorting": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ef43401bd8cafe31",
+  "active": "736f32738161797d",
   "lastOpenFiles": [
     "工具集整理/Obsidian 使用入门.md",
     "未命名.md",

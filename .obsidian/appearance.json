@@ -5,7 +5,8 @@
   "baseFontSizeAction": false,
   "enabledCssSnippets": [
     "Tab",
-    "extended-colorschemes"
+    "extended-colorschemes",
+    "custom-admonitions.f505c4"
   ],
   "translucency": true,
   "nativeMenus": true,
