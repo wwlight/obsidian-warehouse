@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2115575b95a6f608",
+        "id": "4dfd2ffb473b32f9",
         "type": "tabs",
         "children": [
           {
-            "id": "ef43401bd8cafe31",
+            "id": "39661f63a60438ef",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/plugins/cm-editor-syntax-highlight-obsidian/styles.css",
-                "staged": true
+                "file": "工具集整理/Windows 系统工作环境.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (styles.css)"
+              "icon": "lucide-file",
+              "title": "Windows 系统工作环境"
             }
           }
         ]
@@ -83,7 +84,8 @@
               "title": "File Tree"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "b0951cd2ef534fff",
@@ -165,9 +167,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "工具集整理/Windows 系统工作环境.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Windows 系统工作环境 的大纲"
             }
           },
           {
@@ -246,7 +250,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ef43401bd8cafe31",
+  "active": "39661f63a60438ef",
   "lastOpenFiles": [
     "工具集整理/Windows 系统工作环境.md",
     "工具集整理/Obsidian 使用入门.md",

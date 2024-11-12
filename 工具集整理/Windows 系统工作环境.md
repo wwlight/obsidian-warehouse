@@ -14,13 +14,16 @@
     - 搜索下载 `FiraCode Nerd Font`
 + ✅ [Scoop](https://scoop.sh/) - 适用于 Windows 的命令行安装程序 | [镜像](https://gitee.com/scoop-installer/scoop)
 ```bash
-# 第一步
+# 第一步：设置安装目录
 $ $env:SCOOP='D:\DevelopmentApplication\Scoop'
 $ [Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
 
 # 第二步：开启代理，在 powershell 中安装
 $ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 $ iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
+
+# 其它
+$ scopp uninstall scoop
 ```
 + ✅ [SwitchHosts](https://switchhosts.vercel.app/zh) - 是一个管理、切换多个 hosts 方案的工具
     - [GitHub Hosts](https://ineo6.github.io/hosts/) - GitHub 最新 hosts
