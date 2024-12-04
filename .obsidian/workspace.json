@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具集整理/Obsidian 使用入门.md",
-                "mode": "source",
+                "file": "面试题整理/Vue 相关.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian 使用入门"
+              "title": "Vue 相关"
             }
           }
         ]
@@ -167,10 +167,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具集整理/Obsidian 使用入门.md"
+                "file": "面试题整理/Vue 相关.md"
               },
               "icon": "lucide-list",
-              "title": "Obsidian 使用入门 的大纲"
+              "title": "Vue 相关 的大纲"
             }
           },
           {
@@ -249,12 +249,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "736f32738161797d",
+  "active": "7805323157460bad",
   "lastOpenFiles": [
+    "工具集整理/Obsidian 使用入门.md",
     "Excalidraw/Drawing 2024-12-03 11.42.27.excalidraw.md",
     "面试题整理/Vue 相关.md",
     "工具集整理/Windows 系统工作环境.md",
-    "工具集整理/Obsidian 使用入门.md",
     "面试题整理",
     "学习笔记整理/css 相关/css 渐变角度理解.md",
     "TODO/单位换算.md",

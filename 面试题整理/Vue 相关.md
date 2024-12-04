@@ -51,6 +51,13 @@ function reactive(target) {
 }
 ```
 ### Vue 3 和 Vue 2 双向绑定区别
+>[!important]
+>Vue 3 的响应式系统相比 Vue 2
+	>- 更灵活的代理机制
+	>- 更高效的依赖收集
+	>- 更精细的性能控制
+	>- 更简洁的 API 设计
+
 1. 响应式实现原理
 	- Vue 2
 		- 使用 `Object.defineProperty()` 实现
@@ -91,14 +98,8 @@ function reactive(target) {
 		- 可以直接通过下标修改数组
 		- 所有数组操作都能被正确追踪
 5. 性能和体积
-	- Vue 3
+	-  Vue 3
 		- 响应式系统体积更小
 		- 运行时性能更优
 		- 内存占用更低
 		- 依赖收集更精确 
->[!important]
->Vue 3 的响应式系统相比 Vue 2
-	>- 更灵活的代理机制
-	>- 更高效的依赖收集
-	>- 更精细的性能控制
-	>- 更简洁的 API 设计
