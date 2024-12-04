@@ -4,7 +4,7 @@
 - [PKMer](https://pkmer.cn/)
 ## 常用插件
 
-> Add
+> [!note] 
 >官方插件系统需要梯子，可以借助 [PKMer Market](https://pkmer.cn/products/market/)
 
 - AnuPpuccin - 主题
