@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Windows 系统工作环境"
             }
+          },
+          {
+            "id": "0e9b775403938514",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-12-03 11.42.27.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-12-03 11.42.27.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,8 +97,7 @@
               "title": "File Tree"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "b0951cd2ef534fff",
@@ -168,10 +180,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具集整理/Windows 系统工作环境.md"
+                "file": "Excalidraw/Drawing 2024-12-03 11.42.27.excalidraw.md"
               },
               "icon": "lucide-list",
-              "title": "Windows 系统工作环境 的大纲"
+              "title": "Drawing 2024-12-03 11.42.27.excalidraw 的大纲"
             }
           },
           {
@@ -250,10 +262,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "39661f63a60438ef",
+  "active": "3ce7cac187043dff",
   "lastOpenFiles": [
     "工具集整理/Windows 系统工作环境.md",
+    "Excalidraw/Drawing 2024-12-03 11.42.27.excalidraw.md",
     "工具集整理/Obsidian 使用入门.md",
+    "学习笔记整理/css 相关/css 渐变角度理解.md",
+    "TODO/单位换算.md",
     "未命名.md",
     "未命名 1.md",
     "未命名 1",
@@ -261,7 +276,6 @@
     "Excalidraw/Drawing 2024-11-05 22.26.12.excalidraw.md",
     "Excalidraw/Drawing 2024-11-05 22.26.13.excalidraw.md",
     "Excalidraw",
-    "学习笔记整理/css 相关/css 渐变角度理解.md",
     "日记/template.md",
     "工具集/Windows 系统工作环境.md",
     "工具集整理",
@@ -269,7 +283,6 @@
     "学习笔记整理/resources",
     "学习笔记整理/css 相关",
     "学习笔记整理",
-    "TODO/单位换算.md",
     "conflict-files-obsidian-git.md",
     "README.md",
     "日记",
@@ -289,7 +302,6 @@
     "Excalidraw/Drawing 2024-09-26 18.11.02.excalidraw.md",
     "Excalidraw/Drawing 2024-05-10 15.15.41.excalidraw.md",
     "CSS 学习/基础知识.md",
-    "1_日常学习记录/mini-vue 课程学习.md",
     "未命名 2.canvas",
     "未命名 1.canvas",
     "Pasted image 20231208225317.png",

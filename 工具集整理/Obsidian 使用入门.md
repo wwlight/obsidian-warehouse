@@ -3,8 +3,10 @@
 - [Obsidian Help](https://publish.obsidian.md/help-zh/)
 - [PKMer](https://pkmer.cn/)
 ## 常用插件
->[!danger] 注意
+
+> Add
 >官方插件系统需要梯子，可以借助 [PKMer Market](https://pkmer.cn/products/market/)
+
 - AnuPpuccin - 主题
 - Admonition - 添加块样式内容和标注功能
 - Calendar
