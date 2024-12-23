@@ -1,5 +1,6 @@
->[!info]
->工欲善其事，必先利其器。
+```ad-info
+工欲善其事，必先利其器。
+```
 ###  ℹ️ 说明
 + ✅：免费｜推荐
 + ❎：收费｜了解｜科学
@@ -76,65 +77,70 @@ os.setenv('STARSHIP_CONFIG', 'C:\\Users\\<username>\\.config\\starship\\starship
     - [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions)
 
 + zsh settings：
->[!fap]- .zshrc 配置文件
->```
->export ZSH=$HOME/.zsh
->export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
->HISTFILE=$HOME/.zsh_history
->HISTSIZE=5000
->SAVEHIST=5000
->HISTDUP=erase
->setopt appendhistory
->setopt sharehistory
->setopt incappendhistory
->setopt hist_ignore_all_dups
->setopt hist_save_no_dups
->setopt hist_ignore_dups
->setopt hist_find_no_dups
->
-># zsh plugins 
->source $ZSH/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
->source $ZSH/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
->fpath=($ZSH/plugins/zsh-completions/src $fpath)
->ZSH_AUTOSUGGEST_STRATEGY=(history completion)
->ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
-># plugins end
->
->alias ping="gping"
->alias of="onefetch"
->alias nio="ni --prefer-offline"
->alias s="nr start"
->alias d="nr dev"
->alias b="nr build"
->alias z="zoxide"
->alias cls="clear"
-># Go to project root
->alias grt='cd "$(git rev-parse --show-toplevel)"'
->alias gp='git push'
->alias gl='git pull'
->
-># fnm
->eval "$(fnm env --use-on-cd)"
-># fnm end
->
-># starship
->eval "$(starship init zsh)"
->export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
->function set_win_title(){
- >   echo -ne "\033]0; $(basename "$USER") \007"
->}
->starship_precmd_user_func="set_win_title"
->precmd_functions+=(set_win_title)
-># starship end
->
-># zoxide
->eval "$(zoxide init zsh)"
-># zoxide end
->
-># fzf
->source <(fzf --zsh)
-># fzf end
->```
+````ad-info
+title: .zshrc 配置文件
+
+```sh
+# ~/.zshrc
+# zsh
+export ZSH=$HOME/.zsh
+export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
+HISTFILE=$HOME/.zsh_history
+HISTSIZE=5000
+SAVEHIST=5000
+HISTDUP=erase
+setopt appendhistory
+setopt sharehistory
+setopt incappendhistory
+setopt hist_ignore_all_dups
+setopt hist_save_no_dups
+setopt hist_ignore_dups
+setopt hist_find_no_dups
+
+# zsh plugins
+source $ZSH/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source $ZSH/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+fpath=($ZSH/plugins/zsh-completions/src $fpath)
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
+# plugins end
+
+alias ping="gping"
+alias of="onefetch"
+alias nio="ni --prefer-offline"
+alias s="nr start"
+alias d="nr dev"
+alias b="nr build"
+alias z="zoxide"
+alias cls="clear"
+# Go to project root
+alias grt='cd "$(git rev-parse --show-toplevel)"'
+alias gp='git push'
+alias gl='git pull'
+
+# fnm
+eval "$(fnm env --use-on-cd)"
+# fnm end
+
+# starship
+eval "$(starship init zsh)"
+export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
+function set_win_title(){
+    echo -ne "\033]0; $(basename "$USER") \007"
+}
+starship_precmd_user_func="set_win_title"
+precmd_functions+=(set_win_title)
+# starship end
+
+# zoxide
+eval "$(zoxide init zsh)"
+# zoxide end
+
+# fzf
+source <(fzf --zsh)
+# fzf end
+```
+````
 + 参考资料：[Using ZSH without OMZ](https://dev.to/hbenvenutti/using-zsh-without-omz-4gch)、[npm completion](https://didiaohu.gitbooks.io/npm/content/yong-npm-script-da-zao-chao-liu-de-qian-duan-gong-zuo-liu/23-shi-xian-ming-ling-xing-zi-dong-bu-quan.html)
 ### 💻️ 开发工具
 ```bash

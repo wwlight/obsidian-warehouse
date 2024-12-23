@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "67a2cdac550a92cb",
+        "id": "fa8cbfc7053c368e",
         "type": "tabs",
         "children": [
           {
-            "id": "09fa074cfef20778",
+            "id": "92cac9cf03734f5e",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "TODO/单位换算.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (workspace.json)"
+              "icon": "lucide-file",
+              "title": "单位换算"
             }
           }
         ]
@@ -165,9 +166,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "TODO/单位换算.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "单位换算 的大纲"
             }
           },
           {
@@ -246,14 +249,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "09fa074cfef20778",
+  "active": "92cac9cf03734f5e",
   "lastOpenFiles": [
-    "工具集整理/Mac 软件开发工具.md",
-    "工具集整理/Windows 系统工作环境.md",
-    "工具集整理/Obsidian 使用入门.md",
+    "学习笔记整理/css 相关/css 渐变角度理解.md",
+    "日记/template.md",
     "面试题整理/项目相关.md",
     "面试题整理/CSS 基础.md",
     "面试题整理/Vue 相关.md",
+    "工具集整理/Mac 软件开发工具.md",
+    "工具集整理/Windows 系统工作环境.md",
+    "工具集整理/Obsidian 使用入门.md",
     "面试题整理",
     "未命名.md",
     "未命名 1.md",
@@ -262,8 +267,6 @@
     "Excalidraw/Drawing 2024-11-05 22.26.12.excalidraw.md",
     "Excalidraw/Drawing 2024-11-05 22.26.13.excalidraw.md",
     "Excalidraw",
-    "学习笔记整理/css 相关/css 渐变角度理解.md",
-    "日记/template.md",
     "工具集/Windows 系统工作环境.md",
     "工具集整理",
     "学习笔记整理/resources/dark-mode-angles.svg",

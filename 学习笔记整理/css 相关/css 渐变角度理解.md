@@ -2,13 +2,16 @@
 >内容整理来自 [claude.ai](https://claude.ai/)
 
 ## 基本规则
-> [!success] 扩展 
-> 
-> 渐变：[gradient](https://developer.mozilla.org/zh-CN/docs/Web/CSS/gradient)
-> 线性渐变：[linear-gradient()](https://developer.mozilla.org/zh-CN/docs/Web/CSS/gradient/linear-gradient)
-> 径向渐变：[radial-gradient()](https://developer.mozilla.org/zh-CN/docs/Web/CSS/gradient/radial-gradient)
-> 重复渐变：[repeating-linear-gradient()](https://developer.mozilla.org/zh-CN/docs/Web/CSS/gradient/repeating-linear-gradient) 、[repeating-radial-gradient()](https://developer.mozilla.org/zh-CN/docs/Web/CSS/gradient/repeating-radial-gradient)
-> 锥形渐变：[conic-gradient()](https://developer.mozilla.org/zh-CN/docs/Web/CSS/gradient/conic-gradient)
+
+```ad-success
+title: 扩展
+
+- 渐变：[gradient](https://developer.mozilla.org/zh-CN/docs/Web/CSS/gradient)
+- 线性渐变：[linear-gradient()](https://developer.mozilla.org/zh-CN/docs/Web/CSS/gradient/linear-gradient)
+- 径向渐变：[radial-gradient()](https://developer.mozilla.org/zh-CN/docs/Web/CSS/gradient/radial-gradient)
+- 重复渐变：[repeating-linear-gradient()](https://developer.mozilla.org/zh-CN/docs/Web/CSS/gradient/repeating-linear-gradient) 、[repeating-radial-gradient()](https://developer.mozilla.org/zh-CN/docs/Web/CSS/gradient/repeating-radial-gradient)
+- 锥形渐变：[conic-gradient()](https://developer.mozilla.org/zh-CN/docs/Web/CSS/gradient/conic-gradient)
+```
 
 
 - 在 CSS 渐变中，角度的定义遵循以下规则：

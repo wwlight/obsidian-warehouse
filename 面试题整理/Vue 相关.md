@@ -132,12 +132,13 @@ WeakMap<target, Map<key, Set<effect>>>
 	- 自动清理无用依赖
 ### Vue 3 和 Vue 2 双向绑定区别
 
->[!important]
->Vue 3 的响应式系统相比 Vue 2
-	>- 更灵活的代理机制
-	>- 更高效的依赖收集
-	>- 更精细的性能控制
-	>- 更简洁的 API 设计
+```ad-important
+title: Vue 3 的响应式系统相比 Vue 2
+- 更灵活的代理机制
+- 更高效的依赖收集
+- 更精细的性能控制
+- 更简洁的 API 设计
+```
 
 1. 响应式实现原理
 	- Vue 2
@@ -187,7 +188,11 @@ WeakMap<target, Map<key, Set<effect>>>
 ---
 ###  Vue SEO 问题原因？如何解决？
 
->[!info] SEO 问题可以通过多种技术方案解决，选择合适的渲染策略和持续优化。
+```ad-info
+title: 说明
+
+SEO 问题可以通过多种技术方案解决，选择合适的渲染策略和持续优化。
+```
 
 - 产生原因
 	1. 客户端渲染（CSR，`client-side rendering`）
@@ -243,7 +248,11 @@ WeakMap<target, Map<key, Set<effect>>>
 ---
 ### SEO 如何理解
 
->[!help] SEO（Search Engine Optimization，搜索引擎优化）是一个网站提高在搜索引擎中可见性和排名的综合策略。
+```ad-attention
+title: 注意
+
+SEO（Search Engine Optimization，搜索引擎优化）是一个网站提高在搜索引擎中可见性和排名的综合策略。
+```
 
 - 核心目标
 	- 提高网站在搜索引擎中的排名

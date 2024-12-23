@@ -1,7 +1,10 @@
 ### [Homebrew](https://brew.sh/) 包管理工具
 
->[!note] 说明
->简称 brew，是 macOS 和 Linux 上最流行的包管理工具，它可以帮助你安装、更新和管理软件包。类似于 Ubuntu 的 apt 或 CentOS 的 yum。
+```ad-note 
+title: 说明
+
+简称 brew，是 macOS 和 Linux 上最流行的包管理工具，它可以帮助你安装、更新和管理软件包。类似于 Ubuntu 的 apt 或 CentOS 的 yum。
+```
 
 ##### 安装
 ```sh
@@ -183,31 +186,34 @@ $ sudo chown -R $(whoami):admin /opt/homebrew
 ```
 ###  [SDKMAN](https://sdkman.io/) 开发工具包管理工具
 
->[!info] 说明
->用来管理多个软件开发工具包（SDK）版本的工具，主要用于 Unix 系统（Mac、Linux），它的主要作用包括：
->1. 多版本管理
-	>- 可以在同一系统上安装和管理多个版本的 Java、Kotlin、Groovy 等
-	>- 方便地在不同版本间切换，比如项目A需要 Java 8，项目B需要 Java 17
->2. 简化安装过程
-	>- 不需要手动下载、解压、配置环境变量
-	>- 一行命令就能完成安装：`sdk install java 17.0.2-tem`
-	>- 自动处理环境变量配置
->3. 支持多种开发工具
-	>- Java (各种发行版如 OpenJDK, Oracle JDK, GraalVM)
-	>- 构建工具（Maven, Gradle）
-	>- 各种 JVM 语言（Kotlin, Groovy, Scala）
-	>- Spring Boot, Micronaut 等框架
->4. 项目级版本管理
-	>- 可以为不同项目设置不同的SDK版本
-	>- 通过 .sdkmanrc 文件管理项目依赖的版本
->5. 版本更新
-	>- 及时获取各种工具的最新版本
-	>- 方便地进行版本升级和回退
->6. 实际使用场景：
-	>- 开发者需要在不同 Java 版本间切换时
-	>- 测试应用在不同 JDK 版本上的兼容性
-	>- 团队统一开发环境配置
-	>- 快速配置新的开发环境
+```ad-note
+title: 说明
+
+用来管理多个软件开发工具包（SDK）版本的工具，主要用于 Unix 系统（Mac、Linux），它的主要作用包括：
+1. 多版本管理
+	- 可以在同一系统上安装和管理多个版本的 Java、Kotlin、Groovy 等
+	- 方便地在不同版本间切换，比如项目A需要 Java 8，项目B需要 Java 17
+2. 简化安装过程
+	- 不需要手动下载、解压、配置环境变量
+	- 一行命令就能完成安装：`sdk install java 17.0.2-tem`
+	- 自动处理环境变量配置
+3. 支持多种开发工具
+	- Java (各种发行版如 OpenJDK, Oracle JDK, GraalVM)
+	- 构建工具（Maven, Gradle）
+	- 各种 JVM 语言（Kotlin, Groovy, Scala）
+	- Spring Boot, Micronaut 等框架
+4. 项目级版本管理
+	- 可以为不同项目设置不同的SDK版本
+	- 通过 .sdkmanrc 文件管理项目依赖的版本
+5. 版本更新
+	- 及时获取各种工具的最新版本
+	- 方便地进行版本升级和回退
+6. 实际使用场景：
+	- 开发者需要在不同 Java 版本间切换时
+	- 测试应用在不同 JDK 版本上的兼容性
+	- 团队统一开发环境配置
+	- 快速配置新的开发环境
+```
 ##### 通过 [brew](https://github.com/sdkman/homebrew-tap) 安装
 ```sh
 # install
