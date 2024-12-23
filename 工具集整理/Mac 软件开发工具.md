@@ -48,6 +48,7 @@ $ brew uses [软件名] --installed       # 查看哪些包依赖于这个包
 ##### 常用安装应用
 ```sh
 $ brew install git
+$ brew install starship
 $ brew install gh
 $ brew install bun
 $ brew install nginx

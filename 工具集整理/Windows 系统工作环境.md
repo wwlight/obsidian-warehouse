@@ -172,11 +172,9 @@ $ git config --global --add safe.directory "*"
 $ get-ExecutionPolicy
 $ set-ExecutionPolicy RemoteSigned
 
-# powershell 配置文件
-$ $PROFILE
-
-# powershell 版本
-$ $psversiontable
+$ $PROFILE                                    # powershell 配置文件地址
+$ code $PROFILE                               # 直接打开配置文件
+$ $psversiontable                             # powershell 版本
 ```
 + ✅ [fnm](https://github.com/Schniz/fnm) - 快速简单的 Node.js 版本管理器，用 Rust 构建
 ```bash
@@ -223,10 +221,11 @@ $ corepack use pnpm@latest
 # 切换 pnpm 指定版本
 $ corepack use pnpm@9.0.6  
 ```
-+ 共享 npm 全局模块
++ 自定义 npm 全局包安装路径
 ```bash
 $ mkdir .npm_global
 $ npm config set prefix ~/.npm_global
+
 # 设置系统环境变量
 C:\Users\wwlight\.npm_global
 
@@ -235,6 +234,7 @@ $ npm i -g @antfu/ni
 #  powershell 7
 Remove-Alias -Name ni -Force
 # end
+
 #  powershell 5
 if (-not (Test-Path $profile)) {
   New-Item -ItemType File -Path (Split-Path $profile) -Force -Name (Split-Path $profile -Leaf)
