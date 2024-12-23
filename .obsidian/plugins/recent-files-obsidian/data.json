@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Windows 系统工作环境",
+      "path": "工具集整理/Windows 系统工作环境.md"
+    },
+    {
+      "basename": "Mac 软件开发工具包管理器",
+      "path": "工具集整理/Mac 软件开发工具包管理器.md"
+    },
+    {
+      "basename": "Obsidian 使用入门",
+      "path": "工具集整理/Obsidian 使用入门.md"
+    },
+    {
       "basename": "CSS 基础",
       "path": "面试题整理/CSS 基础.md"
     },
@@ -11,14 +23,6 @@
     {
       "basename": "项目相关",
       "path": "面试题整理/项目相关.md"
-    },
-    {
-      "basename": "Obsidian 使用入门",
-      "path": "工具集整理/Obsidian 使用入门.md"
-    },
-    {
-      "basename": "Windows 系统工作环境",
-      "path": "工具集整理/Windows 系统工作环境.md"
     },
     {
       "basename": "css 渐变角度理解",

@@ -150,6 +150,7 @@ $ scoop install adb
 $ scoop install fzf
 $ scoop install zoxide
 
+$ scoop install extras/hyper
 $ scoop install extras/switchhosts
 ```
 + ✅ [VS Code](https://code.visualstudio.com/) - 登录账号同步数据
@@ -229,14 +230,14 @@ $ npm config set prefix ~/.npm_global
 # 设置系统环境变量
 C:\Users\wwlight\.npm_global
 
+# 全局安装 ni 及配置
 $ npm i -g @antfu/ni
-# powershell 7
+#  powershell 7
 Remove-Alias -Name ni -Force
 # end
-
-# powershell 5
+#  powershell 5
 if (-not (Test-Path $profile)) {
-  New-Item -ItemType File -Path (Split-Path $profile) -Force -Name (Split-Path $profile -Leaf)
+  New-Item -ItemType File -Path (Split-Path $profile) -Force -Name (Split-Path $profile -Leaf)
 }
 Remove-Item Alias:ni -Force -ErrorAction Ignore
 # end
