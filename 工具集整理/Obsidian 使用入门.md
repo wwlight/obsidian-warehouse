@@ -1,4 +1,4 @@
-## 资源地址
+### 资源地址
 - [Obsidian 官网](https://obsidian.md/)
 - [Obsidian Help](https://publish.obsidian.md/help-zh/)
 - [PKMer](https://pkmer.cn/)
@@ -12,13 +12,13 @@ icon: ra-sword
 ```
 
 - AnuPpuccin - 主题
-- Admonition - 添加块样式内容和标注功能
+- [Admonition](https://github.com/javalent/admonitions) - 添加块样式内容和标注功能
 	- [FontAwesome](https://fontawesome.com/v6/search?o=r&m=free)
 	- [RPGAwesome](https://nagoshiashumari.github.io/Rpg-Awesome/)
 ````
 ```ad-note
 title: 标题
-collapse: open 或者不设置是默认打开状态
+collapse: open/closed，不设置是默认打开状态
 icon: 提供的图标名称必须是来自 FontAwesome 或 RPGAwesome 的准确图标名称
 color: 支持 rgb 值
 
@@ -36,8 +36,8 @@ throw new Error("Oops, I'm a bug.");
 - Easy Typing
 - <font color="#00b050">Editing Toolbar</font>
 - File Tree Alternative
-- Highlightr
-- <font color="#00b050">Hover Editor</font>
+- [Highlightr](https://github.com/chetachiezikeuzor/Highlightr-Plugin)
+- [Hover Editor](https://github.com/nothingislost/obsidian-hover-editor)
 - <font color="#00b050">Iconize</font>
 - Minimal Theme Settings
 - QuickAdd

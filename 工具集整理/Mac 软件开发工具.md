@@ -1,4 +1,4 @@
-### [Homebrew](https://brew.sh/) 包管理工具
+ ### [Homebrew](https://brew.sh/) 包管理工具
 
 ```ad-note 
 title: 说明

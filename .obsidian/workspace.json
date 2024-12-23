@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fa8cbfc7053c368e",
+        "id": "971e4fd0d2515f83",
         "type": "tabs",
         "children": [
           {
-            "id": "92cac9cf03734f5e",
+            "id": "cee2dbb15538e0b4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TODO/单位换算.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "单位换算"
+              "title": "新标签页"
             }
           }
         ]
@@ -166,11 +162,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "TODO/单位换算.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "单位换算 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -246,19 +240,23 @@
       "custom-sort:Toggle custom sorting": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "92cac9cf03734f5e",
+  "active": "cee2dbb15538e0b4",
   "lastOpenFiles": [
+    "工具集整理/Windows 系统工作环境.md",
+    "工具集整理/Obsidian 使用入门.md",
+    "工具集整理/Mac 软件开发工具.md",
+    "TODO/单位换算.md",
     "学习笔记整理/css 相关/css 渐变角度理解.md",
     "日记/template.md",
     "面试题整理/项目相关.md",
     "面试题整理/CSS 基础.md",
     "面试题整理/Vue 相关.md",
-    "工具集整理/Mac 软件开发工具.md",
-    "工具集整理/Windows 系统工作环境.md",
-    "工具集整理/Obsidian 使用入门.md",
     "面试题整理",
     "未命名.md",
     "未命名 1.md",
@@ -273,7 +271,6 @@
     "学习笔记整理/resources",
     "学习笔记整理/css 相关",
     "学习笔记整理",
-    "TODO/单位换算.md",
     "conflict-files-obsidian-git.md",
     "README.md",
     "日记",
