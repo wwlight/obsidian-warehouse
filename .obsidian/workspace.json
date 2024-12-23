@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "971e4fd0d2515f83",
+        "id": "175c3e665ad6ef85",
         "type": "tabs",
         "children": [
           {
-            "id": "cee2dbb15538e0b4",
+            "id": "767284e6ff576fc0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "工具集整理/Windows 系统工作环境.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Windows 系统工作环境"
             }
           }
         ]
@@ -162,9 +166,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "工具集整理/Windows 系统工作环境.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Windows 系统工作环境 的大纲"
             }
           },
           {
@@ -240,17 +246,17 @@
       "custom-sort:Toggle custom sorting": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "cee2dbb15538e0b4",
+  "active": "767284e6ff576fc0",
   "lastOpenFiles": [
+    "工具集整理/Mac 软件开发工具.md",
     "工具集整理/Windows 系统工作环境.md",
     "工具集整理/Obsidian 使用入门.md",
-    "工具集整理/Mac 软件开发工具.md",
     "TODO/单位换算.md",
     "学习笔记整理/css 相关/css 渐变角度理解.md",
     "日记/template.md",

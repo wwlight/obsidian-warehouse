@@ -23,8 +23,37 @@ $ [Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
 $ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 $ iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
 
-# 其它
+# 卸载
 $ scopp uninstall scoop
+```
+
+```sh
+# 常用命令
+$ scoop config                     # 查看 Scoop 的配置
+$ scoop help                       # 列出所有可用命令
+$ scoop search [关键词]             # 在可用的 Bucket 中搜索应用程
+$ scoop list                       # 列出所有已安装的软件
+$ scoop info [软件名]               # 显示软件包信息
+$ scoop home [软件名]               # 打开软件包主页
+$ scoop install [软件名]            # 安装软件
+$ scoop install -g [软件名]         # 全局安装(管理员权限)
+$ scoop uninstall [软件名]          # 卸载软件
+
+$ scoop update                     # 更新 Scoop 自身
+$ scoop update *                   # 更新所有应用
+$ scoop update [软件名]             # 更新指定应用
+$ scoop status                     # 检查可更新的应用
+
+$ scoop cache show                 # 显示缓存 
+$ scoop cache rm [软件名]           # 删除指定应用缓存 
+$ scoop cleanup [软件名]            # 清理旧版本
+
+# Bucket 本质上是一个 应用程序清单的仓库，它负责存储和管理应用程序的清单，扩展 Scoop 的应用程序范围，简化软件的安装和更新过程。
+$ scoop bucket list                # 列出已添加的所有 Bucke
+$ scoop bucket update              # 更新所有已添加的 Bucket
+$ scoop bucket known               # 列出所有官方认可的 Bucket
+$ scoop bucket add [name]          # 添加 Bucket 
+$ scoop bucket rm [name]           # 删除 Bucket
 ```
 + ✅ [SwitchHosts](https://switchhosts.vercel.app/zh) - 是一个管理、切换多个 hosts 方案的工具
     - [GitHub Hosts](https://ineo6.github.io/hosts/) - GitHub 最新 hosts
@@ -75,10 +104,10 @@ os.setenv('STARSHIP_CONFIG', 'C:\\Users\\<username>\\.config\\starship\\starship
     - [zdharma-continuum/fast-syntax-highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting)
     - [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
     - [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions)
-
 + zsh settings：
 ````ad-info
 title: .zshrc 配置文件
+collapse: closed
 
 ```sh
 # ~/.zshrc
