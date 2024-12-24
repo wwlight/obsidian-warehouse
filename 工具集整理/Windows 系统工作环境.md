@@ -6,13 +6,6 @@
 + ❎：收费｜了解｜科学
 ### 🍀 准备工作
 + 🗂️ 创建文件夹：`DevelopmentApplication`、`SystemApplication`
-+ ✅ ️[Google Chrome](https://pc.qq.com/detail/1/detail_2661.html)【[官网](https://www.google.com/intl/zh-CN/chrome/)】- 一切事情的开始
-    - 登录账号同步数据
-+ ❎️ [Ghelper](https://ghelper.net/) - 【付费】浏览器插件，安全科学上网的第一步
-    - 登录账号开通会员，开启新世界的大门
-+ ✅ 字体安装
-    - [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - 修补了具有大量字形（图标）的开发人员目标字体
-    - 搜索下载 `FiraCode Nerd Font`
 + ✅ [Scoop](https://scoop.sh/) - 适用于 Windows 的命令行安装程序 | [镜像](https://gitee.com/scoop-installer/scoop)
 ```bash
 # 第一步：设置安装目录
@@ -23,8 +16,8 @@ $ [Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
 $ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 $ iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
 
-# 卸载
-$ scopp uninstall scoop
+# 安装 git
+$ scoop install git
 ```
 
 ```sh
@@ -55,56 +48,20 @@ $ scoop bucket known               # 列出所有官方认可的 Bucket
 $ scoop bucket add [name]          # 添加 Bucket 
 $ scoop bucket rm [name]           # 删除 Bucket
 ```
++ ✅ ️[Google Chrome](https://www.google.com/intl/zh-CN/chrome/) - 登录账号同步数据
++ ❎️ [Ghelper](https://ghelper.net/) - 浏览器插件，科学上网第一步
++ ✅ [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - 修补了具有大量字形（图标）的开发人员目标字体
+    - 搜索下载 `FiraCode Nerd Font`
 + ✅ [SwitchHosts](https://switchhosts.vercel.app/zh) - 是一个管理、切换多个 hosts 方案的工具
     - [GitHub Hosts](https://ineo6.github.io/hosts/) - GitHub 最新 hosts
 ### ✍🏻 终端配置
-+ ✅️ [Hyper](https://hyper.is/) - 是一款跨平台的终端软件
-    - [awesome-hyper](https://github.com/bnb/awesome-hyper)
-    - 配置文件位置：`~\AppData\Roaming\Hyper\.hyper.js`
-```bash
-$ hyper install hyper-dracula
-$ hyper install hyperborder
-$ hyper install hyperpower
-```
-+ ✅ [clink](https://chrisant996.github.io/clink/clink.html) - 为 CMD 提供丰富的补全、历史记录和行编辑功能
-    - [popular-scripts](https://chrisant996.github.io/clink/clink.html#popular-scripts)
-```bash
-$ scoop install clink
-$ clink info
-
-# 下载插件
-$ git clone https://github.com/vladimir-kotikov/clink-completions D:\DevelopmentApplication\Scoop\apps\clink\current\scripts\clink-completions
-$ git clone https://github.com/chrisant996/clink-gizmos D:\DevelopmentApplication\Scoop\apps\clink\current\scripts\clink-gizmos
-
-$ clink installscripts D:\DevelopmentApplication\Scoop\apps\clink\current\scripts
-$ clink installscripts D:\DevelopmentApplication\Scoop\apps\clink\current\scripts\clink-completions
-$ clink installscripts D:\DevelopmentApplication\Scoop\apps\clink\current\scripts\clink-gizmos
-```
-+ ✅ [Starship](https://starship.rs/zh-CN/) - 轻量、迅速、客制化的高颜值终端
-```bash
-$ scoop install starship
-$ cd .config && mkdir starship && cd starship && type nul>starship.toml
-
-# powershell 7
-Invoke-Expression (&starship init powershell)
-$ENV:STARSHIP_CONFIG = "$HOME\\.config\\starship\\starship.toml"
-# end
-
-# powershell 5
-Invoke-Expression (& 'D:\DevelopmentApplication\Scoop\apps\starship\current\starship.exe' init powershell)
-$ENV:STARSHIP_CONFIG = "$HOME\\.config\\starship\\starship.toml"
-# end
-
-# cmd 在 clink\current\scripts 文件中添加 starship.lua
-load(io.popen('starship init cmd'):read("*a"))()
-os.setenv('STARSHIP_CONFIG', 'C:\\Users\\<username>\\.config\\starship\\starship.toml')
-# end
-```
-+ zsh plugins：
-    - [zdharma-continuum/fast-syntax-highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting)
-    - [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-    - [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions)
-+ zsh settings：
+- ✅ [zsh](https://www.zsh.org/) - 一个为交互式使用而设计的 shell
+	- 将 [zsh 安装包](https://packages.msys2.org/packages/zsh?repo=msys&variant=x86_64) 解压到 git 的安装根目录下
+	- 参考资料：[Using ZSH without OMZ](https://dev.to/hbenvenutti/using-zsh-without-omz-4gch)、[npm completion](https://didiaohu.gitbooks.io/npm/content/yong-npm-script-da-zao-chao-liu-de-qian-duan-gong-zuo-liu/23-shi-xian-ming-ling-xing-zi-dong-bu-quan.html)
+	- zsh plugins：
+	    - [zdharma-continuum/fast-syntax-highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting)
+	    - [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+	    - [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions)
 ````ad-info
 title: .zshrc 配置文件
 collapse: closed
@@ -114,10 +71,10 @@ collapse: closed
 # zsh
 export ZSH=$HOME/.zsh
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
-HISTFILE=$HOME/.zsh_history
-HISTSIZE=5000
-SAVEHIST=5000
-HISTDUP=erase
+export HISTFILE=$HOME/.zsh_history
+export HISTSIZE=5000
+export SAVEHIST=5000
+export HISTDUP=erase
 setopt appendhistory
 setopt sharehistory
 setopt incappendhistory
@@ -170,7 +127,48 @@ source <(fzf --zsh)
 # fzf end
 ```
 ````
-+ 参考资料：[Using ZSH without OMZ](https://dev.to/hbenvenutti/using-zsh-without-omz-4gch)、[npm completion](https://didiaohu.gitbooks.io/npm/content/yong-npm-script-da-zao-chao-liu-de-qian-duan-gong-zuo-liu/23-shi-xian-ming-ling-xing-zi-dong-bu-quan.html)
++ ✅️ [Hyper](https://hyper.is/) - 是一款跨平台的终端软件
+    - [awesome-hyper](https://github.com/bnb/awesome-hyper)
+    - 配置文件位置：`~\AppData\Roaming\Hyper\.hyper.js`
+```bash
+$ hyper install hyper-dracula
+$ hyper install hyperborder
+$ hyper install hyperpower
+```
++ ✅ [clink](https://chrisant996.github.io/clink/clink.html) - 为 CMD 提供丰富的补全、历史记录和行编辑功能
+    - [popular-scripts](https://chrisant996.github.io/clink/clink.html#popular-scripts)
+```bash
+$ scoop install clink
+$ clink info
+
+# 下载插件
+$ git clone https://github.com/vladimir-kotikov/clink-completions D:\DevelopmentApplication\Scoop\apps\clink\current\scripts\clink-completions
+$ git clone https://github.com/chrisant996/clink-gizmos D:\DevelopmentApplication\Scoop\apps\clink\current\scripts\clink-gizmos
+
+$ clink installscripts D:\DevelopmentApplication\Scoop\apps\clink\current\scripts
+$ clink installscripts D:\DevelopmentApplication\Scoop\apps\clink\current\scripts\clink-completions
+$ clink installscripts D:\DevelopmentApplication\Scoop\apps\clink\current\scripts\clink-gizmos
+```
++ ✅ [Starship](https://starship.rs/zh-CN/) - 轻量、迅速、客制化的高颜值终端
+```bash
+$ scoop install starship
+$ cd .config && mkdir starship && cd starship && type nul>starship.toml
+
+# powershell 7
+Invoke-Expression (&starship init powershell)
+$ENV:STARSHIP_CONFIG = "$HOME\\.config\\starship\\starship.toml"
+# end
+
+# powershell 5
+Invoke-Expression (& 'D:\DevelopmentApplication\Scoop\apps\starship\current\starship.exe' init powershell)
+$ENV:STARSHIP_CONFIG = "$HOME\\.config\\starship\\starship.toml"
+# end
+
+# cmd 在 clink\current\scripts 文件中添加 starship.lua
+load(io.popen('starship init cmd'):read("*a"))()
+os.setenv('STARSHIP_CONFIG', 'C:\\Users\\<username>\\.config\\starship\\starship.toml')
+# end
+```
 ### 💻️ 开发工具
 ```bash
 $ scoop install git
@@ -185,8 +183,19 @@ $ scoop install adb
 $ scoop install fzf
 $ scoop install zoxide
 
+$ scoop install extras/googlechrome
+$ scoop install main/edgedriver
+$ scoop install extras/vscode
+$ scoop install extras/webstorm
 $ scoop install extras/hyper
 $ scoop install extras/switchhosts
+$ scoop install extras/obsidian
+$ scoop install extras/electerm
+$ scoop install extras/winrar
+$ scoop install extras/potplayer
+$ scoop install extras/keyviz
+$ scoop install extras/flow-launcher
+$ scoop install extras/onefetch
 ```
 + ✅ [VS Code](https://code.visualstudio.com/) - 登录账号同步数据
 + ✅ [Hbuilder X](https://www.dcloud.io/hbuilderx.html)
@@ -281,13 +290,13 @@ Remove-Item Alias:ni -Force -ErrorAction Ignore
 + ✅[ 微信键盘](https://z.weixin.qq.com/)
 + ✅ [Clash for Windows](https://clashforwindows.org/)
 + ✅ [Quicker](https://getquicker.net/)
++ ✅ [WinRAR](https://www.winrar.com.cn/) - 是一款功能强大的压缩包管理器
 + ✅ [flowlauncher](https://www.flowlauncher.com/) - Quick File Search & App Launcher for Windows
 + ✅ [IDM](https://vip.jokerps.com/?s=idm&type=post) - 是一款优秀下载工具
 + ✅ [Potplayer](https://potplayer.daum.net/) - 万能播放器
 + ✅ [FSCapture](https://www.faststone.org/) - 强大、轻便但功能齐全的屏幕捕捉 和 屏幕录像 工具（网上随便搜索注册码）
 + ✅ [PixPin](https://pixpinapp.com/) - 功能强大使用简单的截图/贴图工具
 + ✅ [金山毒霸垃圾清理独立版](https://vip.jokerps.com/6164.html) - 短小精悍垃圾清理工具
-+ ✅ [WinRAR](https://www.winrar.com.cn/) - 是一款功能强大的压缩包管理器
 + ✅ [Obsidian](https://obsidian.md/) - 是一款私密且灵活的写作应用程序
 + ✅ [PicGo](https://molunerfinn.com/PicGo/) - 图片上传+管理新体验
 + ✅ [Keyviz](https://mularahul.github.io/keyviz/) - 一个免费开源按键可视化工具
