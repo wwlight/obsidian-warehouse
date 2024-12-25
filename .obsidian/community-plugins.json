@@ -23,5 +23,8 @@
   "obsidian-tagfolder",
   "templater-obsidian",
   "cm-editor-syntax-highlight-obsidian",
-  "pdf-plus"
+  "pdf-plus",
+  "better-export-pdf",
+  "novel-word-count",
+  "obsidian-list-callouts"
 ]

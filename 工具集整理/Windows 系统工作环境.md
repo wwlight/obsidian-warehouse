@@ -57,11 +57,11 @@ $ scoop bucket rm [name]           # 删除 Bucket
 ### ✍🏻 终端配置
 - ✅ [zsh](https://www.zsh.org/) - 一个为交互式使用而设计的 shell
 	- 将 [zsh 安装包](https://packages.msys2.org/packages/zsh?repo=msys&variant=x86_64) 解压到 git 的安装根目录下
-	- 参考资料：[Using ZSH without OMZ](https://dev.to/hbenvenutti/using-zsh-without-omz-4gch)、[npm completion](https://didiaohu.gitbooks.io/npm/content/yong-npm-script-da-zao-chao-liu-de-qian-duan-gong-zuo-liu/23-shi-xian-ming-ling-xing-zi-dong-bu-quan.html)
 	- zsh plugins：
-	    - [zdharma-continuum/fast-syntax-highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting)
-	    - [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-	    - [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions)
+		- [zdharma-continuum/fast-syntax-highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting)
+		- [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+		- [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions)
+	- & 参考资料：[Using ZSH without OMZ](https://dev.to/hbenvenutti/using-zsh-without-omz-4gch)、[npm completion](https://didiaohu.gitbooks.io/npm/content/yong-npm-script-da-zao-chao-liu-de-qian-duan-gong-zuo-liu/23-shi-xian-ming-ling-xing-zi-dong-bu-quan.html)
 ````ad-info
 title: .zshrc 配置文件
 collapse: closed
