@@ -4,21 +4,82 @@
     "type": "split",
     "children": [
       {
-        "id": "4dfd2ffb473b32f9",
+        "id": "5cd92fc20b241711",
         "type": "tabs",
         "children": [
           {
-            "id": "7805323157460bad",
+            "id": "32ca66a8e52a33d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工具集整理/Mac 软件开发工具.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mac 软件开发工具"
+            }
+          },
+          {
+            "id": "7e79846c57ff722a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工具集整理/Mac 软件开发工具.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mac 软件开发工具"
+            }
+          },
+          {
+            "id": "d627dca789623005",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "工具集整理/Windows 系统工作环境.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Windows 系统工作环境"
+            }
+          },
+          {
+            "id": "a59e001e10cb9189",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工具集整理/Obsidian 使用入门.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Obsidian 使用入门"
+            }
+          },
+          {
+            "id": "a60261feffc31657",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试题整理/Vue 相关.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vue 相关"
             }
           }
         ]
@@ -33,7 +94,7 @@
       {
         "id": "3b003881d5a8d712",
         "type": "tabs",
-        "dimension": 71.14942528735632,
+        "dimension": 62.87356321839081,
         "children": [
           {
             "id": "3ce7cac187043dff",
@@ -45,6 +106,16 @@
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
+            }
+          },
+          {
+            "id": "736f32738161797d",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -65,17 +136,7 @@
             }
           },
           {
-            "id": "46306ac078e2a474",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "书签"
-            }
-          },
-          {
-            "id": "63fa90d57c08268d",
+            "id": "55598386db550965",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
@@ -84,13 +145,24 @@
               "title": "File Tree"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
-        "id": "b0951cd2ef534fff",
+        "id": "7d14778e048b6488",
         "type": "tabs",
-        "dimension": 28.850574712643677,
+        "dimension": 37.12643678160919,
         "children": [
+          {
+            "id": "e598aae7f32b0891",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
           {
             "id": "b3ee41bf950bdd74",
             "type": "leaf",
@@ -105,7 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5
+    "width": 274.5
   },
   "right": {
     "id": "6e66144929da9394",
@@ -114,87 +186,18 @@
       {
         "id": "3a9e3237086e535f",
         "type": "tabs",
-        "dimension": 60.74561403508771,
+        "dimension": 60.85526315789473,
         "children": [
-          {
-            "id": "62152a4cc729c6d7",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              },
-              "icon": "links-coming-in",
-              "title": "反向链接"
-            }
-          },
-          {
-            "id": "d4b667525315563e",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "工具集/Windows 系统工作环境.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Windows 系统工作环境 的出链列表"
-            }
-          },
-          {
-            "id": "5415be5266ac4ad8",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "标签"
-            }
-          },
           {
             "id": "a7a854845ca07bc2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具集整理/Windows 系统工作环境.md"
+                "file": "工具集整理/Mac 软件开发工具.md"
               },
               "icon": "lucide-list",
-              "title": "Windows 系统工作环境 的大纲"
-            }
-          },
-          {
-            "id": "bc4aad5f288beb8c",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
-            }
-          },
-          {
-            "id": "736f32738161797d",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Mac 软件开发工具 的大纲"
             }
           },
           {
@@ -207,91 +210,136 @@
               "title": "Todo List"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
-        "id": "7e03ac9bd3367136",
+        "id": "2129d74b609de8f8",
         "type": "tabs",
-        "dimension": 39.25438596491228,
+        "dimension": 39.14473684210527,
         "children": [
           {
-            "id": "e598aae7f32b0891",
+            "id": "46306ac078e2a474",
             "type": "leaf",
             "state": {
-              "type": "calendar",
+              "type": "bookmarks",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "5415be5266ac4ad8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "d4b667525315563e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "工具集整理/Mac 软件开发工具.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Mac 软件开发工具 的出链列表"
+            }
+          },
+          {
+            "id": "e03ce437426f1d3c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "工具集整理/Mac 软件开发工具.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Mac 软件开发工具 的反向链接列表"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 266.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
+      "command-palette:打开命令面板": false,
       "graph:查看关系图谱": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "publish:发布更改": false,
       "workspaces:管理工作区布局": false,
-      "custom-sort:Toggle custom sorting": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "custom-sort:Toggle custom sorting": true,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-git:Open Git source control": true,
+      "file-tree-alternative:File Tree Alternative Plugin": true
     }
   },
-  "active": "7805323157460bad",
+  "active": "736f32738161797d",
   "lastOpenFiles": [
-    "工具集整理/Mac 软件开发工具.md",
-    "面试题整理/Vue 相关.md",
-    "README.md",
     "工具集整理/Windows 系统工作环境.md",
     "工具集整理/Obsidian 使用入门.md",
+    "面试题整理/Vue 相关.md",
+    "工具集整理/Mac 软件开发工具.md",
     "面试题整理/CSS 基础.md",
-    "面试题整理/项目相关.md",
-    "Excalidraw/Drawing 2024-12-03 11.42.27.excalidraw.md",
-    "面试题整理",
+    "Excalidraw/Drawing 2024-12-25 23.17.34.excalidraw.md",
+    "Excalidraw",
+    "未命名.canvas",
     "学习笔记整理/css 相关/css 渐变角度理解.md",
+    "学习笔记整理/css 相关/attachmets/dark-mode-angles.svg",
+    "学习笔记整理/css 相关/attachmets",
+    "学习笔记整理/resources/dark-mode-angles.svg",
     "TODO/单位换算.md",
+    "日记/template.md",
+    "面试题整理/项目相关.md",
+    "面试题整理",
+    "未命名.md",
     "未命名 1.md",
     "未命名 1",
+    "未命名",
     "Excalidraw/Drawing 2024-11-05 22.26.12.excalidraw.md",
     "Excalidraw/Drawing 2024-11-05 22.26.13.excalidraw.md",
-    "Excalidraw",
-    "日记/template.md",
     "工具集/Windows 系统工作环境.md",
     "工具集整理",
-    "学习笔记整理/resources/dark-mode-angles.svg",
     "学习笔记整理/resources",
     "学习笔记整理/css 相关",
     "学习笔记整理",
     "conflict-files-obsidian-git.md",
+    "README.md",
     "日记",
     "2024-10-30.md",
-    "工具集",
-    "TODO",
     "归纳/Windows/windows 系统工作环境.md",
     "README.md.md",
     "2024-09-27.md",
     "Excalidraw/Drawing 2024-09-27 14.04.55.excalidraw.md",
     "Excalidraw/Drawing 2024-09-27 14.04.54.excalidraw.md",
-    "未命名.canvas",
     "Excalidraw/Drawing 2024-09-27 11.14.00.excalidraw.md",
     "Obsidian 学习笔记.md",
     "题集.md",
-    "临时笔记/日常记录.md",
     "未命名 2.canvas",
     "未命名 1.canvas",
     "Pasted image 20231208225317.png",

@@ -1,24 +1,3 @@
 {
-  "items": [
-    {
-      "type": "group",
-      "ctime": 1730816819184,
-      "items": [
-        {
-          "type": "group",
-          "ctime": 1730816819184,
-          "items": [
-            {
-              "type": "file",
-              "ctime": 1730816819185,
-              "path": "工具集整理/Obsidian 使用入门.md",
-              "subpath": "#^-"
-            }
-          ],
-          "title": "\\\\工具集整理"
-        }
-      ],
-      "title": "sortspec"
-    }
-  ]
+  "items": []
 }

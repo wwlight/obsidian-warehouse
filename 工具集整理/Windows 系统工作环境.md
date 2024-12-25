@@ -173,8 +173,6 @@ os.setenv('STARSHIP_CONFIG', 'C:\\Users\\<username>\\.config\\starship\\starship
 ```bash
 $ scoop install git
 $ scoop install gh
-$ scoop install pnpm
-$ scoop install yarn
 $ scoop install bun
 $ scoop install gsudo
 $ scoop install gping

@@ -8,7 +8,7 @@
   "showFilesFromSubFoldersButton": true,
   "revealActiveFileButton": false,
   "excludedExtensions": "",
-  "hideAttachments": false,
+  "hideAttachments": true,
   "attachmentsFolderName": "attachments",
   "folderIcon": "default",
   "folderCount": true,

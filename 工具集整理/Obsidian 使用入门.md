@@ -2,6 +2,9 @@
 - [Obsidian 官网](https://obsidian.md/)
 - [Obsidian Help](https://publish.obsidian.md/help-zh/)
 - [PKMer](https://pkmer.cn/)
+### 常用功能
+- Properties 特性功能：在文档首行写入 ---
+- 
 ## 常用插件
 
 ```ad-note
