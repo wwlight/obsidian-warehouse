@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBadgeAlert",
       "LiAlignJustify",
       "TiTools",
       "SiWindowsxp",
-      "SiExcalidraw",
-      "LiCalendarRange"
+      "SiExcalidraw"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -31,11 +31,12 @@
     "iconsInLinksEnabled": true,
     "iconIdentifier": ":",
     "lucideIconPackType": "native",
-    "debugMode": false
+    "debugMode": false,
+    "useInternalPlugins": false
   },
   "TODO": "LiListTodo",
   "日记": "LiNotebookPen",
   "学习笔记整理": "LiCalendarRange",
   "工具集整理": "TiTools",
-  "面试题整理": "LiAlignJustify"
+  "面试题整理": "LiBadgeAlert"
 }

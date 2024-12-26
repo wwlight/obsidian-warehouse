@@ -20,7 +20,7 @@ $ iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
 $ scoop install git
 ```
 
-```sh
+```bash
 # 常用命令
 $ scoop config                     # 查看 Scoop 的配置
 $ scoop help                       # 列出所有可用命令

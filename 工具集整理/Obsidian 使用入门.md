@@ -10,8 +10,7 @@
 ```ad-note
 title: 说明
 icon: ra-sword
-
-官方插件系统需要梯子，可以借助 [PKMer Market](https://pkmer.cn/products/market/)
+官方插件系统需要梯子，可以借助 [PKMer Market](https://pkmer.cn/products/market/)。
 ```
 
 - AnuPpuccin - 主题

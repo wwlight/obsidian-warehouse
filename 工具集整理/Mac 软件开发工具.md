@@ -1,11 +1,9 @@
- ### [Homebrew](https://brew.sh/) 包管理工具
-
+### [Homebrew](https://brew.sh/) 包管理工具
 ```ad-note 
 title: 说明
 
 简称 brew，是 macOS 和 Linux 上最流行的包管理工具，它可以帮助你安装、更新和管理软件包。类似于 Ubuntu 的 apt 或 CentOS 的 yum。
 ```
-
 ##### 安装
 ```sh
 # 官网安装地址
@@ -85,7 +83,7 @@ $ brew install --cask picgo
 ```
 ##### 部分工具使用配置
 ###### adb wifi 手机调试
-- <font color="#00b050">初始先用数据线将手机和电脑连接</font>
+- @ <font color="#00b050">初始先用数据线将手机和电脑连接</font>
 ```sh
 # mac
 $ adb tcpip 5555

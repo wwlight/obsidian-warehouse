@@ -16,14 +16,6 @@
       "key": "1"
     }
   ],
-  "editor:insert-codeblock": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "D"
-    }
-  ],
   "editor:toggle-highlight": [
     {
       "modifiers": [

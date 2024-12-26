@@ -1,7 +1,7 @@
 {
   "promptDelete": false,
   "showLineNumber": true,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "Letter",
@@ -11,5 +11,8 @@
   },
   "livePreview": true,
   "attachmentFolderPath": "./attachmets",
-  "showRibbon": false
+  "showRibbon": false,
+  "showInlineTitle": true,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current"
 }

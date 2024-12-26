@@ -13,28 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具集整理/Mac 软件开发工具.md",
+                "file": "面试题整理/CSS 基础.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mac 软件开发工具"
-            }
-          },
-          {
-            "id": "7e79846c57ff722a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工具集整理/Mac 软件开发工具.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Mac 软件开发工具"
+              "title": "CSS 基础"
             }
           },
           {
@@ -44,7 +29,7 @@
               "type": "markdown",
               "state": {
                 "file": "工具集整理/Windows 系统工作环境.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
@@ -82,7 +67,8 @@
               "title": "Vue 相关"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +80,7 @@
       {
         "id": "3b003881d5a8d712",
         "type": "tabs",
-        "dimension": 62.87356321839081,
+        "dimension": 66.63452266152362,
         "children": [
           {
             "id": "3ce7cac187043dff",
@@ -102,7 +88,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -151,7 +137,7 @@
       {
         "id": "7d14778e048b6488",
         "type": "tabs",
-        "dimension": 37.12643678160919,
+        "dimension": 33.365477338476374,
         "children": [
           {
             "id": "e598aae7f32b0891",
@@ -177,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5
+    "width": 335.5
   },
   "right": {
     "id": "6e66144929da9394",
@@ -194,20 +180,34 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具集整理/Mac 软件开发工具.md"
+                "file": "工具集整理/Obsidian 使用入门.md"
               },
               "icon": "lucide-list",
-              "title": "Mac 软件开发工具 的大纲"
+              "title": "Obsidian 使用入门 的大纲"
             }
           },
           {
-            "id": "461b19a35c036b6e",
+            "id": "944ff32681c5ec14",
             "type": "leaf",
             "state": {
               "type": "todo",
               "state": {},
               "icon": "checkmark",
               "title": "Todo List"
+            }
+          },
+          {
+            "id": "339a228e0f4f93aa",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
             }
           }
         ]
@@ -278,7 +278,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 340.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -296,47 +296,47 @@
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "obsidian-git:Open Git source control": true,
-      "file-tree-alternative:File Tree Alternative Plugin": true
+      "file-tree-alternative:File Tree Alternative Plugin": true,
+      "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
   "active": "736f32738161797d",
   "lastOpenFiles": [
-    "工具集整理/Windows 系统工作环境.md",
-    "工具集整理/Obsidian 使用入门.md",
     "面试题整理/Vue 相关.md",
-    "工具集整理/Mac 软件开发工具.md",
+    "工具集整理/Obsidian 使用入门.md",
+    "工具集整理/Windows 系统工作环境.md",
     "面试题整理/CSS 基础.md",
-    "Excalidraw/Drawing 2024-12-25 23.17.34.excalidraw.md",
-    "Excalidraw",
-    "未命名.canvas",
-    "学习笔记整理/css 相关/css 渐变角度理解.md",
+    "面试题整理/项目相关.md",
+    "工具集整理/Mac 软件开发工具.md",
     "学习笔记整理/css 相关/attachmets/dark-mode-angles.svg",
     "学习笔记整理/css 相关/attachmets",
-    "学习笔记整理/resources/dark-mode-angles.svg",
-    "TODO/单位换算.md",
-    "日记/template.md",
-    "面试题整理/项目相关.md",
+    "README.md",
+    "Excalidraw/Drawing 2024-12-03 11.42.27.excalidraw.md",
     "面试题整理",
-    "未命名.md",
+    "学习笔记整理/css 相关/css 渐变角度理解.md",
+    "TODO/单位换算.md",
     "未命名 1.md",
     "未命名 1",
-    "未命名",
     "Excalidraw/Drawing 2024-11-05 22.26.12.excalidraw.md",
     "Excalidraw/Drawing 2024-11-05 22.26.13.excalidraw.md",
+    "Excalidraw",
+    "日记/template.md",
     "工具集/Windows 系统工作环境.md",
     "工具集整理",
+    "学习笔记整理/resources/dark-mode-angles.svg",
     "学习笔记整理/resources",
     "学习笔记整理/css 相关",
     "学习笔记整理",
     "conflict-files-obsidian-git.md",
-    "README.md",
     "日记",
     "2024-10-30.md",
+    "工具集",
     "归纳/Windows/windows 系统工作环境.md",
     "README.md.md",
     "2024-09-27.md",
     "Excalidraw/Drawing 2024-09-27 14.04.55.excalidraw.md",
     "Excalidraw/Drawing 2024-09-27 14.04.54.excalidraw.md",
+    "未命名.canvas",
     "Excalidraw/Drawing 2024-09-27 11.14.00.excalidraw.md",
     "Obsidian 学习笔记.md",
     "题集.md",

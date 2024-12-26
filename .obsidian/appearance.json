@@ -10,7 +10,8 @@
   ],
   "translucency": true,
   "nativeMenus": true,
-  "monospaceFontFamily": "",
-  "textFontFamily": "",
-  "interfaceFontFamily": ""
+  "monospaceFontFamily": "FiraCode Nerd Font Propo",
+  "textFontFamily": "FiraCode Nerd Font Mono",
+  "interfaceFontFamily": "FiraCode Nerd Font Mono",
+  "showViewHeader": true
 }

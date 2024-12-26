@@ -5,7 +5,6 @@
   "obsidian-linter",
   "obsidian-admonition",
   "calendar",
-  "obsidian-checklist-plugin",
   "custom-sort",
   "dataview",
   "easy-typing-obsidian",
@@ -21,8 +20,11 @@
   "tag-wrangler",
   "obsidian-tagfolder",
   "templater-obsidian",
-  "cm-editor-syntax-highlight-obsidian",
   "pdf-plus",
   "better-export-pdf",
-  "obsidian-list-callouts"
+  "obsidian-list-callouts",
+  "obsidian-advanced-slides",
+  "obsidian-checklist-plugin",
+  "code-styler",
+  "cm-editor-syntax-highlight-obsidian"
 ]
