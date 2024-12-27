@@ -8,67 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "32ca66a8e52a33d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试题整理/CSS 基础.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CSS 基础"
-            }
-          },
-          {
             "id": "d627dca789623005",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
                 "file": "工具集整理/Windows 系统工作环境.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
+                "staged": false
               },
-              "icon": "lucide-file",
-              "title": "Windows 系统工作环境"
-            }
-          },
-          {
-            "id": "a59e001e10cb9189",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工具集整理/Obsidian 使用入门.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Obsidian 使用入门"
-            }
-          },
-          {
-            "id": "a60261feffc31657",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试题整理/Vue 相关.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Vue 相关"
+              "icon": "git-pull-request",
+              "title": "Diff View (Windows 系统工作环境)"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"excalidraw-border-color\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,11 +111,12 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 388.5
+    "width": 375.5
   },
   "right": {
     "id": "6e66144929da9394",
@@ -179,11 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "工具集整理/Obsidian 使用入门.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Obsidian 使用入门 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -273,8 +224,7 @@
               "title": "Mac 软件开发工具 的反向链接列表"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -302,19 +252,19 @@
   },
   "active": "736f32738161797d",
   "lastOpenFiles": [
-    "面试题整理/Vue 相关.md",
-    "工具集整理/Obsidian 使用入门.md",
     "工具集整理/Windows 系统工作环境.md",
+    "工具集整理/Mac 软件开发工具.md",
+    "TODO/单位换算.md",
+    "学习笔记整理/css 相关/css 渐变角度理解.md",
+    "面试题整理/Vue 相关.md",
     "面试题整理/CSS 基础.md",
     "面试题整理/项目相关.md",
-    "工具集整理/Mac 软件开发工具.md",
+    "工具集整理/Obsidian 使用入门.md",
     "学习笔记整理/css 相关/attachmets/dark-mode-angles.svg",
     "学习笔记整理/css 相关/attachmets",
     "README.md",
     "Excalidraw/Drawing 2024-12-03 11.42.27.excalidraw.md",
     "面试题整理",
-    "学习笔记整理/css 相关/css 渐变角度理解.md",
-    "TODO/单位换算.md",
     "未命名 1.md",
     "未命名 1",
     "Excalidraw/Drawing 2024-11-05 22.26.12.excalidraw.md",

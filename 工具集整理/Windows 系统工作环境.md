@@ -66,7 +66,7 @@ $ scoop bucket rm [name]           # 删除 Bucket
 title: .zshrc 配置文件
 collapse: closed
 
-```sh
+```bash
 # ~/.zshrc
 # zsh
 export ZSH=$HOME/.zsh
@@ -91,22 +91,17 @@ ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
 # plugins end
 
-alias ping="gping"
-alias of="onefetch"
-alias nio="ni --prefer-offline"
-alias s="nr start"
-alias d="nr dev"
-alias b="nr build"
-alias z="zoxide"
-alias cls="clear"
-# Go to project root
-alias grt='cd "$(git rev-parse --show-toplevel)"'
-alias gp='git push'
-alias gl='git pull'
-
 # fnm
 eval "$(fnm env --use-on-cd)"
 # fnm end
+
+# fzf
+source <(fzf --zsh)
+# fzf end
+
+# zoxide
+eval "$(zoxide init zsh --cmd cd)"
+# zoxide end
 
 # starship
 eval "$(starship init zsh)"
@@ -118,13 +113,19 @@ starship_precmd_user_func="set_win_title"
 precmd_functions+=(set_win_title)
 # starship end
 
-# zoxide
-eval "$(zoxide init zsh)"
-# zoxide end
-
-# fzf
-source <(fzf --zsh)
-# fzf end
+# alias
+alias ping="gping"
+alias of="onefetch"
+alias nio="ni --prefer-offline"
+alias s="nr start"
+alias d="nr dev"
+alias b="nr build"
+alias cls="clear"
+alias gp='git push'
+alias gl='git pull'
+alias grt='cd "$(git rev-parse --show-toplevel)"'
+alias gc='git branch | fzf | xargs git checkout' # 搜索 git 分支并切换
+# alias end
 ```
 ````
 + ✅️ [Hyper](https://hyper.is/) - 是一款跨平台的终端软件
