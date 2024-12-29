@@ -1,6 +1,6 @@
 {
   "userAdmonitions": {},
-  "syntaxHighlight": false,
+  "syntaxHighlight": true,
   "copyButton": false,
   "version": "10.3.2",
   "autoCollapse": true,
@@ -8,16 +8,16 @@
   "injectColor": true,
   "parseTitles": true,
   "dropShadow": false,
-  "hideEmpty": false,
+  "hideEmpty": true,
   "open": {
     "admonitions": true,
     "icons": true,
     "other": true,
-    "advanced": false
+    "advanced": true
   },
   "icons": [
-    "octicons",
-    "rpg"
+    "rpg",
+    "octicons"
   ],
   "useFontAwesome": true,
   "rpgDownloadedOnce": false,

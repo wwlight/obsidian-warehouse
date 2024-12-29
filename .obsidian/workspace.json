@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "fa1ec19c91bce8f7",
+        "id": "13600da2009d225d",
         "type": "tabs",
         "children": [
           {
-            "id": "945786077534deb2",
+            "id": "eef5ede4b4945a49",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "工具集整理/Windows 系统工作环境.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Windows 系统工作环境"
             }
           }
         ]
@@ -29,7 +34,7 @@
       {
         "id": "3b003881d5a8d712",
         "type": "tabs",
-        "dimension": 66.63452266152362,
+        "dimension": 64.58333333333333,
         "children": [
           {
             "id": "3ce7cac187043dff",
@@ -69,16 +74,6 @@
               "icon": "lucide-search",
               "title": "搜索"
             }
-          },
-          {
-            "id": "55598386db550965",
-            "type": "leaf",
-            "state": {
-              "type": "file-tree-view",
-              "state": {},
-              "icon": "sheets-in-box",
-              "title": "File Tree"
-            }
           }
         ],
         "currentTab": 1
@@ -86,7 +81,7 @@
       {
         "id": "7d14778e048b6488",
         "type": "tabs",
-        "dimension": 33.365477338476374,
+        "dimension": 35.416666666666664,
         "children": [
           {
             "id": "e598aae7f32b0891",
@@ -108,8 +103,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -129,9 +123,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "工具集整理/Windows 系统工作环境.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Windows 系统工作环境 的大纲"
             }
           },
           {
@@ -194,12 +190,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具集整理/Mac 软件开发工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Mac 软件开发工具 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -231,35 +226,33 @@
     "hiddenItems": {
       "switcher:打开快速切换": false,
       "command-palette:打开命令面板": false,
-      "graph:查看关系图谱": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "workspaces:管理工作区布局": false,
-      "custom-sort:Toggle custom sorting": true,
       "templater-obsidian:Templater": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "obsidian-git:Open Git source control": true,
-      "file-tree-alternative:File Tree Alternative Plugin": true,
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
   "active": "736f32738161797d",
   "lastOpenFiles": [
-    "工具集整理/Windows 系统工作环境.md",
     "工具集整理/Mac 软件开发工具.md",
-    "TODO/单位换算.md",
-    "学习笔记整理/css 相关/css 渐变角度理解.md",
-    "面试题整理/Vue 相关.md",
-    "面试题整理/CSS 基础.md",
-    "面试题整理/项目相关.md",
+    "工具集整理/Windows 系统工作环境.md",
     "工具集整理/Obsidian 使用入门.md",
+    "面试题整理/项目相关.md",
+    "工具集整理/Windows 系统工作环境 1.md",
+    "面试题整理/CSS 基础.md",
+    "面试题整理/Vue 相关.md",
+    "TODO/单位换算.md",
+    "README.md",
+    "学习笔记整理/css 相关/css 渐变角度理解.md",
     "学习笔记整理/css 相关/attachmets/dark-mode-angles.svg",
     "学习笔记整理/css 相关/attachmets",
-    "README.md",
     "Excalidraw/Drawing 2024-12-03 11.42.27.excalidraw.md",
     "面试题整理",
     "未命名 1.md",

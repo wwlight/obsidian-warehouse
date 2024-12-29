@@ -5,7 +5,7 @@ title: 说明
 简称 brew，是 macOS 和 Linux 上最流行的包管理工具，它可以帮助你安装、更新和管理软件包。类似于 Ubuntu 的 apt 或 CentOS 的 yum。
 ```
 ##### 安装
-```sh
+```bash
 # 官网安装地址
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -17,7 +17,7 @@ $ /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homeb
 ```
 
 ##### 常用命令
-```sh
+```bash
 $ brew config                         # 显示配置信息
 $ brew update                         # 更新软件包列表
 $ brew update-reset                   # 强制更新到最新版本，update 失败可尝试
@@ -47,7 +47,7 @@ $ brew uses [软件名] --installed       # 查看哪些包依赖于这个包
 ```
 
 ##### 常用安装应用
-```sh
+```bash
 $ brew install git
 $ brew install starship
 $ brew install gh
@@ -84,7 +84,7 @@ $ brew install --cask picgo
 ##### 部分工具使用配置
 ###### adb wifi 手机调试
 - @ <font color="#00b050">初始先用数据线将手机和电脑连接</font>
-```sh
+```bash
 # mac
 $ adb tcpip 5555
 
@@ -102,7 +102,7 @@ $ adb disconnect 192.168.xx.xxx
 $ adb kill-server
 ```
 ###### code-server 常用命令
-```sh
+```bash
 $ brew install code-server
 $ brew uninstall code-server
 $ brew info code-server              # 显示 code-server 信息
@@ -126,7 +126,7 @@ $ ln -s ~/.config/Code/Backups ~/.local/share/code-server
 $ ln -s ~/Library/Application\ Support/Code/Backups ~/.local/share/code-server 
 ```
 ###### Nginx 常用命令
-```sh
+```bash
 $ brew install nginx
 $ brew uninstall nginx
 $ brew info nginx                    # 显示 nginx 信息
@@ -147,7 +147,7 @@ $ sudo kill -QUIT <process_pid>      # 关闭指定 Nginx 进程
 $ sudo pkill -f nginx                # 关闭所有 Nginx 进程
 ```
 ###### MySQL 常用命令
-```sh
+```bash
 $ brew install mysql
 $ brew uninstall mysql
 $ brew info mysql                    # 显示 MySQL 信息
@@ -162,13 +162,13 @@ $ mysql_secure_installation          # 初次安装后设置 root 用户的密�
 $ mysql --version                    # 查看 MySQL 版本
 ```
 ##### 常见问题
-```sh
+```bash
 # brew services list 报错可尝试
 $ brew untap homebrew/services        # 删除当前的 services
 $ brew tap homebrew/services          # 重新安装
 ```
 
-```sh
+```bash
 # brew services start nginx 出现警告
 Warning: nginx must be run as non-root to start at user login!
 Bootstrap failed: 5: Input/output error
@@ -213,7 +213,7 @@ title: 说明
 	- 快速配置新的开发环境
 ```
 ##### 通过 [brew](https://github.com/sdkman/homebrew-tap) 安装
-```sh
+```bash
 # install
 $ brew tap sdkman/tap             # 允许 Homebrew 添加更多的软件源（额外的软件仓库）
 $ brew install sdkman-cli
@@ -230,7 +230,7 @@ $ brew uninstall sdkman-cli
 $ brew untap sdkman/tap
 ```
 ##### SDK 常用命令
-```sh
+```bash
 $ sdk version                     # 查看版本
 $ sdk help                        # 显示帮助信息
 $ sdk list                        # 查看可安装的所有工具和版本
@@ -246,7 +246,7 @@ $ sdk offline enable              # 启用离线模式
 $ sdk offline disable             # 禁用离线模式
 ```
 ##### Java 安装
-```sh
+```bash
 # 查看可用 java 版本，本地安装信息
 $ sdk list java
 
@@ -268,7 +268,7 @@ $ java -version
 $ javac -version
 ```
 ##### Maven 安装
-```sh
+```bash
 # 列出特定软件可用版本
 $ sdk list maven									
 

@@ -256,9 +256,6 @@ $ node --version > .node-version
 $ corepack -h
 $ corepack enable
 
-$ corepack install -g pnpm
-$ corepack install -g yarn
-
 # 切换 pnpm 最新版本
 $ corepack use pnpm@latest
 # 切换 pnpm 指定版本
