@@ -32,7 +32,10 @@
   ],
   "explorer": [],
   "hide": {
-    "statusbar": [],
+    "statusbar": [
+      "backlink",
+      "editing-toolbar"
+    ],
     "leftRibbon": []
   },
   "spacing": 8,
