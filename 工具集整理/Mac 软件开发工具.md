@@ -161,14 +161,13 @@ $ mysql_secure_installation          # 初次安装后设置 root 用户的密�
 $ mysql --version                    # 查看 MySQL 版本
 ```
 ##### 常见问题
+###### Brew services list 报错可尝试
 ```bash
-# brew services list 报错可尝试
 $ brew untap homebrew/services        # 删除当前的 services
 $ brew tap homebrew/services          # 重新安装
 ```
-
+###### Brew services start nginx 出现警告
 ```bash
-# brew services start nginx 出现警告
 Warning: nginx must be run as non-root to start at user login!
 Bootstrap failed: 5: Input/output error
 Error: Failure while executing; `/bin/launchctl bootstrap system /Library/LaunchDaemons/homebrew.mxcl.nginx.plist` exited with 5.
@@ -286,4 +285,37 @@ $ sdk home maven 3.9.9
 
 # 查看 maven 版本
 $ mvn -v
+```
+### [pyenv](https://github.com/pyenv/pyenv) - Python 版本管理工具
+##### 安装
+```bash
+$ brew install pyenv
+
+# .zshrc config
+echo '# pyenv' >> ~/.zshrc
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+echo '# pyenv end' >> ~/.zshrc
+$ source ~/.zshrc
+```
+##### 常用命令
+```bash
+# 查看可安装的 Python 版本
+$ pyenv install --list
+
+# 安装特定版本的 Python
+$ pyenv install 3.9.0
+
+# 查看已安装的版本
+$ pyenv versions
+
+# 设置全局 Python 版本
+$ pyenv global 3.9.0
+
+# 设置当前目录的 Python 版本
+$ pyenv local 3.9.0
+
+# 检查当前使用的 Python 版本
+$ pyenv version
 ```

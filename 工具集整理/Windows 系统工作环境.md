@@ -104,6 +104,18 @@ source <(fzf --zsh)
 
 # zoxide
 eval "$(zoxide init zsh --cmd cd)"
+function cdl() {
+    local dir
+    dir="$(zoxide query -l | fzf --reverse --height 40% \
+        --preview 'ls -l {}' \
+        --preview-window=right:60%)" && cd "${dir}"
+}
+function cdd() {
+    local dir
+    dir="$(find . -type d 2>/dev/null | fzf --reverse --height 40% \
+        --preview 'ls -l {}' \
+        --preview-window=right:60%)" && cd "${dir}"
+}
 # zoxide end
 
 # starship
