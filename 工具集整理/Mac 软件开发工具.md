@@ -1,3 +1,4 @@
+#命令 #mac #工具
 ### [Homebrew](https://brew.sh/) 包管理工具
 ```ad-note 
 title: 说明
@@ -15,7 +16,6 @@ $ /bin/zsh -c "$(curl -fsSL https://gitee.com/huwei1024/HomebrewCN/raw/master/Ho
 # inter 芯片国内镜像
 $ /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
 ```
-
 ##### 常用命令
 ```bash
 $ brew config                         # 显示配置信息
@@ -45,7 +45,6 @@ $ brew deps [软件名]                   # 查看包的依赖关系
 $ brew outdated                       # 列出可以升级的软件
 $ brew uses [软件名] --installed       # 查看哪些包依赖于这个包 
 ```
-
 ##### 常用安装应用
 ```bash
 $ brew install git
@@ -182,8 +181,7 @@ $ brew services start nginx
 # 验证 `/opt/homebrew/` 的相关权限
 $ sudo chown -R $(whoami):admin /opt/homebrew
 ```
-###  [SDKMAN](https://sdkman.io/) 开发工具包管理工具
-
+### [SDKMAN](https://sdkman.io/) 开发工具包管理工具
 ```ad-note
 title: 说明
 
