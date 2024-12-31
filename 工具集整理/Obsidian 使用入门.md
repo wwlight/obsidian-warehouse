@@ -1,3 +1,4 @@
+#obsidian #工具 
 ### 资源地址
 - [Obsidian 官网](https://obsidian.md/)
 - [Obsidian Help](https://publish.obsidian.md/help-zh/)

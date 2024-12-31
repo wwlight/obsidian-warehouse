@@ -1,3 +1,5 @@
+#windows #安装 #命令
+
 ```ad-info
 title: 说明
 工欲善其事，必先利其器。
