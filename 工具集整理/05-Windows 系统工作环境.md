@@ -305,6 +305,7 @@ Remove-Item Alias:ni -Force -ErrorAction Ignore
 + ✅ [flowlauncher](https://www.flowlauncher.com/) - Quick File Search & App Launcher for Windows
 + ✅ [IDM](https://vip.jokerps.com/?s=idm&type=post) - 是一款优秀下载工具
 + ✅ [Potplayer](https://potplayer.daum.net/) - 万能播放器
+- ✅ [LocalSend](https://localsend.org/) - 免费、开源、跨平台，将文件分享到附近的设备
 + ✅ [FSCapture](https://www.faststone.org/) - 强大、轻便但功能齐全的屏幕捕捉 和 屏幕录像 工具（网上随便搜索注册码）
 + ✅ [PixPin](https://pixpinapp.com/) - 功能强大使用简单的截图/贴图工具
 + ✅ [金山毒霸垃圾清理独立版](https://vip.jokerps.com/6164.html) - 短小精悍垃圾清理工具
