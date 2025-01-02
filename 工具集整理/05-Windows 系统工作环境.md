@@ -5,11 +5,11 @@ title: 说明
 工欲善其事，必先利其器。
 ```
 ### ℹ️ 说明
-+ ✅：免费｜推荐
-+ ❎：收费｜了解｜科学
+- ✅：免费｜推荐
+- ❎：收费｜了解｜科学
 ### 🍀 准备工作
-+ 🗂️ 创建文件夹：`DevelopmentApplication`、`SystemApplication`
-+ ✅ [Scoop](https://scoop.sh/) - 适用于 Windows 的命令行安装程序 | [镜像](https://gitee.com/scoop-installer/scoop)
+- 🗂️ 创建文件夹：`DevelopmentApplication`、`SystemApplication`
+- ✅ [Scoop](https://scoop.sh/) - 适用于 Windows 的命令行安装程序 | [镜像](https://gitee.com/scoop-installer/scoop)
 ```bash
 # 第一步：设置安装目录
 $ $env:SCOOP='D:\DevelopmentApplication\Scoop'
@@ -51,11 +51,11 @@ $ scoop bucket known               # 列出所有官方认可的 Bucket
 $ scoop bucket add [name]          # 添加 Bucket 
 $ scoop bucket rm [name]           # 删除 Bucket
 ```
-+ ✅ ️[Google Chrome](https://www.google.com/intl/zh-CN/chrome/) - 登录账号同步数据
-+ ❎️ [Ghelper](https://ghelper.net/) - 浏览器插件，科学上网第一步
-+ ✅ [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - 修补了具有大量字形（图标）的开发人员目标字体
+- ✅ ️[Google Chrome](https://www.google.com/intl/zh-CN/chrome/) - 登录账号同步数据
+- ❎️ [Ghelper](https://ghelper.net/) - 浏览器插件，科学上网第一步
+- ✅ [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - 修补了具有大量字形（图标）的开发人员目标字体
     - 搜索下载 `FiraCode Nerd Font`
-+ ✅ [SwitchHosts](https://switchhosts.vercel.app/zh) - 是一个管理、切换多个 hosts 方案的工具
+- ✅ [SwitchHosts](https://switchhosts.vercel.app/zh) - 是一个管理、切换多个 hosts 方案的工具
     - [GitHub Hosts](https://ineo6.github.io/hosts/) - GitHub 最新 hosts
 ### ✍🏻 终端配置
 - ✅ [zsh](https://www.zsh.org/) - 一个为交互式使用而设计的 shell
@@ -125,7 +125,7 @@ function set_win_title(){
     echo -ne "\033]0; $(basename "$USER") \007"
 }
 starship_precmd_user_func="set_win_title"
-precmd_functions+=(set_win_title)
+precmd_functions-=(set_win_title)
 # starship end
 
 # alias
@@ -143,7 +143,7 @@ alias gc='git branch | fzf | xargs git checkout' # 搜索 git 分支并切换
 # alias end
 ```
 ````
-+ ✅️ [Hyper](https://hyper.is/) - 是一款跨平台的终端软件
+- ✅️ [Hyper](https://hyper.is/) - 是一款跨平台的终端软件
     - [awesome-hyper](https://github.com/bnb/awesome-hyper)
     - 配置文件位置：`~\AppData\Roaming\Hyper\.hyper.js`
 ```bash
@@ -151,7 +151,7 @@ $ hyper install hyper-dracula
 $ hyper install hyperborder
 $ hyper install hyperpower
 ```
-+ ✅ [clink](https://chrisant996.github.io/clink/clink.html) - 为 CMD 提供丰富的补全、历史记录和行编辑功能
+- ✅ [clink](https://chrisant996.github.io/clink/clink.html) - 为 CMD 提供丰富的补全、历史记录和行编辑功能
     - [popular-scripts](https://chrisant996.github.io/clink/clink.html#popular-scripts)
 ```bash
 $ scoop install clink
@@ -165,7 +165,7 @@ $ clink installscripts D:\DevelopmentApplication\Scoop\apps\clink\current\script
 $ clink installscripts D:\DevelopmentApplication\Scoop\apps\clink\current\scripts\clink-completions
 $ clink installscripts D:\DevelopmentApplication\Scoop\apps\clink\current\scripts\clink-gizmos
 ```
-+ ✅ [Starship](https://starship.rs/zh-CN/) - 轻量、迅速、客制化的高颜值终端
+- ✅ [Starship](https://starship.rs/zh-CN/) - 轻量、迅速、客制化的高颜值终端
 ```bash
 $ scoop install starship
 $ cd .config && mkdir starship && cd starship && type nul>starship.toml
@@ -211,10 +211,10 @@ $ scoop install extras/keyviz
 $ scoop install extras/flow-launcher
 $ scoop install extras/onefetch
 ```
-+ ✅ [VS Code](https://code.visualstudio.com/) - 登录账号同步数据
-+ ✅ [Hbuilder X](https://www.dcloud.io/hbuilderx.html)
-+ ✅ [electerm](https://electerm.html5beta.com/)
-+ ✅ [GitHub Cli](https://cli.github.com/)
+- ✅ [VS Code](https://code.visualstudio.com/) - 登录账号同步数据
+- ✅ [Hbuilder X](https://www.dcloud.io/hbuilderx.html)
+- ✅ [electerm](https://electerm.html5beta.com/)
+- ✅ [GitHub Cli](https://cli.github.com/)
 ### 💻️ 开发环境
 ```bash
 # 设置本地默认分支 main
@@ -234,7 +234,7 @@ $ $PROFILE                                    # powershell 配置文件地址
 $ code $PROFILE                               # 直接打开配置文件
 $ $psversiontable                             # powershell 版本
 ```
-+ ✅ [fnm](https://github.com/Schniz/fnm) - 快速简单的 Node.js 版本管理器，用 Rust 构建
+- ✅ [fnm](https://github.com/Schniz/fnm) - 快速简单的 Node.js 版本管理器，用 Rust 构建
 ```bash
 # fnm 支持多项目单独切换版本
 $ scoop install fnm
@@ -266,7 +266,7 @@ $ fnm use X
 # 项目写入 node 版本
 $ node --version > .node-version
 ```
-+ ✅ [Corepack](https://github.com/nodejs/corepack) - 允许您使用 Yarn、npm 和 pnpm，默认随 node 一起安装 （ v16.9.0+）
+- ✅ [Corepack](https://github.com/nodejs/corepack) - 允许您使用 Yarn、npm 和 pnpm，默认随 node 一起安装 （ v16.9.0-）
 ```bash
 $ corepack -h
 $ corepack enable
@@ -276,7 +276,7 @@ $ corepack use pnpm@latest
 # 切换 pnpm 指定版本
 $ corepack use pnpm@9.0.6  
 ```
-+ 自定义 npm 全局包安装路径
+- 自定义 npm 全局包安装路径
 ```bash
 $ mkdir .npm_global
 $ npm config set prefix ~/.npm_global
@@ -298,21 +298,21 @@ Remove-Item Alias:ni -Force -ErrorAction Ignore
 # end
 ```
 ### 💻️ 系统工具
-+ ✅[ 微信键盘](https://z.weixin.qq.com/)
-+ ✅ [Clash for Windows](https://clashforwindows.org/)
-+ ✅ [Quicker](https://getquicker.net/)
-+ ✅ [WinRAR](https://www.winrar.com.cn/) - 是一款功能强大的压缩包管理器
-+ ✅ [flowlauncher](https://www.flowlauncher.com/) - Quick File Search & App Launcher for Windows
-+ ✅ [IDM](https://vip.jokerps.com/?s=idm&type=post) - 是一款优秀下载工具
-+ ✅ [Potplayer](https://potplayer.daum.net/) - 万能播放器
+- ✅[ 微信键盘](https://z.weixin.qq.com/)
+- ✅ [Clash for Windows](https://clashforwindows.org/)
+- ✅ [Quicker](https://getquicker.net/)
+- ✅ [WinRAR](https://www.winrar.com.cn/) - 是一款功能强大的压缩包管理器
+- ✅ [flowlauncher](https://www.flowlauncher.com/) - Quick File Search & App Launcher for Windows
+- ✅ [IDM](https://vip.jokerps.com/?s=idm&type=post) - 是一款优秀下载工具
+- ✅ [Potplayer](https://potplayer.daum.net/) - 万能播放器
 - ✅ [LocalSend](https://localsend.org/) - 免费、开源、跨平台，将文件分享到附近的设备
-+ ✅ [FSCapture](https://www.faststone.org/) - 强大、轻便但功能齐全的屏幕捕捉 和 屏幕录像 工具（网上随便搜索注册码）
-+ ✅ [PixPin](https://pixpinapp.com/) - 功能强大使用简单的截图/贴图工具
-+ ✅ [金山毒霸垃圾清理独立版](https://vip.jokerps.com/6164.html) - 短小精悍垃圾清理工具
-+ ✅ [Obsidian](https://obsidian.md/) - 是一款私密且灵活的写作应用程序
-+ ✅ [PicGo](https://molunerfinn.com/PicGo/) - 图片上传+管理新体验
-+ ✅ [Keyviz](https://mularahul.github.io/keyviz/) - 一个免费开源按键可视化工具
-+ ✅ [护眼宝](https://pc.qq.com/detail/7/detail_22407.html)
+- ✅ [FSCapture](https://www.faststone.org/) - 强大、轻便但功能齐全的屏幕捕捉 和 屏幕录像 工具（网上随便搜索注册码）
+- ✅ [PixPin](https://pixpinapp.com/) - 功能强大使用简单的截图/贴图工具
+- ✅ [金山毒霸垃圾清理独立版](https://vip.jokerps.com/6164.html) - 短小精悍垃圾清理工具
+- ✅ [Obsidian](https://obsidian.md/) - 是一款私密且灵活的写作应用程序
+- ✅ [PicGo](https://molunerfinn.com/PicGo/) - 图片上传-管理新体验
+- ✅ [Keyviz](https://mularahul.github.io/keyviz/) - 一个免费开源按键可视化工具
+- ✅ [护眼宝](https://pc.qq.com/detail/7/detail_22407.html)
 
 ### ♻️ 资源平台
-+ ✅ [鹏少资源网](https://vip.jokerps.com/)
+- ✅ [鹏少资源网](https://vip.jokerps.com/)

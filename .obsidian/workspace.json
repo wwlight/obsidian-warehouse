@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具集整理/03-Mac 系统工作环境.md",
+                "file": "TODO/单位换算.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-Mac 系统工作环境"
+              "title": "单位换算"
             }
           }
         ]
@@ -34,7 +34,7 @@
       {
         "id": "3b003881d5a8d712",
         "type": "tabs",
-        "dimension": 65.53067185978578,
+        "dimension": 60.8139534883721,
         "children": [
           {
             "id": "3ce7cac187043dff",
@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#命令",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +81,7 @@
       {
         "id": "7d14778e048b6488",
         "type": "tabs",
-        "dimension": 34.469328140214216,
+        "dimension": 39.18604651162791,
         "children": [
           {
             "id": "e598aae7f32b0891",
@@ -245,10 +245,17 @@
   },
   "active": "736f32738161797d",
   "lastOpenFiles": [
+    "开发备忘录",
+    "WeRead/个人成长/博弈论-翟文明.md",
+    "TODO/单位换算.md",
+    "工具集整理/02-常用工具命令.md",
+    "工具集整理/03-Mac 系统工作环境.md",
+    "工具集整理/04-Mac 软件开发工具.md",
+    "工具集整理/05-Windows 系统工作环境.md",
+    "工具集整理/01-Obsidian 使用入门.md",
     "WeRead/心理/爱的刻意练习-尹洪均.md",
     "心灵鸡汤/剪藏句子.md",
     "WeRead/人物传记/世界名人传记速读（大全集）-雅瑟 培培.md",
-    "TODO/单位换算.md",
     "WeRead/计算机/JavaScript语言精髓与编程实践（第3版）-周爱民.md",
     "WeRead/计算机/Vue.js快跑：构建触手可及的高性能Web应用-卡勒姆·麦克雷.md",
     "WeRead/个人成长/遇见未知的自己（全新修订版）-张德芬.md",
@@ -267,14 +274,7 @@
     "WeRead/文学/月亮和六便士-毛姆.md",
     "WeRead/计算机/Vue.js设计与实现-霍春阳　著.md",
     "WeRead/计算机/JavaScript悟道-道格拉斯·克罗克福德.md",
-    "WeRead/个人成长/打开心智-李睿秋.md",
-    "WeRead/个人成长/坚持，一种可以养成的习惯-古川武士.md",
-    "WeRead/个人成长/只管去做（潜心3年磨一剑，最新万字修订版）-邹小强.md",
-    "WeRead/期刊杂志/读者（2023年第17期）-读者.md",
     "WeRead/期刊杂志",
-    "WeRead/计算机/CSS新世界-张鑫旭.md",
-    "WeRead/个人成长/风吹哪页读哪页-飞扬文室.md",
-    "WeRead/计算机/JavaScript设计模式与开发实践-曾探.md",
     "WeRead/计算机",
     "WeRead/历史",
     "WeRead/人物传记",

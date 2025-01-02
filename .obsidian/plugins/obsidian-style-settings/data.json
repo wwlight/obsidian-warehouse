@@ -112,5 +112,9 @@
   "anuppuccin-theme-settings@@anp-table-toggle": false,
   "anuppuccin-theme-settings@@anp-table-width": false,
   "anuppuccin-theme-settings@@anuppuccin-light-theme-accents": "ctp-accent-light-flamingo",
-  "anuppuccin-theme-settings@@anp-speech-bubble": false
+  "anuppuccin-theme-settings@@anp-speech-bubble": false,
+  "anuppuccin-theme-settings@@anp-header-color-toggle": false,
+  "anuppuccin-theme-settings@@anp-header-margin-toggle": false,
+  "anuppuccin-theme-settings@@anp-header-divider-color-toggle": false,
+  "anuppuccin-theme-settings@@anp-header-margin-value": 6
 }
