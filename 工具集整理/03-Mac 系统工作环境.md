@@ -144,6 +144,7 @@ $ brew install --cask hyper
 $ brew install --cask warp
 $ brew install --cask raycast
 $ brew install --cask obsidian
+$ brew install --cask gitbutler
 $ brew install --cask loop
 $ brew install --cask cleanshot
 $ brew install --cask screen-studio
