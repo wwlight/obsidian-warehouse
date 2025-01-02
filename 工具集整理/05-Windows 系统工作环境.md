@@ -40,15 +40,15 @@ $ scoop update *                   # 更新所有应用
 $ scoop update [软件名]             # 更新指定应用
 $ scoop status                     # 检查可更新的应用
 
-$ scoop cache show                 # 显示缓存 
-$ scoop cache rm [软件名]           # 删除指定应用缓存 
+$ scoop cache show                 # 显示缓存
+$ scoop cache rm [软件名]           # 删除指定应用缓存
 $ scoop cleanup [软件名]            # 清理旧版本
 
 # Bucket 本质上是一个 应用程序清单的仓库，它负责存储和管理应用程序的清单，扩展 Scoop 的应用程序范围，简化软件的安装和更新过程。
 $ scoop bucket list                # 列出已添加的所有 Bucke
 $ scoop bucket update              # 更新所有已添加的 Bucket
 $ scoop bucket known               # 列出所有官方认可的 Bucket
-$ scoop bucket add [name]          # 添加 Bucket 
+$ scoop bucket add [name]          # 添加 Bucket
 $ scoop bucket rm [name]           # 删除 Bucket
 ```
 - ✅ ️[Google Chrome](https://www.google.com/intl/zh-CN/chrome/) - 登录账号同步数据
@@ -125,7 +125,7 @@ function set_win_title(){
     echo -ne "\033]0; $(basename "$USER") \007"
 }
 starship_precmd_user_func="set_win_title"
-precmd_functions-=(set_win_title)
+precmd_functions+=(set_win_title)
 # starship end
 
 # alias
@@ -192,7 +192,6 @@ $ scoop install gh
 $ scoop install bun
 $ scoop install gsudo
 $ scoop install gping
-$ scoop install onefetch
 $ scoop install adb
 $ scoop install fzf
 $ scoop install zoxide
@@ -210,6 +209,7 @@ $ scoop install extras/potplayer
 $ scoop install extras/keyviz
 $ scoop install extras/flow-launcher
 $ scoop install extras/onefetch
+$ scoop install main/pyenv
 ```
 - ✅ [VS Code](https://code.visualstudio.com/) - 登录账号同步数据
 - ✅ [Hbuilder X](https://www.dcloud.io/hbuilderx.html)
@@ -297,6 +297,7 @@ if (-not (Test-Path $profile)) {
 Remove-Item Alias:ni -Force -ErrorAction Ignore
 # end
 ```
+- ✅ [pyenv](https://github.com/pyenv/pyenv) - Python 版本管理工具
 ### 💻️ 系统工具
 - ✅[ 微信键盘](https://z.weixin.qq.com/)
 - ✅ [Clash for Windows](https://clashforwindows.org/)

@@ -1,28 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "单位换算",
-      "path": "TODO/单位换算.md"
-    },
-    {
-      "basename": "博弈论-翟文明",
-      "path": "WeRead/个人成长/博弈论-翟文明.md"
-    },
-    {
-      "basename": "02-常用工具命令",
-      "path": "工具集整理/02-常用工具命令.md"
-    },
-    {
-      "basename": "03-Mac 系统工作环境",
-      "path": "工具集整理/03-Mac 系统工作环境.md"
+      "basename": "05-Windows 系统工作环境",
+      "path": "工具集整理/05-Windows 系统工作环境.md"
     },
     {
       "basename": "04-Mac 软件开发工具",
       "path": "工具集整理/04-Mac 软件开发工具.md"
     },
     {
-      "basename": "05-Windows 系统工作环境",
-      "path": "工具集整理/05-Windows 系统工作环境.md"
+      "basename": "03-Mac 系统工作环境",
+      "path": "工具集整理/03-Mac 系统工作环境.md"
+    },
+    {
+      "basename": "02-常用工具命令",
+      "path": "工具集整理/02-常用工具命令.md"
+    },
+    {
+      "basename": "JS 实用小技巧",
+      "path": "开发备忘录/JS 实用小技巧.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "TODO/未命名.md"
+    },
+    {
+      "basename": "单位换算",
+      "path": "TODO/单位换算.md"
+    },
+    {
+      "basename": "博弈论-翟文明",
+      "path": "WeRead/个人成长/博弈论-翟文明.md"
     },
     {
       "basename": "01-Obsidian 使用入门",

@@ -2,11 +2,11 @@
 title: 说明
 工欲善其事，必先利其器。
 ```
-### ℹ️ 说明   
+### ℹ️ 说明
 - 省事方式：可借助 [Mac 迁移助理](https://support.apple.com/zh-cn/102613) 进行快速同步
 - ✅：免费｜推荐
 - ❎：收费｜了解｜科学
-### 🍀 准备工作    
+### 🍀 准备工作
 - ✅ [Homebrew](https://brew.sh/) - 软件包的管理器｜[镜像](https://gitee.com/cunkai/HomebrewCN)
 - ✅ [Google](https://www.google.com/intl/zh-CN/chrome/) - 登录账号同步数据
 - ❎️ [Ghelper](https://ghelper.net/) - 浏览器插件，科学上网第一步
@@ -15,7 +15,7 @@ title: 说明
 	- 搜索下载 `FiraCode Nerd Font`
 - ✅ [SwitchHosts](https://switchhosts.vercel.app/zh) - 是一个管理、切换多个 hosts 方案的工具
 - [GitHub Hosts](https://ineo6.github.io/hosts/) - GitHub 最新 hosts
-### ✍🏻 终端配置   
+### ✍🏻 终端配置
 - ✅ [zsh](https://www.zsh.org/) - 一个为交互式使用而设计的 shell
 	- 系统自带
 	- zsh plugins：
@@ -48,10 +48,15 @@ setopt hist_find_no_dups
 # zsh plugins
 source $ZSH/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 source $ZSH/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $ZSH/plugins/incr/incr.plugin.zsh
 fpath=($ZSH/plugins/zsh-completions/src $fpath)
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
 # plugins end
+
+# 自定义 npm 全局包安装路径
+export PATH=$HOME/.npm_global/bin:$PATH
+# end
 
 # fnm
 eval "$(fnm env --use-on-cd)"
@@ -87,6 +92,17 @@ starship_precmd_user_func="set_win_title"
 precmd_functions+=(set_win_title)
 # starship end
 
+# sdkman sdk 版本管理工具
+export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
+[[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
+# sdkman end
+
+# pyenv python 版本管理工具
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+# pyenv end
+
 # alias
 alias ping="gping"
 alias of="onefetch"
@@ -100,7 +116,7 @@ alias gl='git pull'
 alias grt='cd "$(git rev-parse --show-toplevel)"'
 alias gc='git branch | fzf | xargs git checkout' # 搜索 git 分支并切换
 # alias end
-```   
+```
 ````
 - ✅️ [Hyper](https://hyper.is/) - 是一款跨平台的终端软件
 	- [awesome-hyper](https://github.com/bnb/awesome-hyper)
@@ -159,7 +175,7 @@ $ brew install --cask picgo
 - ✅ [Hbuilder X](https://www.dcloud.io/hbuilderx.html)
 - ✅ [Android Studio](https://developer.android.com/studio?hl=zh-cn)
 - ✅ [GitHub Cli](https://cli.github.com/)
-### 💻️ 开发环境   
+### 💻️ 开发环境
 ```shell
 # 设置本地默认分支 main
 $ git config --global init.defaultBranch main
@@ -217,7 +233,7 @@ $ npm i -g @antfu/ni
 ```
 - ✅ [SDKMAN](https://sdkman.io/) - 软件开发工具包管理器 ｜[ brew 安装](https://github.com/sdkman/homebrew-tap)
 - ✅ [pyenv](https://github.com/pyenv/pyenv) - Python 版本管理工具
-### 💻️ 效率工具   
+### 💻️ 效率工具
 - ✅ [微信键盘](https://z.weixin.qq.com/)
 - ✅ [Arc](https://arc.net/) - 浏览器
 - ✅ [iShot Pro](https://apps.apple.com/cn/app/ishot-pro-%E4%B8%93%E4%B8%9A%E7%9A%84%E6%88%AA%E5%9B%BE%E8%B4%B4%E5%9B%BE%E5%BD%95%E5%B1%8F%E5%BD%95%E9%9F%B3ocr%E7%BF%BB%E8%AF%91%E5%8F%96%E8%89%B2%E5%B7%A5%E5%85%B7/id1611347086?mt=12) - 专业的截图贴图录屏录音 OCR 翻译取色工具
@@ -241,7 +257,7 @@ $ npm i -g @antfu/ni
 - ✅ [微信读书](https://apps.apple.com/us/app/%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6/id952059546)
 - ✅ [新华字典](https://apps.apple.com/cn/app/%E6%96%B0%E5%8D%8E%E5%AD%97%E5%85%B8-%E6%96%B0%E4%B8%AD%E5%9B%BD%E9%A2%87%E5%85%B7%E5%BD%B1%E5%93%8D%E5%8A%9B%E7%9A%84%E7%8E%B0%E4%BB%A3%E6%B1%89%E8%AF%AD%E5%AD%97%E5%85%B8/id1197209563)
 - ❎ [Scroll Reverser](https://pilotmoon.com/scrollreverser/) - 触摸板与鼠标滚动方向独立设置
-### ♻️ 资源平台   
+### ♻️ 资源平台
 - ✅ [macOSicons](https://macosicons.com/) - 更换 mac 应用图标
 - ✅ [麦软网](https://www.mairuan.com/) - 专业正版低价软件
 - ✅ [数码荔枝](https://lizhi.shop/) - 专注于分享最新鲜优秀的正版软件

@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f0bb11efce031e96",
+        "id": "12550da92aef12f7",
         "type": "tabs",
         "children": [
           {
-            "id": "5d70e2881f682d78",
+            "id": "157bfa46ebde04aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO/单位换算.md",
+                "file": "工具集整理/05-Windows 系统工作环境.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "单位换算"
+              "title": "05-Windows 系统工作环境"
             }
           }
         ]
@@ -124,10 +124,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO/单位换算.md"
+                "file": "工具集整理/05-Windows 系统工作环境.md"
               },
               "icon": "lucide-list",
-              "title": "单位换算 的大纲"
+              "title": "05-Windows 系统工作环境 的大纲"
             }
           },
           {
@@ -190,12 +190,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODO/单位换算.md",
+                "file": "工具集整理/05-Windows 系统工作环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "单位换算 的出链列表"
+              "title": "05-Windows 系统工作环境 的出链列表"
             }
           },
           {
@@ -222,8 +222,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340.5,
-    "collapsed": true
+    "width": 340.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -245,13 +244,15 @@
   },
   "active": "736f32738161797d",
   "lastOpenFiles": [
-    "开发备忘录",
-    "WeRead/个人成长/博弈论-翟文明.md",
-    "TODO/单位换算.md",
-    "工具集整理/02-常用工具命令.md",
-    "工具集整理/03-Mac 系统工作环境.md",
     "工具集整理/04-Mac 软件开发工具.md",
     "工具集整理/05-Windows 系统工作环境.md",
+    "工具集整理/03-Mac 系统工作环境.md",
+    "工具集整理/02-常用工具命令.md",
+    "开发备忘录/JS 实用小技巧.md",
+    "开发备忘录/未命名2121.md",
+    "TODO/单位换算.md",
+    "开发备忘录",
+    "WeRead/个人成长/博弈论-翟文明.md",
     "工具集整理/01-Obsidian 使用入门.md",
     "WeRead/心理/爱的刻意练习-尹洪均.md",
     "心灵鸡汤/剪藏句子.md",
@@ -273,14 +274,12 @@
     "WeRead/经济理财",
     "WeRead/文学/月亮和六便士-毛姆.md",
     "WeRead/计算机/Vue.js设计与实现-霍春阳　著.md",
-    "WeRead/计算机/JavaScript悟道-道格拉斯·克罗克福德.md",
     "WeRead/期刊杂志",
     "WeRead/计算机",
     "WeRead/历史",
     "WeRead/人物传记",
     "WeRead/个人成长",
     "WeRead/文学",
-    "WeRead/心理",
     "学习笔记整理/css 相关/attachmets/dark-mode-angles.svg",
     "学习笔记整理/resources/dark-mode-angles.svg",
     "未命名.canvas",
