@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "06-Git 常用工具命令",
-      "path": "工具集整理/06-Git 常用工具命令.md"
+      "basename": "07-bash 命令记录",
+      "path": "工具集整理/07-bash 命令记录.md"
+    },
+    {
+      "basename": "06-Git 命令记录",
+      "path": "工具集整理/06-Git 命令记录.md"
+    },
+    {
+      "basename": "css 记录",
+      "path": "开发备忘录/css 记录.md"
+    },
+    {
+      "basename": "unocss 记录",
+      "path": "开发备忘录/unocss 记录.md"
     },
     {
       "basename": "Git 常用工具命令",
@@ -31,10 +43,6 @@
     {
       "basename": "lodash 记录",
       "path": "开发备忘录/lodash 记录.md"
-    },
-    {
-      "basename": "unocss 记录",
-      "path": "开发备忘录/unocss 记录.md"
     },
     {
       "basename": "项目相关",
