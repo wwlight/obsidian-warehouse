@@ -11,6 +11,7 @@
 	- Vue 会找到所有依赖这个属性的副作用函数
 	- 并重新执行这些函数，从而更新视图
 - `ref` 实现
+
 ```js
 function ref(value) {
   const wrapper = {
@@ -31,7 +32,9 @@ function ref(value) {
   })
 }
 ```
+
 - `reactive` 实现
+
 ```js
 function reactive(target) {
   return new Proxy(target, {
@@ -50,7 +53,9 @@ function reactive(target) {
   })
 }
 ```
+
 ---
+
 ### Vue 3 中的 track 和 trigger 实现
 
 - `track` (依赖收集) 的工作流程
@@ -59,6 +64,7 @@ function reactive(target) {
 	- 为每个响应式对象建立依赖关系映射
 	- 将当前的副作用函数添加到对应属性的依赖集合中
 - `track` 实现
+
 ```js
 // 简化的 track 实现
 const targetMap = new WeakMap()
@@ -88,11 +94,13 @@ function track(target, key) {
   dep.add(activeEffect)
 }
 ```
+
 - `trigger`（依赖触发）的工作流程
 	- 从 `targetMap` 中找到目标对象的依赖映射
 	- 获取特定属性的依赖集合
 	- 依次执行所有依赖的副作用函数
-- `trigger` 实现 
+- `trigger` 实现
+
 ```js
 function trigger(target, key) {
   // 获取目标对象的依赖映射
@@ -111,25 +119,29 @@ function trigger(target, key) {
   })
 }
 ```
+
 - 详细工作机制
 	- **依赖收集（track）**
-	    - 在读取响应式对象属性时发生
-	    - 记录当前正在执行的副作用函数
-	    - 建立属性与副作用函数的映射关系
+		- 在读取响应式对象属性时发生
+		- 记录当前正在执行的副作用函数
+		- 建立属性与副作用函数的映射关系
 	- **依赖触发（trigger）**
-	    - 在修改响应式对象属性时发生
-	    - 找到所有依赖该属性的副作用函数
-	    - 重新执行这些函数
+		- 在修改响应式对象属性时发生
+		- 找到所有依赖该属性的副作用函数
+		- 重新执行这些函数
 - 核心数据结构
+
 ```js
 // 依赖映射的大致结构
 WeakMap<target, Map<key, Set<effect>>>
 ```
+
 - 优势
 	- 精确的依赖追踪
 	- 按需收集依赖
 	- 高性能的依赖管理
 	- 自动清理无用依赖
+
 ### Vue 3 和 Vue 2 双向绑定区别
 
 ```ad-important
@@ -153,7 +165,7 @@ title: Vue 3 的响应式系统相比 Vue 2
 		- 可以监听数组的所有变化
 		- 性能和内存占用更优
 2. 响应式 API
-	-  Vue 2
+	- Vue 2
 		- 只有 `data` 选项
 		- 通过 `computed` 和 `watch` 实现响应
 		- 响应式转换是全量的
@@ -171,21 +183,23 @@ title: Vue 3 的响应式系统相比 Vue 2
 	- Vue 3
 			- Proxy 可以懒递归
 			- 只有访问到的属性才会被代理
-			- 性能更高，内存占用更少 
-4. 数组响应式 
+			- 性能更高，内存占用更少
+4. 数组响应式
 	- Vue 2
-		- 需要使用变异方法（push, pop等），vue 2 内部进行了重写
-		- 直接通过下标修改数组不会触发响应， `$set ()`
+		- 需要使用变异方法（push, pop 等），vue 2 内部进行了重写
+		- 直接通过下标修改数组不会触发响应，`$set ()`
 	- Vue 3
 		- 可以直接通过下标修改数组
 		- 所有数组操作都能被正确追踪
 5. 性能和体积
-	-  Vue 3
+	- Vue 3
 		- 响应式系统体积更小
 		- 运行时性能更优
 		- 内存占用更低
 		- 依赖收集更精确
+
 ---
+
 ###  Vue SEO 问题原因？如何解决？
 
 ```ad-info
@@ -198,15 +212,15 @@ SEO 问题可以通过多种技术方案解决，选择合适的渲染策略和�
 	1. 客户端渲染（CSR，`client-side rendering`）
 		- Vue 默认使用客户端渲染
 		- 页面初始内容为空 HTML
-		- 搜索引擎爬虫难以抓取完整内容 
+		- 搜索引擎爬虫难以抓取完整内容
 	2. JavaScript 依赖
 		- 内容通过 JS 动态生成
-	    - 搜索引擎爬虫可能无法执行 JavaScript
-	    - 导致页面内容无法被正确索引
+		- 搜索引擎爬虫可能无法执行 JavaScript
+		- 导致页面内容无法被正确索引
 	3. 首屏加载性能
-	    - 需要下载并执行 JavaScript
-	    - 初始加载时间较长
-	    - 影响搜索引擎评分和用户体验
+		- 需要下载并执行 JavaScript
+		- 初始加载时间较长
+		- 影响搜索引擎评分和用户体验
 - 解决方案
 	1. [Meta 标签优化](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/meta)
 		- 动态设置 SEO 相关标签
@@ -239,13 +253,15 @@ SEO 问题可以通过多种技术方案解决，选择合适的渲染策略和�
 	3. 持续监控
 		- 使用 Google Search Console
 		- 分析爬虫抓取情况
-		- 调整优化策略 
+		- 调整优化策略
 - 推荐框架
 	- Nuxt.js
 	- Vite + Vue3
 	- Astro
 	- Gatsby
+
 ---
+
 ### SEO 如何理解
 
 ```ad-attention
@@ -267,7 +283,7 @@ SEO（Search Engine Optimization，搜索引擎优化）是一个网站提高在
 		- 高质量、原创的内容
 		- 关键词合理分布
 		- 内容与用户搜索意图匹配
-		- 定期更新内容 
+		- 定期更新内容
 	2. 技术优化
 		- 网站加载速度
 		- 移动端兼容性
@@ -278,13 +294,14 @@ SEO（Search Engine Optimization，搜索引擎优化）是一个网站提高在
 		- 高质量的外部链接
 		- 内部链接优化
 		- 避免垃圾链接
-		- 锚文本优化 
+		- 锚文本优化
 	4. 用户体验
 		 - 网站导航清晰
 		- 内容可读性
 		- 交互性
 		- 低跳出率
 - 具体实践
+
 ``` html
 <!-- SEO 优化的 HTML 示例 -->
 <head>
@@ -301,20 +318,22 @@ SEO（Search Engine Optimization，搜索引擎优化）是一个网站提高在
   </header>
 </head>
 ``` 
+
 - 关键指标
 	1. **关键词排名**
-	    - 目标关键词在搜索结果中的位置
-	    - 长尾关键词的覆盖
+		- 目标关键词在搜索结果中的位置
+		- 长尾关键词的覆盖
 	2. **流量指标**
-	    - 搜索引擎带来的访问量
-	    - 访问时长
-	    - 跳出率
+		- 搜索引擎带来的访问量
+		- 访问时长
+		- 跳出率
 	3. **转化率**
-	    - 搜索流量带来的实际业务转化
+		- 搜索流量带来的实际业务转化
 - 常见工具
 	- Google Search Console
 	- Google Analytics
 	- SEMrush
 	- Ahrefs
 	- MOZ
+
 ---

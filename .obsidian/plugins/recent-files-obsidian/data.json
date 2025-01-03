@@ -1,28 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "05-Windows 系统工作环境",
-      "path": "工具集整理/05-Windows 系统工作环境.md"
+      "basename": "unocss 记录",
+      "path": "开发备忘录/unocss 记录.md"
     },
     {
-      "basename": "04-Mac 软件开发工具",
-      "path": "工具集整理/04-Mac 软件开发工具.md"
-    },
-    {
-      "basename": "03-Mac 系统工作环境",
-      "path": "工具集整理/03-Mac 系统工作环境.md"
+      "basename": "01-Obsidian 使用入门",
+      "path": "工具集整理/01-Obsidian 使用入门.md"
     },
     {
       "basename": "02-常用工具命令",
       "path": "工具集整理/02-常用工具命令.md"
     },
     {
+      "basename": "03-Mac 系统工作环境",
+      "path": "工具集整理/03-Mac 系统工作环境.md"
+    },
+    {
+      "basename": "04-Mac 软件开发工具",
+      "path": "工具集整理/04-Mac 软件开发工具.md"
+    },
+    {
+      "basename": "05-Windows 系统工作环境",
+      "path": "工具集整理/05-Windows 系统工作环境.md"
+    },
+    {
+      "basename": "JS 常用整理",
+      "path": "开发备忘录/JS 常用整理.md"
+    },
+    {
       "basename": "JS 实用小技巧",
       "path": "开发备忘录/JS 实用小技巧.md"
     },
     {
-      "basename": "未命名",
-      "path": "TODO/未命名.md"
+      "basename": "lodash 记录",
+      "path": "开发备忘录/lodash 记录.md"
+    },
+    {
+      "basename": "Vue 相关",
+      "path": "面试题整理/Vue 相关.md"
+    },
+    {
+      "basename": "CSS 基础",
+      "path": "面试题整理/CSS 基础.md"
+    },
+    {
+      "basename": "项目相关",
+      "path": "面试题整理/项目相关.md"
+    },
+    {
+      "basename": "template",
+      "path": "日记/template.md"
+    },
+    {
+      "basename": "剪藏句子",
+      "path": "心灵鸡汤/剪藏句子.md"
+    },
+    {
+      "basename": "css 渐变角度理解",
+      "path": "学习笔记整理/css 相关/css 渐变角度理解.md"
     },
     {
       "basename": "单位换算",
@@ -33,20 +69,8 @@
       "path": "WeRead/个人成长/博弈论-翟文明.md"
     },
     {
-      "basename": "01-Obsidian 使用入门",
-      "path": "工具集整理/01-Obsidian 使用入门.md"
-    },
-    {
-      "basename": "爱的刻意练习-尹洪均",
-      "path": "WeRead/心理/爱的刻意练习-尹洪均.md"
-    },
-    {
-      "basename": "剪藏句子",
-      "path": "心灵鸡汤/剪藏句子.md"
-    },
-    {
-      "basename": "世界名人传记速读（大全集）-雅瑟 培培",
-      "path": "WeRead/人物传记/世界名人传记速读（大全集）-雅瑟 培培.md"
+      "basename": "未命名",
+      "path": "TODO/未命名.md"
     },
     {
       "basename": "坚持，一种可以养成的习惯-古川武士",
@@ -67,26 +91,6 @@
     {
       "basename": "未命名",
       "path": "未命名.md"
-    },
-    {
-      "basename": "项目相关",
-      "path": "面试题整理/项目相关.md"
-    },
-    {
-      "basename": "CSS 基础",
-      "path": "面试题整理/CSS 基础.md"
-    },
-    {
-      "basename": "Vue 相关",
-      "path": "面试题整理/Vue 相关.md"
-    },
-    {
-      "basename": "css 渐变角度理解",
-      "path": "学习笔记整理/css 相关/css 渐变角度理解.md"
-    },
-    {
-      "basename": "template",
-      "path": "日记/template.md"
     }
   ],
   "omittedPaths": [],

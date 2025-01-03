@@ -3,6 +3,7 @@
     "workspace:toggle-pin",
     "workspace:toggle-stacked-tabs",
     "workspaces:open-modal",
-    "file-recovery:open"
+    "file-recovery:open",
+    "obsidian-linter:lint-file"
   ]
 }

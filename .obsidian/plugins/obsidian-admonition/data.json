@@ -1,5 +1,17 @@
 {
-  "userAdmonitions": {},
+  "userAdmonitions": {
+    "col2": {
+      "type": "col2",
+      "color": "#7d7d7d",
+      "icon": {
+        "name": "address-book",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": false
+    }
+  },
   "syntaxHighlight": true,
   "copyButton": false,
   "version": "10.3.2",

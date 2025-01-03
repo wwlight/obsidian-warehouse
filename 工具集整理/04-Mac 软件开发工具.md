@@ -1,11 +1,15 @@
-#mac #命令 #工具
+#工具 #命令 #mac
+
 ### [Homebrew](https://brew.sh/) 包管理工具
+
 ```ad-note 
 title: 说明
 
 简称 brew，是 macOS 和 Linux 上最流行的包管理工具，它可以帮助你安装、更新和管理软件包。类似于 Ubuntu 的 apt 或 CentOS 的 yum。
 ```
+
 ##### 安装
+
 ```bash
 # 官网安装地址
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -16,7 +20,9 @@ $ /bin/zsh -c "$(curl -fsSL https://gitee.com/huwei1024/HomebrewCN/raw/master/Ho
 # inter 芯片国内镜像
 $ /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
 ```
+
 ##### 常用命令
+
 ```bash
 $ brew config                         # 显示配置信息
 $ brew update                         # 更新软件包列表
@@ -45,7 +51,9 @@ $ brew deps [软件名]                   # 查看包的依赖关系
 $ brew outdated                       # 列出可以升级的软件
 $ brew uses [软件名] --installed       # 查看哪些包依赖于这个包 
 ```
+
 ##### 常用安装应用
+
 ```bash
 $ brew install git
 $ brew install starship
@@ -80,9 +88,13 @@ $ brew install --cask android-studio
 $ brew install --cask android-platform-tools
 $ brew install --cask picgo
 ```
+
 ##### 部分工具使用配置
+
 ###### adb wifi 手机调试
+
 - @ <font color="#00b050">初始先用数据线将手机和电脑连接</font>
+
 ```bash
 # mac
 $ adb tcpip 5555
@@ -100,7 +112,9 @@ $ adb disconnect 192.168.xx.xxx
 # 其他
 $ adb kill-server
 ```
+
 ###### code-server 常用命令
+
 ```bash
 $ brew install code-server
 $ brew uninstall code-server
@@ -124,7 +138,9 @@ $ ln -s ~/.config/Code/Backups ~/.local/share/code-server
 # 若没有 ~/.config/Code/Backups 文件，执行
 $ ln -s ~/Library/Application\ Support/Code/Backups ~/.local/share/code-server 
 ```
+
 ###### Nginx 常用命令
+
 ```bash
 $ brew install nginx
 $ brew uninstall nginx
@@ -145,7 +161,9 @@ $ ps aux | grep nginx                # 确认启动用户
 $ sudo kill -QUIT <process_pid>      # 关闭指定 Nginx 进程
 $ sudo pkill -f nginx                # 关闭所有 Nginx 进程
 ```
+
 ###### MySQL 常用命令
+
 ```bash
 $ brew install mysql
 $ brew uninstall mysql
@@ -160,13 +178,18 @@ $ mysql -u root -p                   # 以默认用户密码登录 MySQL
 $ mysql_secure_installation          # 初次安装后设置 root 用户的密码
 $ mysql --version                    # 查看 MySQL 版本
 ```
+
 ##### 常见问题
+
 ###### Brew services list 报错可尝试
+
 ```bash
 $ brew untap homebrew/services        # 删除当前的 services
 $ brew tap homebrew/services          # 重新安装
 ```
+
 ###### Brew services start nginx 出现警告
+
 ```bash
 Warning: nginx must be run as non-root to start at user login!
 Bootstrap failed: 5: Input/output error
@@ -180,7 +203,9 @@ $ brew services start nginx
 # 验证 `/opt/homebrew/` 的相关权限
 $ sudo chown -R $(whoami):admin /opt/homebrew
 ```
+
 ### [SDKMAN](https://sdkman.io/) 开发工具包管理工具
+
 ```ad-note
 title: 说明
 
@@ -209,7 +234,9 @@ title: 说明
 	- 团队统一开发环境配置
 	- 快速配置新的开发环境
 ```
+
 ##### 通过 [brew](https://github.com/sdkman/homebrew-tap) 安装
+
 ```bash
 # install
 $ brew tap sdkman/tap             # 允许 Homebrew 添加更多的软件源（额外的软件仓库）
@@ -226,7 +253,9 @@ $ source ~/.zshrc
 $ brew uninstall sdkman-cli
 $ brew untap sdkman/tap
 ```
+
 ##### SDK 常用命令
+
 ```bash
 $ sdk version                     # 查看版本
 $ sdk help                        # 显示帮助信息
@@ -242,7 +271,9 @@ $ sdk flush                       # 清除缓存
 $ sdk offline enable              # 启用离线模式
 $ sdk offline disable             # 禁用离线模式
 ```
+
 ##### Java 安装
+
 ```bash
 # 查看可用 java 版本，本地安装信息
 $ sdk list java
@@ -264,7 +295,9 @@ $ sdk home java 8.0.432-zulu
 $ java -version
 $ javac -version
 ```
+
 ##### Maven 安装
+
 ```bash
 # 列出特定软件可用版本
 $ sdk list maven									
@@ -286,8 +319,11 @@ $ sdk home maven 3.9.9
 # 查看 maven 版本
 $ mvn -v
 ```
+
 ### [pyenv](https://github.com/pyenv/pyenv) - Python 版本管理工具
+
 ##### 安装
+
 ```bash
 $ brew install pyenv
 
@@ -299,7 +335,9 @@ echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 echo '# pyenv end' >> ~/.zshrc
 $ source ~/.zshrc
 ```
+
 ##### 常用命令
+
 ```bash
 # 查看可安装的 Python 版本
 $ pyenv install --list

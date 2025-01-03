@@ -6,6 +6,7 @@
   "enabledCssSnippets": [
     "Tab",
     "extended-colorschemes",
+    "anmonition-col2",
     "custom-admonitions.f505c4"
   ],
   "translucency": true,

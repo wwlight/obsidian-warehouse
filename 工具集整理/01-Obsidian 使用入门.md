@@ -1,11 +1,16 @@
-#obsidian #工具 
+#工具 #obsidian
+
 ### 资源地址
+
 - [Obsidian 官网](https://obsidian.md/)
 - [Obsidian Help](https://publish.obsidian.md/help-zh/)
+- [ObsidianAddict](https://obsidianaddict.com/)
 - [PKMer](https://pkmer.cn/)
+
 ### 常用功能
+
 - Properties 特性功能：在文档首行写入 ---
-- 
+
 ## 常用插件
 
 ```ad-note
@@ -18,6 +23,7 @@ icon: ra-sword
 - [Admonition](https://github.com/javalent/admonitions) - 添加块样式内容和标注功能
 	- [FontAwesome](https://fontawesome.com/v6/search?o=r&m=free)
 	- [RPGAwesome](https://nagoshiashumari.github.io/Rpg-Awesome/)
+
 ````
 ```ad-note
 title: 标题
@@ -31,6 +37,7 @@ throw new Error("Oops, I'm a bug.");
 ~~~
 ```
 ````
+
 - Calendar
 - Checklist
 - Commander
@@ -48,6 +55,5 @@ throw new Error("Oops, I'm a bug.");
 - <font color="#00b050">Style Settings</font>
 - TagFolder
 - Templater
-- Convert ur  to preview (iframe)
+- Convert ur to preview (iframe)
 - Tag Wrangler
-
