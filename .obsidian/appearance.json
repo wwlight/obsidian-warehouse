@@ -5,11 +5,11 @@
   "baseFontSizeAction": false,
   "enabledCssSnippets": [
     "Tab",
-    "extended-colorschemes",
     "anmonition-col2",
+    "extended-colorschemes",
     "custom-admonitions.f505c4"
   ],
-  "translucency": true,
+  "translucency": false,
   "nativeMenus": true,
   "monospaceFontFamily": "FiraCode Nerd Font Propo",
   "textFontFamily": "FiraCode Nerd Font Mono",
