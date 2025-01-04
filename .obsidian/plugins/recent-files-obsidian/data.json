@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
+      "basename": "未命名",
+      "path": "错题集/未命名.md"
+    },
+    {
       "basename": "工作问题记录",
-      "path": "开发错题集/工作问题记录.md"
+      "path": "错题集/工作问题记录.md"
     },
     {
       "basename": "07-Bash 命令记录",
@@ -10,15 +14,15 @@
     },
     {
       "basename": "css 记录",
-      "path": "开发备忘录/css 记录.md"
+      "path": "备忘录/css 记录.md"
     },
     {
       "basename": "dark-mode-angles",
-      "path": "开发备忘录/css 相关/attachmets/dark-mode-angles.svg"
+      "path": "备忘录/css 相关/attachmets/dark-mode-angles.svg"
     },
     {
       "basename": "css 渐变角度理解",
-      "path": "开发备忘录/css 相关/css 渐变角度理解.md"
+      "path": "备忘录/css 相关/css 渐变角度理解.md"
     },
     {
       "basename": "vue 相关",
@@ -34,19 +38,19 @@
     },
     {
       "basename": "unocss 记录",
-      "path": "开发备忘录/unocss 记录.md"
+      "path": "备忘录/unocss 记录.md"
     },
     {
       "basename": "lodash 记录",
-      "path": "开发备忘录/lodash 记录.md"
+      "path": "备忘录/lodash 记录.md"
     },
     {
       "basename": "js 实用小技巧",
-      "path": "开发备忘录/js 实用小技巧.md"
+      "path": "备忘录/js 实用小技巧.md"
     },
     {
       "basename": "js 常用整理",
-      "path": "开发备忘录/js 常用整理.md"
+      "path": "备忘录/js 常用整理.md"
     },
     {
       "basename": "剪藏句子",

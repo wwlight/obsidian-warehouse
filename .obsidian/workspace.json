@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发备忘录/css 记录.md",
+                "file": "备忘录/css 记录.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发错题集/工作问题记录.md",
+                "file": "错题集/工作问题记录.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -66,9 +66,24 @@
               "icon": "lucide-file",
               "title": "工作问题记录"
             }
+          },
+          {
+            "id": "3b63e7710bc0034e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "备忘录/魔方公式.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "魔方公式"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -170,10 +185,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "开发错题集/工作问题记录.md"
+                "file": "备忘录/魔方公式.md"
               },
               "icon": "lucide-list",
-              "title": "工作问题记录 的大纲"
+              "title": "魔方公式 的大纲"
             }
           },
           {
@@ -291,19 +306,20 @@
   },
   "active": "736f32738161797d",
   "lastOpenFiles": [
+    "错题集/工作问题记录.md",
+    "备忘录/魔方公式.md",
     "工具集整理/07-Bash 命令记录.md",
-    "开发错题集/工作问题记录.md",
-    "开发备忘录/css 记录.md",
-    "开发错题集",
-    "开发备忘录/css 相关/attachmets/dark-mode-angles.svg",
-    "开发备忘录/css 相关/css 渐变角度理解.md",
+    "备忘录/css 记录.md",
+    "错题集",
+    "备忘录/css 相关/attachmets/dark-mode-angles.svg",
+    "备忘录/css 相关/css 渐变角度理解.md",
     "面试题整理/vue 相关.md",
     "面试题整理/css 基础.md",
     "面试题整理/项目相关.md",
-    "开发备忘录/unocss 记录.md",
-    "开发备忘录/lodash 记录.md",
-    "开发备忘录/js 实用小技巧.md",
-    "开发备忘录/js 常用整理.md",
+    "备忘录/unocss 记录.md",
+    "备忘录/lodash 记录.md",
+    "备忘录/js 实用小技巧.md",
+    "备忘录/js 常用整理.md",
     "心灵鸡汤/剪藏句子.md",
     "工具集整理/06-Git 命令记录.md",
     "工具集整理/05-Windows 系统工作环境.md",
@@ -318,7 +334,6 @@
     "WeRead/计算机/Vue.js快跑：构建触手可及的高性能Web应用-卡勒姆·麦克雷.md",
     "WeRead/个人成长/遇见未知的自己（全新修订版）-张德芬.md",
     "WeRead/个人成长/非暴力沟通-马歇尔·卢森堡.md",
-    "WeRead/人物传记/世界名人传记速读（大全集）-雅瑟 培培.md",
     "WeRead/教育学习",
     "WeRead/精品小说",
     "WeRead/经济理财",
