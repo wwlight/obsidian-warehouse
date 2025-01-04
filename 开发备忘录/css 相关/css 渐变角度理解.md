@@ -50,4 +50,4 @@ const mathToCss = (mathAngle) => (90 - mathAngle + 360) % 360;
 
 ## 相关图例
 
-![[学习笔记整理/css 相关/attachmets/dark-mode-angles.svg]]
+![[dark-mode-angles.svg]]
