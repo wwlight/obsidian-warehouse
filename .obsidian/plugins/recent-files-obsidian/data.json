@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "工作问题记录",
+      "path": "开发错题集/工作问题记录.md"
+    },
+    {
+      "basename": "07-Bash 命令记录",
+      "path": "工具集整理/07-Bash 命令记录.md"
+    },
+    {
       "basename": "css 记录",
       "path": "开发备忘录/css 记录.md"
     },
@@ -39,10 +47,6 @@
     {
       "basename": "js 常用整理",
       "path": "开发备忘录/js 常用整理.md"
-    },
-    {
-      "basename": "07-Bash 命令记录",
-      "path": "工具集整理/07-Bash 命令记录.md"
     },
     {
       "basename": "剪藏句子",
