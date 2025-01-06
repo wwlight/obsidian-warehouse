@@ -172,7 +172,7 @@ $ brew install --cask webstorm
 $ brew install --cask intellij-idea
 $ brew install --cask hbuilderx
 $ brew install --cask hyper
-$ brew install --cask warp
+$ brew install --cask tabby
 $ brew install --cask raycast
 $ brew install --cask obsidian
 $ brew install --cask gitbutler
@@ -259,14 +259,17 @@ $ npm i -g @antfu/ni
 - ✅ [SDKMAN](https://sdkman.io/) - 软件开发工具包管理器｜[brew 安装](https://github.com/sdkman/homebrew-tap)
 - ✅ [pyenv](https://github.com/pyenv/pyenv) - Python 版本管理工具
 
-### 💻️ 效率工具
+### 💻️ 办公工具
 
-- ✅ [微信键盘](https://z.weixin.qq.com/)
-- ✅ [Arc](https://arc.net/) - 浏览器
-- ✅ [iShot Pro](https://apps.apple.com/cn/app/ishot-pro-%E4%B8%93%E4%B8%9A%E7%9A%84%E6%88%AA%E5%9B%BE%E8%B4%B4%E5%9B%BE%E5%BD%95%E5%B1%8F%E5%BD%95%E9%9F%B3ocr%E7%BF%BB%E8%AF%91%E5%8F%96%E8%89%B2%E5%B7%A5%E5%85%B7/id1611347086?mt=12) - 专业的截图贴图录屏录音 OCR 翻译取色工具
-- ✅ [右键助手专业版](https://apps.apple.com/cn/app/%E5%8F%B3%E9%94%AE%E5%8A%A9%E6%89%8B%E4%B8%93%E4%B8%9A%E7%89%88/id1555844307?mt=12) - 超丰富的右键菜单
 - ✅ [Raycast](https://www.raycast.com/) - 一个为 mac 设计的高效生产力工具
 - ️❎️ [Applite](https://aerolite.dev/applite/index.html) - 简化使用 Homebrew 的第三方应用程序的安装和管理
+- ✅ [微信键盘](https://z.weixin.qq.com/)
+- ✅ [Arc](https://arc.net/) - 浏览器
+- ✅ [Tabby](https://tabby.sh/) - 跨平台终端应用程序，本地 shell、串行、SSH 和 Telnet 连接
+- ✅ [iShot Pro](https://apps.apple.com/cn/app/ishot-pro-%E4%B8%93%E4%B8%9A%E7%9A%84%E6%88%AA%E5%9B%BE%E8%B4%B4%E5%9B%BE%E5%BD%95%E5%B1%8F%E5%BD%95%E9%9F%B3ocr%E7%BF%BB%E8%AF%91%E5%8F%96%E8%89%B2%E5%B7%A5%E5%85%B7/id1611347086?mt=12) - 专业的截图贴图录屏录音 OCR 翻译取色工具
+- ❎️ [CleanShot X](https://cleanshot.com/) - 功能强大的屏幕捕捉工具
+- ❎️ [Screen Studio](https://screen.studio/) - 屏幕录制软件
+- ✅ [右键助手专业版](https://apps.apple.com/cn/app/%E5%8F%B3%E9%94%AE%E5%8A%A9%E6%89%8B%E4%B8%93%E4%B8%9A%E7%89%88/id1555844307?mt=12) - 超丰富的右键菜单
 - ✅ [Loop](https://github.com/MrKai77/Loop) - 简化窗口管理
 - ✅ [Browserosaurus](https://browserosaurus.com/) - 适用于 mac 多浏览器用户
 - ✅ [CleanMyMac X](https://cleanmymac.com/) - mac 清洁应用程序 | [国内代理商](https://www.mycleanmymac.com/triallp.html?utm_medium=wm&utm_source=wm.makeding.com&utm_content=buy_cmmx493_buy&utm_campaign=LM&utm_term=Janetwo&wm_cs_key=0db9266c-0b3f-4808-b176-99c97c3319fc)
