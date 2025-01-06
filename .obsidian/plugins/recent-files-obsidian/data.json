@@ -1,36 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "魔方公式",
-      "path": "备忘录/魔方公式.md"
-    },
-    {
-      "basename": "01-Obsidian 使用入门",
-      "path": "工具集整理/01-Obsidian 使用入门.md"
-    },
-    {
-      "basename": "06-Git 命令记录",
-      "path": "工具集整理/06-Git 命令记录.md"
+      "basename": "04-Mac 系统工作环境",
+      "path": "工具集整理/04-Mac 系统工作环境.md"
     },
     {
       "basename": "05-Windows 系统工作环境",
       "path": "工具集整理/05-Windows 系统工作环境.md"
     },
     {
-      "basename": "04-Mac 系统工作环境",
-      "path": "工具集整理/04-Mac 系统工作环境.md"
+      "basename": "未命名",
+      "path": "备忘录/未命名.md"
     },
     {
-      "basename": "template",
-      "path": "日记/template.md"
+      "basename": "魔方公式",
+      "path": "备忘录/魔方公式.md"
     },
     {
       "basename": "lodash 记录",
       "path": "备忘录/lodash 记录.md"
     },
     {
-      "basename": "unocss 记录",
-      "path": "备忘录/unocss 记录.md"
+      "basename": "Vue 相关",
+      "path": "面试题整理/Vue 相关.md"
+    },
+    {
+      "basename": "项目相关",
+      "path": "面试题整理/项目相关.md"
+    },
+    {
+      "basename": "CSS 基础",
+      "path": "面试题整理/CSS 基础.md"
     },
     {
       "basename": "git 问题记录",
@@ -41,20 +41,36 @@
       "path": "错题集/开发问题记录.md"
     },
     {
+      "basename": "unocss 记录",
+      "path": "备忘录/unocss 记录.md"
+    },
+    {
       "basename": "js 常用整理",
       "path": "备忘录/js 常用整理.md"
+    },
+    {
+      "basename": "css 记录",
+      "path": "备忘录/css 记录.md"
     },
     {
       "basename": "js 实用小技巧",
       "path": "备忘录/js 实用小技巧.md"
     },
     {
-      "basename": "07-Bash 命令记录",
-      "path": "工具集整理/07-Bash 命令记录.md"
+      "basename": "01-Obsidian 使用入门",
+      "path": "工具集整理/01-Obsidian 使用入门.md"
     },
     {
-      "basename": "css 记录",
-      "path": "备忘录/css 记录.md"
+      "basename": "06-Git 命令记录",
+      "path": "工具集整理/06-Git 命令记录.md"
+    },
+    {
+      "basename": "template",
+      "path": "日记/template.md"
+    },
+    {
+      "basename": "07-Bash 命令记录",
+      "path": "工具集整理/07-Bash 命令记录.md"
     },
     {
       "basename": "dark-mode-angles",
@@ -71,10 +87,6 @@
     {
       "basename": "css 基础",
       "path": "面试题整理/css 基础.md"
-    },
-    {
-      "basename": "项目相关",
-      "path": "面试题整理/项目相关.md"
     },
     {
       "basename": "剪藏句子",

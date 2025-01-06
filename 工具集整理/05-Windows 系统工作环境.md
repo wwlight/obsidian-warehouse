@@ -214,14 +214,12 @@ $ scoop install fzf
 $ scoop install zoxide
 
 $ scoop install extras/googlechrome
-$ scoop install main/edgedriver
 $ scoop install extras/vscode
 $ scoop install extras/webstorm
 $ scoop install extras/hyper
 $ scoop install extras/tabby
 $ scoop install extras/switchhosts
 $ scoop install extras/obsidian
-$ scoop install extras/electerm
 $ scoop install extras/winrar
 $ scoop install extras/potplayer
 $ scoop install extras/keyviz
@@ -231,8 +229,6 @@ $ scoop install main/pyenv
 ```
 
 - ✅ [VS Code](https://code.visualstudio.com/) - 登录账号同步数据
-- ✅ [Hbuilder X](https://www.dcloud.io/hbuilderx.html)
-- ✅ [electerm](https://electerm.html5beta.com/)
 - ✅ [GitHub Cli](https://cli.github.com/)
 
 ### 💻️ 开发环境

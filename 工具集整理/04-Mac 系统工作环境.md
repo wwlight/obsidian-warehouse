@@ -188,8 +188,6 @@ $ brew install --cask picgo
 ```
 
 - ✅ [VS Code](https://code.visualstudio.com/) - 登录账号同步数据
-- ✅ [Hbuilder X](https://www.dcloud.io/hbuilderx.html)
-- ✅ [Android Studio](https://developer.android.com/studio?hl=zh-cn)
 - ✅ [GitHub Cli](https://cli.github.com/)
 
 ### 💻️ 开发环境
