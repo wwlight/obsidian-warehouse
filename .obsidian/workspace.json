@@ -11,15 +11,10 @@
             "id": "5d70e2881f682d78",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试题整理/vue 相关.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "vue 相关"
+              "title": "新标签页"
             }
           },
           {
@@ -95,7 +90,7 @@
       {
         "id": "3b003881d5a8d712",
         "type": "tabs",
-        "dimension": 59.43579766536965,
+        "dimension": 56.51162790697675,
         "children": [
           {
             "id": "3ce7cac187043dff",
@@ -142,7 +137,7 @@
       {
         "id": "7d14778e048b6488",
         "type": "tabs",
-        "dimension": 40.56420233463035,
+        "dimension": 43.48837209302325,
         "children": [
           {
             "id": "e598aae7f32b0891",
@@ -152,16 +147,6 @@
               "state": {},
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
-            }
-          },
-          {
-            "id": "b3ee41bf950bdd74",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
             }
           }
         ]
@@ -306,9 +291,10 @@
   },
   "active": "736f32738161797d",
   "lastOpenFiles": [
+    "日记/template.md",
+    "面试题整理/项目相关.md",
     "面试题整理/其他相关.md",
     "面试题整理/vue 相关.md",
-    "面试题整理/项目相关.md",
     "工具集整理/01-Obsidian 使用入门.md",
     "错题集/开发问题记录.md",
     "错题集/git 问题记录.md",
@@ -317,7 +303,6 @@
     "工具集整理/06-Git 命令记录.md",
     "工具集整理/05-Windows 系统工作环境.md",
     "工具集整理/04-Mac 系统工作环境.md",
-    "日记/template.md",
     "备忘录/lodash 记录.md",
     "备忘录/unocss 记录.md",
     "工具集整理/().md",
