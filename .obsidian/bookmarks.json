@@ -12,7 +12,8 @@
               "type": "file",
               "ctime": 1736147197426,
               "path": "备忘录/魔方公式.md",
-              "subpath": "#^-"
+              "subpath": "#^-",
+              "title": "魔方公式"
             },
             {
               "type": "group",
@@ -24,34 +25,39 @@
               "type": "file",
               "ctime": 1736147204060,
               "path": "备忘录/css 记录.md",
-              "subpath": "#^-"
+              "subpath": "#^-",
+              "title": "css 记录"
             },
             {
               "type": "file",
               "ctime": 1736147204060,
               "path": "备忘录/js 常用整理.md",
-              "subpath": "#^-"
+              "subpath": "#^-",
+              "title": "js 常用整理"
             },
             {
               "type": "file",
               "ctime": 1736147204060,
               "path": "备忘录/js 实用小技巧.md",
-              "subpath": "#^-"
+              "subpath": "#^-",
+              "title": "js 实用小技巧"
             },
             {
               "type": "file",
               "ctime": 1736147204060,
               "path": "备忘录/lodash 记录.md",
-              "subpath": "#^-"
+              "subpath": "#^-",
+              "title": "lodash 记录"
             },
             {
               "type": "file",
               "ctime": 1736147204060,
               "path": "备忘录/unocss 记录.md",
-              "subpath": "#^-"
+              "subpath": "#^-",
+              "title": "unocss 记录"
             }
           ],
-          "title": "\\\\备忘录"
+          "title": "备忘录"
         }
       ],
       "title": "sortspec"
