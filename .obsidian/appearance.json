@@ -12,7 +12,8 @@
   "translucency": false,
   "nativeMenus": true,
   "monospaceFontFamily": "FiraCode Nerd Font Propo",
-  "textFontFamily": "FiraCode Nerd Font Mono",
-  "interfaceFontFamily": "FiraCode Nerd Font Mono",
-  "showViewHeader": true
+  "textFontFamily": "LXGW WenKai Mono,FiraCode Nerd Font Mono",
+  "interfaceFontFamily": "LXGW WenKai Mono,FiraCode Nerd Font Mono",
+  "showViewHeader": true,
+  "baseFontSize": 16
 }

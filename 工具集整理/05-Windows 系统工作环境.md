@@ -286,7 +286,7 @@ $ fnm use X
 $ node --version > .node-version
 ```
 
-- ✅ [Corepack](https://github.com/nodejs/corepack) - 允许您使用 Yarn、npm 和 pnpm，默认随 node 一起安装（v16.9.0-）
+- ✅ [Corepack](https://github.com/nodejs/corepack) - 允许您使用 Yarn、npm 和 pnpm，默认随 node 一起安装（v16.9.0+）
 
 ```bash
 $ corepack -h
