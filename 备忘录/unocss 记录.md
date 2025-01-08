@@ -9,9 +9,7 @@
 ```col-md
 `size-16`
 ```
-````
-
-````col
+===
 ```css
 .size-full,
 [size-full=""] {
@@ -19,7 +17,6 @@
   height: 100%;
 }
 ```
-
 ```css
 .size-16,
 [size-16=""] {
@@ -27,7 +24,6 @@
   height: 16px;
 }
 ```
-
 ````
 
 ````col
@@ -37,16 +33,13 @@
 ```col-md
 `w-full`
 ```
-````
-
-````col
+===
 ```css
 .w-screen,
 [w-screen=""] {
   width: 100vw;
 }
 ```
-
 ```css
 .w-full,
 [w-full=""] {
@@ -62,9 +55,7 @@
 ```col-md
 `line-clamp-2`
 ```
-````
-
-````col
+===
 ```css
 .truncate {
   overflow: hidden;
@@ -72,7 +63,6 @@
   white-space: nowrap;
 }
 ```
-
 ```css
 .line-clamp-2,
 [line-clamp-2=""] {
@@ -92,16 +82,13 @@
 ```col-md
 `block`
 ```
-````
-
-````col
+===
 ```css
 .hidden,
 [hidden=""] {
   display: none;
 }
 ```
-
 ```css
 .block,
 [block=""] {
@@ -117,16 +104,13 @@
 ```col-md
 `visible`
 ```
-````
-
-````col
+===
 ```css
 .invisible,
 [invisible=""] {
   visibility: hidden;
 }
 ```
-
 ```css
 .visible,
 [visible=""] {
@@ -142,16 +126,13 @@
 ```col-md
 `text-[var(--el-color-primary)]`
 ```
-````
-
-````col
+===
 ```css
 .text-\[--el-color-primary\],
 [text-\[--el-color-primary\]=""] {
   color: var(--el-color-primary);
 }
 ```
-
 ```css
 .text-\[var\(--el-color-primary\)\],
 [text-\[var\(--el-color-primary\)\]=""] {
@@ -172,9 +153,7 @@ title: 相关问题资料
 
 ```col
 `container`
-```
-
-````col
+===
 ```css
 .container,
 [container=""] {
@@ -205,19 +184,15 @@ title: 相关问题资料
   }
 }
 ```
-````
 
 ````col
 ```col-md
 `md:w-10`
 ```
-
 ```col-md
 `at-md:w-10`
 ```
-````
-
-````col
+===
 ```css
 @media (min-width: 992px) {
   .md\:w-10,
@@ -243,9 +218,7 @@ title: 相关问题资料
 ```col-md
 `<md:w-10`
 ```
-````
-
-````col
+===
 ```css
 @media (max-width: 991.9px) {
   .lt-md\:w-10,
@@ -328,24 +301,21 @@ title: 说明
 - 不存在的预设可通过中括号 `[]` 方式自定义
 ```
 
-```col
-`[isolation:isolate]`
-```
-
 ````col
+`[isolation:isolate]`
+===
 ```css
 .\[isolation\:isolate\],
 [\[isolation\:isolate\]=""] {
   isolation: isolate;
 }
 ```
+
 ````
 
-```col
-`[clip-path:polygon(97%_0,100%_50%%_100%_100%_0)]`
-```
-
 ````col
+`[clip-path:polygon(97%_0,100%_50%%_100%_100%_0)]`
+===
 ```css
 .\[clip-path\:polygon\(97\%_0\\%_50\%\\%_100\%\_100\%\_0\)\],
 [\[clip-path\:polygon\(97\%_0\\%_50\%\\%_100\%\_100\%\_0\)\]=""] {
