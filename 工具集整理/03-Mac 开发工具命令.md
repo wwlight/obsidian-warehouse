@@ -1,4 +1,4 @@
-#工具 #命令 #mac
+#mac #工具 #命令
 
 ### [Homebrew](https://brew.sh/) 包管理工具
 

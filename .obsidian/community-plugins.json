@@ -1,4 +1,5 @@
 [
+  "obsidian-excalidraw-plugin",
   "obsidian-git",
   "obsidian-linter",
   "obsidian-admonition",
@@ -7,9 +8,11 @@
   "editing-toolbar",
   "obsidian-hover-editor",
   "cmdr",
+  "recent-files-obsidian",
   "obsidian-style-settings",
   "convert-url-to-iframe",
   "obsidian-tagfolder",
+  "templater-obsidian",
   "pdf-plus",
   "better-export-pdf",
   "obsidian-advanced-slides",
@@ -18,11 +21,11 @@
   "obsidian-icon-folder",
   "quickadd",
   "tag-wrangler",
-  "easy-typing-obsidian",
   "obsidian-list-callouts",
   "obsidian-weread-plugin",
   "obsidian-columns",
   "badges",
   "obsidian-minimal-settings",
-  "custom-sort"
+  "custom-sort",
+  "easy-typing-obsidian"
 ]

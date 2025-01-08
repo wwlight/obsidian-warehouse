@@ -115,5 +115,9 @@
   "anuppuccin-theme-settings-extended@@catppuccin-theme-extended": "ctp-notion-light",
   "anuppuccin-theme-settings@@anp-translucency-opacity": 1,
   "anuppuccin-theme-settings-extended@@catppuccin-theme-dark-extended": "ctp-notion-dark",
-  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-red"
+  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-red",
+  "pdf-plus@@pdf-plus-highlight-padding-horizontal-em": 0.05,
+  "pdf-plus@@pdf-plus-highlight-padding-vertical-em": 0.05,
+  "pdf-plus@@pdf-plus-highlight-opacity": 0.2,
+  "anuppuccin-theme-settings@@anp-callout-fold-position": "0"
 }

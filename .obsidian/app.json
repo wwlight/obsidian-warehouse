@@ -10,9 +10,10 @@
     "downscalePercent": 100
   },
   "livePreview": true,
-  "attachmentFolderPath": "./attachmets",
+  "attachmentFolderPath": "attachmets",
   "showRibbon": false,
   "showInlineTitle": true,
   "alwaysUpdateLinks": true,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "uriCallbacks": true
 }

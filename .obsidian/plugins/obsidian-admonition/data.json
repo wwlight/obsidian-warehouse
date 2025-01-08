@@ -1,6 +1,6 @@
 {
   "userAdmonitions": {},
-  "syntaxHighlight": true,
+  "syntaxHighlight": false,
   "copyButton": false,
   "version": "10.3.2",
   "autoCollapse": true,
@@ -8,7 +8,7 @@
   "injectColor": true,
   "parseTitles": true,
   "dropShadow": false,
-  "hideEmpty": true,
+  "hideEmpty": false,
   "open": {
     "admonitions": true,
     "icons": true,

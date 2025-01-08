@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "unocss 记录",
-      "path": "备忘录/unocss 记录.md"
+      "basename": "汉语拼音和小鹤双拼",
+      "path": "备忘录/汉语拼音和小鹤双拼.md"
+    },
+    {
+      "basename": "单位换算",
+      "path": "TODO/单位换算.md"
     },
     {
       "basename": "书签导航",
@@ -13,40 +17,76 @@
       "path": "面试题整理/vue 相关.md"
     },
     {
-      "basename": "项目相关",
-      "path": "面试题整理/项目相关.md"
+      "basename": "css 基础",
+      "path": "面试题整理/css 基础.md"
     },
     {
-      "basename": "其他相关",
-      "path": "面试题整理/其他相关.md"
-    },
-    {
-      "basename": "01-Obsidian 使用入门",
-      "path": "工具集整理/01-Obsidian 使用入门.md"
-    },
-    {
-      "basename": "开发问题记录",
-      "path": "错题集/开发问题记录.md"
+      "basename": "剪藏句子",
+      "path": "心灵鸡汤/剪藏句子.md"
     },
     {
       "basename": "git 问题记录",
       "path": "错题集/git 问题记录.md"
     },
     {
-      "basename": "魔方公式",
-      "path": "备忘录/魔方公式.md"
+      "basename": "开发问题记录",
+      "path": "错题集/开发问题记录.md"
+    },
+    {
+      "basename": "其他相关",
+      "path": "面试题整理/其他相关.md"
+    },
+    {
+      "basename": "项目相关",
+      "path": "面试题整理/项目相关.md"
+    },
+    {
+      "basename": "Photos Library",
+      "path": "attachmets/Photos Library.jpg"
+    },
+    {
+      "basename": "unocss 记录",
+      "path": "备忘录/unocss 记录.md"
+    },
+    {
+      "basename": "Mac 使用记录",
+      "path": "备忘录/Mac 使用记录.md"
+    },
+    {
+      "basename": "css 记录",
+      "path": "备忘录/css 记录.md"
+    },
+    {
+      "basename": "js 常用整理",
+      "path": "备忘录/js 常用整理.md"
+    },
+    {
+      "basename": "js 实用小技巧",
+      "path": "备忘录/js 实用小技巧.md"
+    },
+    {
+      "basename": "lodash 记录",
+      "path": "备忘录/lodash 记录.md"
+    },
+    {
+      "basename": "03-Mac 开发工具命令",
+      "path": "工具集整理/03-Mac 开发工具命令.md"
     },
     {
       "basename": "04-Mac 系统工作环境",
       "path": "工具集整理/04-Mac 系统工作环境.md"
     },
     {
-      "basename": "05-Windows 系统工作环境",
-      "path": "工具集整理/05-Windows 系统工作环境.md"
+      "basename": "01-Obsidian 使用入门",
+      "path": "工具集整理/01-Obsidian 使用入门.md"
     },
     {
-      "basename": "lodash 记录",
-      "path": "备忘录/lodash 记录.md"
+      "basename": "魔方公式",
+      "path": "备忘录/魔方公式.md"
+    },
+    {
+      "basename": "05-Windows 系统工作环境",
+      "path": "工具集整理/05-Windows 系统工作环境.md"
     },
     {
       "basename": "Vue 相关",
@@ -55,18 +95,6 @@
     {
       "basename": "CSS 基础",
       "path": "面试题整理/CSS 基础.md"
-    },
-    {
-      "basename": "js 常用整理",
-      "path": "备忘录/js 常用整理.md"
-    },
-    {
-      "basename": "css 记录",
-      "path": "备忘录/css 记录.md"
-    },
-    {
-      "basename": "js 实用小技巧",
-      "path": "备忘录/js 实用小技巧.md"
     },
     {
       "basename": "06-Git 命令记录",
@@ -85,28 +113,12 @@
       "path": "备忘录/css 相关/css 渐变角度理解.md"
     },
     {
-      "basename": "css 基础",
-      "path": "面试题整理/css 基础.md"
-    },
-    {
-      "basename": "剪藏句子",
-      "path": "心灵鸡汤/剪藏句子.md"
-    },
-    {
       "basename": "Git 常用工具命令",
       "path": "工具集整理/Git 常用工具命令.md"
     },
     {
-      "basename": "03-Mac 开发工具命令",
-      "path": "工具集整理/03-Mac 开发工具命令.md"
-    },
-    {
       "basename": "02-常用工具命令",
       "path": "工具集整理/02-常用工具命令.md"
-    },
-    {
-      "basename": "单位换算",
-      "path": "TODO/单位换算.md"
     },
     {
       "basename": "博弈论-翟文明",
@@ -131,10 +143,6 @@
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "未命名.md"
     }
   ],
   "omittedPaths": [],
