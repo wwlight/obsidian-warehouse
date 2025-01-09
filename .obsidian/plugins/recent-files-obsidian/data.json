@@ -5,16 +5,52 @@
       "path": "书签导航.md"
     },
     {
-      "basename": "05-Windows 系统工作环境",
-      "path": "工具集整理/05-Windows 系统工作环境.md"
-    },
-    {
       "basename": "04-Mac 系统工作环境",
       "path": "工具集整理/04-Mac 系统工作环境.md"
     },
     {
+      "basename": "汉语拼音和小鹤双拼",
+      "path": "备忘录/汉语拼音和小鹤双拼.md"
+    },
+    {
+      "basename": "Mac 使用记录",
+      "path": "备忘录/Mac 使用记录.md"
+    },
+    {
+      "basename": "05-Windows 系统工作环境",
+      "path": "工具集整理/05-Windows 系统工作环境.md"
+    },
+    {
+      "basename": "06-Git 命令记录",
+      "path": "工具集整理/06-Git 命令记录.md"
+    },
+    {
+      "basename": "07-Bash 命令记录",
+      "path": "工具集整理/07-Bash 命令记录.md"
+    },
+    {
+      "basename": "css 渐变角度理解",
+      "path": "备忘录/css 相关/css 渐变角度理解.md"
+    },
+    {
       "basename": "03-Mac 开发工具命令",
       "path": "工具集整理/03-Mac 开发工具命令.md"
+    },
+    {
+      "basename": "小鹤双拼键盘布局",
+      "path": "Attachmets/小鹤双拼键盘布局.png"
+    },
+    {
+      "basename": "悟空拼音字母表",
+      "path": "Attachmets/悟空拼音字母表.jpg"
+    },
+    {
+      "basename": "01-Obsidian 使用入门",
+      "path": "工具集整理/01-Obsidian 使用入门.md"
+    },
+    {
+      "basename": "02-常用工具命令",
+      "path": "工具集整理/02-常用工具命令.md"
     },
     {
       "basename": "其他相关",
@@ -31,10 +67,6 @@
     {
       "basename": "vue 相关",
       "path": "面试题整理/vue 相关.md"
-    },
-    {
-      "basename": "悟空拼音字母表",
-      "path": "attachmets/悟空拼音字母表.jpg"
     },
     {
       "basename": "单位换算",
@@ -77,40 +109,12 @@
       "path": "心灵鸡汤/剪藏句子.md"
     },
     {
-      "basename": "06-Git 命令记录",
-      "path": "工具集整理/06-Git 命令记录.md"
-    },
-    {
-      "basename": "02-常用工具命令",
-      "path": "工具集整理/02-常用工具命令.md"
-    },
-    {
-      "basename": "01-Obsidian 使用入门",
-      "path": "工具集整理/01-Obsidian 使用入门.md"
-    },
-    {
       "basename": "README",
       "path": "README.md"
     },
     {
-      "basename": "汉语拼音和小鹤双拼",
-      "path": "备忘录/汉语拼音和小鹤双拼.md"
-    },
-    {
-      "basename": "Mac 使用记录",
-      "path": "备忘录/Mac 使用记录.md"
-    },
-    {
-      "basename": "css 渐变角度理解",
-      "path": "备忘录/css 相关/css 渐变角度理解.md"
-    },
-    {
-      "basename": "07-Bash 命令记录",
-      "path": "工具集整理/07-Bash 命令记录.md"
-    },
-    {
       "basename": "小鹤双拼键位口诀",
-      "path": "attachmets/小鹤双拼键位口诀.jpg"
+      "path": "Attachmets/小鹤双拼键位口诀.jpg"
     },
     {
       "basename": "Vue 相关",

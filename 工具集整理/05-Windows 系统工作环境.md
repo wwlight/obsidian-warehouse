@@ -1,4 +1,4 @@
-#安装 #命令 #windows
+#windows #安装 #命令
 
 ```ad-info
 title: 说明
@@ -29,7 +29,7 @@ $ scoop install git
 ```
 
 ````ad-summary
-title: 常用命令
+title: Scoop 常用命令
 collapse: closed
 
 ```bash
