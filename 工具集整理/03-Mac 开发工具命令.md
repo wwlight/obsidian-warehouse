@@ -2,7 +2,7 @@
 
 ### [Homebrew](https://brew.sh/) 包管理工具
 
-```ad-note 
+```ad-note
 title: 说明
 
 简称 brew，是 macOS 和 Linux 上最流行的包管理工具，它可以帮助你安装、更新和管理软件包。类似于 Ubuntu 的 apt 或 CentOS 的 yum。
@@ -25,22 +25,29 @@ $ /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homeb
 
 ```bash
 $ brew config                         # 显示配置信息
-$ brew update                         # 更新软件包列表
-$ brew update-reset                   # 强制更新到最新版本，update 失败可尝试
-
-$ brew doctor                         # 检查系统是否有问题
-$ brew autoremove                     # 删除没有被其他包依赖的依赖包
-$ brew cleanup                        # 清理相关的旧版本和缓存文件
-
-$ brew search [软件名]                 # 搜索软件包
-$ brew list/ls                        # 列出所有已安装的软件
+$ brew list/ls                        # 查看已安装的软件包
 $ brew info [软件名]                   # 显示软件包信息
 $ brew home [软件名]                   # 打开软件包主页
+$ brew help                           # 查看详细帮助信息
+
+# 搜索和安装软件
+$ brew search [软件名]                 # 搜索软件包
 $ brew install [软件名]                # 安装软件
 $ brew uninstall [软件名]              # 卸载软件
 $ brew install --cask [应用名]         # 安装 GUI 应用程序
+
+$ brew tap                            # 查看已添加的仓库
+$ brew tap [用户名/仓库名]              # 添加第三方仓库
+$ brew untap [用户名/仓库名]            # 删除仓库
+
+# 更新
+$ brew update                         # 更新 Homebrew 自身
+$ brew update-reset                   # 强制更新到最新版本，update 失败可尝试
+$ brew outdated                       # 查看可更新的软件包
 $ brew upgrade                        # 更新所有安装的包
 $ brew upgrade [软件名]                # 更新指定安装包
+$ brew pin [软件名]                    # 锁定不想更新的软件包
+$ brew unpin [软件名]                  # 取消锁定
 
 $ brew services list/ls               # 查看所有服务状态
 $ brew services start [服务名]         # 启动服务
@@ -48,8 +55,14 @@ $ brew services stop [服务名]          # 停止服务
 $ brew services restart [服务名]       # 重启服务
 
 $ brew deps [软件名]                   # 查看包的依赖关系
-$ brew outdated                       # 列出可以升级的软件
-$ brew uses [软件名] --installed       # 查看哪些包依赖于这个包 
+$ brew uses [软件名] --installed       # 查看哪些包依赖于这个包
+
+$ brew doctor                         # 检查系统是否有问题
+$ brew doctor --verbose
+$ brew autoremove                     # 删除没有被其他包依赖的依赖包
+$ brew cleanup                        # 清理相关的旧版本和缓存文件
+$ brew cleanup [软件名]                # 清理指定软件包的旧版本
+$ brew cleanup -n                     # 查看可清理的内容（不实际清理）
 ```
 
 ##### 常用安装应用
@@ -69,15 +82,18 @@ $ brew install zoxide
 $ brew install lazygit
 
 $ brew install --cask applite
+$ brew install --cask google-chrome
+$ brew install --cask arc
 $ brew install --cask visual-studio-code
 $ brew install --cask cursor
 $ brew install --cask webstorm
 $ brew install --cask intellij-idea
 $ brew install --cask hbuilderx
 $ brew install --cask hyper
-$ brew install --cask warp
+$ brew install --cask tabby
 $ brew install --cask raycast
 $ brew install --cask obsidian
+$ brew install --cask gitbutler
 $ brew install --cask loop
 $ brew install --cask cleanshot
 $ brew install --cask screen-studio
@@ -132,11 +148,11 @@ $ ln -s ~/.vscode/extensions ~/.local/share/code-server
 
 $ ln -s ~/.config/Code/User ~/.local/share/code-server
 # 若没有 ~/.config/Code/User 文件，执行
-$ ln -s ~/Library/Application\ Support/Code/User ~/.local/share/code-server 
+$ ln -s ~/Library/Application\ Support/Code/User ~/.local/share/code-server
 
 $ ln -s ~/.config/Code/Backups ~/.local/share/code-server
 # 若没有 ~/.config/Code/Backups 文件，执行
-$ ln -s ~/Library/Application\ Support/Code/Backups ~/.local/share/code-server 
+$ ln -s ~/Library/Application\ Support/Code/Backups ~/.local/share/code-server
 ```
 
 ###### Nginx 常用命令
@@ -278,9 +294,9 @@ $ sdk offline disable             # 禁用离线模式
 # 查看可用 java 版本，本地安装信息
 $ sdk list java
 
-# 安装 java 指定版本 
+# 安装 java 指定版本
 $ sdk install java 8.0.432-zulu
-$ sdk install java 17.0.13-zulu 
+$ sdk install java 17.0.13-zulu
 
 # 设置默认版本
 $ sdk default java 8.0.432-zulu
@@ -300,12 +316,12 @@ $ javac -version
 
 ```bash
 # 列出特定软件可用版本
-$ sdk list maven									
+$ sdk list maven
 
 # 安装最新稳定版
-$ sdk install maven		
+$ sdk install maven
 # 安装指定版本
-$ sdk install maven 3.9.8					
+$ sdk install maven 3.9.8
 
 # 设置默认版本
 $ sdk default maven 3.9.9

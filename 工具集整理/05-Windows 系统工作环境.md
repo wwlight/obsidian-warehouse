@@ -28,8 +28,11 @@ $ iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
 $ scoop install git
 ```
 
+````ad-summary
+title: 常用命令
+collapse: closed
+
 ```bash
-# 常用命令
 $ scoop config                     # 查看 Scoop 的配置
 $ scoop help                       # 列出所有可用命令
 $ scoop search [关键词]             # 在可用的 Bucket 中搜索应用程
@@ -56,6 +59,7 @@ $ scoop bucket known               # 列出所有官方认可的 Bucket
 $ scoop bucket add [name]          # 添加 Bucket
 $ scoop bucket rm [name]           # 删除 Bucket
 ```
+````
 
 - ✅ ️[Google Chrome](https://www.google.com/intl/zh-CN/chrome/) - 登录账号同步数据
 - ❎️ [Ghelper](https://ghelper.net/) - 浏览器插件，科学上网第一步

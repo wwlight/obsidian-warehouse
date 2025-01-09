@@ -6,9 +6,9 @@
   "enabledCssSnippets": [
     "Tab",
     "anmonition-col2",
+    "custom-admonitions.f505c4",
     "extended-colorschemes",
-    "custom-rainbow-colors",
-    "custom-admonitions.f505c4"
+    "custom-rainbow-colors"
   ],
   "translucency": false,
   "nativeMenus": true,
