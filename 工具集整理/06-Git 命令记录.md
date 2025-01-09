@@ -109,6 +109,7 @@ $ git remote
 
 # 查看当前项目远程仓库地址
 $ git remote -v
+$ git remote -vv
 
 # 自定义远程仓库名称（example 是自定义名字）
 $ git remote add <example> git@github.com:sg996/vue3-todo-list.git

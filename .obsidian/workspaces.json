@@ -6,70 +6,41 @@
         "type": "split",
         "children": [
           {
-            "id": "5cd92fc20b241711",
+            "id": "ba096930baf887f9",
             "type": "tabs",
             "children": [
               {
-                "id": "32ca66a8e52a33d0",
+                "id": "899a11dcf3aaf5d3",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "工具集整理/Mac 软件开发工具.md",
+                    "file": "工具集整理/04-Mac 系统工作环境.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Mac 软件开发工具"
+                  "title": "04-Mac 系统工作环境"
                 }
               },
               {
-                "id": "d627dca789623005",
+                "id": "62053727dcdd8cfe",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "工具集整理/Windows 系统工作环境.md",
+                    "file": "工具集整理/06-Git 命令记录.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Windows 系统工作环境"
-                }
-              },
-              {
-                "id": "a59e001e10cb9189",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "工具集整理/Obsidian 使用入门.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Obsidian 使用入门"
-                }
-              },
-              {
-                "id": "a60261feffc31657",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "面试题整理/Vue 相关.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Vue 相关"
+                  "title": "06-Git 命令记录"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -81,7 +52,7 @@
           {
             "id": "3b003881d5a8d712",
             "type": "tabs",
-            "dimension": 67.88813886210222,
+            "dimension": 59.43579766536965,
             "children": [
               {
                 "id": "3ce7cac187043dff",
@@ -111,7 +82,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "",
+                    "query": "tag:#安装",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -121,23 +92,13 @@
                   "icon": "lucide-search",
                   "title": "搜索"
                 }
-              },
-              {
-                "id": "55598386db550965",
-                "type": "leaf",
-                "state": {
-                  "type": "file-tree-view",
-                  "state": {},
-                  "icon": "sheets-in-box",
-                  "title": "File Tree"
-                }
               }
             ]
           },
           {
             "id": "7d14778e048b6488",
             "type": "tabs",
-            "dimension": 32.11186113789778,
+            "dimension": 40.56420233463035,
             "children": [
               {
                 "id": "e598aae7f32b0891",
@@ -163,7 +124,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 335.5
+        "width": 352
       },
       "right": {
         "id": "6e66144929da9394",
@@ -180,20 +141,34 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "工具集整理/Mac 软件开发工具.md"
+                    "file": "工具集整理/06-Git 命令记录.md"
                   },
                   "icon": "lucide-list",
-                  "title": "Mac 软件开发工具 的大纲"
+                  "title": "06-Git 命令记录 的大纲"
                 }
               },
               {
-                "id": "461b19a35c036b6e",
+                "id": "944ff32681c5ec14",
                 "type": "leaf",
                 "state": {
                   "type": "todo",
                   "state": {},
                   "icon": "checkmark",
                   "title": "Todo List"
+                }
+              },
+              {
+                "id": "339a228e0f4f93aa",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "添加笔记属性"
                 }
               }
             ]
@@ -232,12 +207,12 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "工具集整理/Mac 软件开发工具.md",
+                    "file": "工具集整理/06-Git 常用工具命令.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-going-out",
-                  "title": "Mac 软件开发工具 的出链列表"
+                  "title": "06-Git 常用工具命令 的出链列表"
                 }
               },
               {
@@ -259,8 +234,7 @@
                   "title": "Mac 软件开发工具 的反向链接列表"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
@@ -270,23 +244,22 @@
         "hiddenItems": {
           "switcher:打开快速切换": false,
           "command-palette:打开命令面板": false,
-          "graph:查看关系图谱": false,
           "obsidian-excalidraw-plugin:新建绘图文件": false,
           "canvas:新建白板": false,
-          "daily-notes:打开/创建今天的日记": false,
           "templates:插入模板": false,
           "workspaces:管理工作区布局": false,
-          "custom-sort:Toggle custom sorting": true,
           "templater-obsidian:Templater": false,
+          "obsidian-weread-plugin:同步微信读书笔记": false,
           "pdf-plus:PDF++: Toggle auto-copy": false,
           "pdf-plus:PDF++: Toggle auto-focus": false,
           "pdf-plus:PDF++: Toggle auto-paste": false,
           "obsidian-git:Open Git source control": true,
-          "file-tree-alternative:File Tree Alternative Plugin": true
+          "obsidian-advanced-slides:Show Slide Preview": true,
+          "custom-sort:Toggle custom sorting": false
         }
       },
-      "active": "32ca66a8e52a33d0",
-      "mtime": "2024-12-26T10:44:10+08:00"
+      "active": "62053727dcdd8cfe",
+      "mtime": "2025-01-10T07:43:21+08:00"
     }
   },
   "active": "default"
