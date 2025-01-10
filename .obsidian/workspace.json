@@ -13,30 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具集整理/04-Mac 系统工作环境.md",
+                "file": "书签导航.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-Mac 系统工作环境"
-            }
-          },
-          {
-            "id": "62053727dcdd8cfe",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "工具集整理/06-Git 命令记录.md",
-                "staged": true
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (06-Git 命令记录)"
+              "title": "书签导航"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,9 +123,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "书签导航.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "书签导航 的大纲"
             }
           },
           {
@@ -253,7 +241,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "62053727dcdd8cfe",
+  "active": "736f32738161797d",
   "lastOpenFiles": [
     "工具集整理/06-Git 命令记录.md",
     "书签导航.md",
