@@ -231,7 +231,6 @@
       "canvas:新建白板": false,
       "templates:插入模板": false,
       "workspaces:管理工作区布局": false,
-      "templater-obsidian:Templater": false,
       "obsidian-weread-plugin:同步微信读书笔记": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
@@ -241,10 +240,11 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "736f32738161797d",
+  "active": "899a11dcf3aaf5d3",
   "lastOpenFiles": [
-    "工具集整理/06-Git 命令记录.md",
+    "未命名.md",
     "书签导航.md",
+    "工具集整理/06-Git 命令记录.md",
     "Attachmets/Pasted image 20250109145925.png",
     "工具集整理/04-Mac 系统工作环境.md",
     "备忘录/汉语拼音和小鹤双拼.md",
