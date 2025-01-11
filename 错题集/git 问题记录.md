@@ -1,3 +1,24 @@
+### Git 仓库中文件或目录的大小写敏感
+
+- ! Git 默认情况下对文件名大小写不敏感
+- 第一步：首先确保本地 Git 配置启用大小写敏感
+
+```sh
+$ git config --global core.ignorecase false
+
+# 查询状态
+$ git config --get core.ignorecase
+```
+
+- 第二步：使用 git mv 命令进行重命名 (假设要将 demo 改为 Demo)
+
+```sh
+# 先改成临时名称
+$ git mv demo temp_demo
+# 再改成目标名称
+$ git mv temp_demo Demo
+``` 
+
 ### 关闭 Git 在 https 连接时对服务器证书的验证
 
 ```ad-warning

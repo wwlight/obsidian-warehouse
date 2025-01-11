@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具集整理/06-Git 命令记录.md",
+                "file": "书签导航.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06-Git 命令记录"
+              "title": "书签导航"
             }
           }
         ]
@@ -124,10 +124,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具集整理/06-Git 命令记录.md"
+                "file": "书签导航.md"
               },
               "icon": "lucide-list",
-              "title": "06-Git 命令记录 的大纲"
+              "title": "书签导航 的大纲"
             }
           },
           {
@@ -242,6 +242,9 @@
   },
   "active": "736f32738161797d",
   "lastOpenFiles": [
+    "错题集/git 问题记录.md",
+    "错题集/开发问题记录.md",
+    "工具集整理/06-Git 命令记录.md",
     "attachmets_temp/悟空拼音字母表.jpg",
     "attachmets_temp/小鹤双拼键盘布局.png",
     "attachmets_temp/小鹤双拼键位口诀.jpg",
@@ -250,7 +253,6 @@
     "attachmets_temp",
     "书签导航.md",
     "未命名.md",
-    "工具集整理/06-Git 命令记录.md",
     "Attachmets/Pasted image 20250109145925.png",
     "工具集整理/04-Mac 系统工作环境.md",
     "备忘录/汉语拼音和小鹤双拼.md",
@@ -268,8 +270,6 @@
     "面试题整理/css 基础.md",
     "面试题整理/vue 相关.md",
     "TODO/单位换算.md",
-    "错题集/git 问题记录.md",
-    "错题集/开发问题记录.md",
     "备忘录/unocss 记录.md",
     "备忘录/lodash 记录.md",
     "备忘录/js 实用小技巧.md",
@@ -278,7 +278,6 @@
     "备忘录/css 记录.md",
     "Attachmets/dark-mode-angles.svg",
     "Attachmets/小鹤双拼键位口诀.jpg",
-    "备忘录/css 相关/attachmets/dark-mode-angles.svg",
     "Attachmets",
     "错题集",
     "WeRead/教育学习",
