@@ -429,7 +429,7 @@ $ git status --ignored
 
 ```ad-info
 title: 说明
-- 查看历史日志可以通过 git log/git shortlog/git reflog。
+- 查看历史日志可以通过 `git log`/`git shortlog`/`git reflog`。
 ```
 
 ```shell

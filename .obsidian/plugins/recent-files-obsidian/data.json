@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "04-Mac 系统工作环境",
+      "path": "工具集整理/04-Mac 系统工作环境.md"
+    },
+    {
       "basename": "书签导航",
       "path": "书签导航.md"
+    },
+    {
+      "basename": "05-Windows 系统工作环境",
+      "path": "工具集整理/05-Windows 系统工作环境.md"
+    },
+    {
+      "basename": "06-Git 命令记录",
+      "path": "工具集整理/06-Git 命令记录.md"
+    },
+    {
+      "basename": "03-Mac 开发工具命令",
+      "path": "工具集整理/03-Mac 开发工具命令.md"
+    },
+    {
+      "basename": "07-Bash 命令记录",
+      "path": "工具集整理/07-Bash 命令记录.md"
+    },
+    {
+      "basename": "02-常用工具命令",
+      "path": "工具集整理/02-常用工具命令.md"
     },
     {
       "basename": "git 问题记录",
@@ -13,14 +37,6 @@
       "path": "错题集/开发问题记录.md"
     },
     {
-      "basename": "06-Git 命令记录",
-      "path": "工具集整理/06-Git 命令记录.md"
-    },
-    {
-      "basename": "04-Mac 系统工作环境",
-      "path": "工具集整理/04-Mac 系统工作环境.md"
-    },
-    {
       "basename": "汉语拼音和小鹤双拼",
       "path": "备忘录/汉语拼音和小鹤双拼.md"
     },
@@ -29,20 +45,8 @@
       "path": "备忘录/Mac 使用记录.md"
     },
     {
-      "basename": "05-Windows 系统工作环境",
-      "path": "工具集整理/05-Windows 系统工作环境.md"
-    },
-    {
-      "basename": "07-Bash 命令记录",
-      "path": "工具集整理/07-Bash 命令记录.md"
-    },
-    {
       "basename": "css 渐变角度理解",
       "path": "备忘录/css 相关/css 渐变角度理解.md"
-    },
-    {
-      "basename": "03-Mac 开发工具命令",
-      "path": "工具集整理/03-Mac 开发工具命令.md"
     },
     {
       "basename": "小鹤双拼键盘布局",
@@ -55,10 +59,6 @@
     {
       "basename": "01-Obsidian 使用入门",
       "path": "工具集整理/01-Obsidian 使用入门.md"
-    },
-    {
-      "basename": "02-常用工具命令",
-      "path": "工具集整理/02-常用工具命令.md"
     },
     {
       "basename": "其他相关",

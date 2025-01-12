@@ -329,8 +329,8 @@ Remove-Item Alias:ni -Force -ErrorAction Ignore
 
 ### 💻️ 系统工具
 
-- ✅[微信键盘](https://z.weixin.qq.com/)
-- ✅ [Clash for Windows[[04-Mac 系统工作环境]]](https://clashforwindows.org/)
+- ✅ [微信键盘](https://z.weixin.qq.com/)
+- ✅ [Clash for Windows](https://clashforwindows.org/)
 - ✅ [Tabby](https://tabby.sh/) - 跨平台终端应用程序，本地 shell、串行、SSH 和 Telnet 连接
 - ✅ [Quicker](https://getquicker.net/) - 是一个功能强大的操作捷径创建与自动化工具
 - ✅ [WinRAR](https://www.winrar.com.cn/) - 是一款功能强大的压缩包管理器
