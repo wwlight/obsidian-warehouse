@@ -19,6 +19,42 @@ $ git mv demo temp_demo
 $ git mv temp_demo Demo
 ``` 
 
+### Git LFS 大文件存储
+
+```ad-info
+title: 说明
+
+- 用于对大文件进行版本控制的开源 Git 扩展
+- [Git Large File storage](https://git-lfs.com/)
+- [GitHub 管理大型文件](https://docs.github.com/zh/repositories/working-with-files/managing-large-files/about-large-files-on-github)
+```
+
+##### Git LFS 原理
+
+- Git LFS 通过懒惰地 (lazily) 下载大文件的相关版本来减少大文件在仓库中的影响。具体来说, 大文件是在 `checkout` 的过程中下载的, 而不是 `clone` 或 `fetch` 过程中下载的。
+- Git LFS 通过将仓库中的大文件替换为小于 1 KB 的指针文件来做到这一点。在正常使用期间, 我们不会看到这些指针文件, 因为它们是由 Git LFS 自动处理的:
+	- 当我们执行 `git add` 命令时, Git LFS 用一个指针替换实际内容,  
+		并将实际内容存储在本地 LFS 缓存中 (本地缓存位于仓库的 _.git/lfs/objects_ 路径下).
+	- `git push` 时新增的 commit 所引用的所有 `大文件` 都会从本地传输到远程仓库的远程存储.
+	- 当我们 `checkout` 一个包含 Git LFS 指针的 commit 时 (`pull` 包含了 `checkout` 命令),  
+		指针文件将替换为本地 Git LFS 缓存中的文件, 或者从远端 Git LFS 存储区下载.
+
+##### Git LFS 好处
+
+- 对于日常使用 Git 的习惯不造成影响.
+- 减小本地 Git 缓存所占用的存储空间.
+- 加快 `git fetch` 或 `git pull` 的速度.
+- 加快在 commit 之间切换的速度.
+
+##### Git LFS 使用方式
+
+```sh
+#安装 
+$ scoop install git-lfs
+
+$ brew install git-lfs
+```
+
 ### 关闭 Git 在 https 连接时对服务器证书的验证
 
 ```ad-warning

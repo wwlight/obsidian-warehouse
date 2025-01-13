@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具集整理/04-Mac 系统工作环境.md",
+                "file": "错题集/git 问题记录.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-Mac 系统工作环境"
+              "title": "git 问题记录"
             }
           }
         ]
@@ -124,10 +124,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具集整理/04-Mac 系统工作环境.md"
+                "file": "错题集/git 问题记录.md"
               },
               "icon": "lucide-list",
-              "title": "04-Mac 系统工作环境 的大纲"
+              "title": "git 问题记录 的大纲"
             }
           },
           {
