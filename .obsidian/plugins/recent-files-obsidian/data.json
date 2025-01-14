@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "书签导航",
+      "path": "书签导航.md"
+    },
+    {
+      "basename": "开源项目学习",
+      "path": "开源项目学习.md"
+    },
+    {
+      "basename": "Git 问题记录",
+      "path": "错题集/Git 问题记录.md"
+    },
+    {
       "basename": "git 问题记录",
       "path": "错题集/git 问题记录.md"
     },
     {
       "basename": "06-Git 命令记录",
       "path": "工具集整理/06-Git 命令记录.md"
-    },
-    {
-      "basename": "书签导航",
-      "path": "书签导航.md"
     },
     {
       "basename": "04-Mac 系统工作环境",
