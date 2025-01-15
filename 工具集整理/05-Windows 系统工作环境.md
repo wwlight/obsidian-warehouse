@@ -326,6 +326,7 @@ Remove-Item Alias:ni -Force -ErrorAction Ignore
 ```
 
 - ✅ [pyenv](https://github.com/pyenv/pyenv) - Python 版本管理工具
+- ✅ [ngrok](https://ngrok.com/) - 反向代理，内网穿透
 
 ### 💻️ 系统工具
 

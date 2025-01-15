@@ -218,6 +218,7 @@ $ npm i -g @antfu/ni
 
 - ✅ [SDKMAN](https://sdkman.io/) - 软件开发工具包管理器｜[brew 安装](https://github.com/sdkman/homebrew-tap)
 - ✅ [pyenv](https://github.com/pyenv/pyenv) - Python 版本管理工具
+- ✅ [ngrok](https://ngrok.com/) - 反向代理，内网穿透
 
 ### 💻️ 办公工具
 
