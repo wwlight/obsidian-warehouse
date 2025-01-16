@@ -240,13 +240,14 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "736f32738161797d",
+  "active": "899a11dcf3aaf5d3",
   "lastOpenFiles": [
+    "备忘录/js 实用小技巧.md",
+    "书签导航.md",
+    "工具集整理/03-Mac 开发工具命令.md",
     "工具集整理/04-Mac 系统工作环境.md",
     "工具集整理/05-Windows 系统工作环境.md",
-    "工具集整理/03-Mac 开发工具命令.md",
     "错题集/开发问题记录.md",
-    "书签导航.md",
     "开源项目学习.md",
     "错题集/Git 问题记录.md",
     "工具集整理/06-Git 命令记录.md",
@@ -273,7 +274,6 @@
     "TODO/单位换算.md",
     "备忘录/unocss 记录.md",
     "备忘录/lodash 记录.md",
-    "备忘录/js 实用小技巧.md",
     "备忘录/js 常用整理.md",
     "备忘录/魔方公式.md",
     "备忘录/css 记录.md",
