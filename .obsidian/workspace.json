@@ -4,20 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ba096930baf887f9",
+        "id": "3966b8e89f8acc55",
         "type": "tabs",
         "children": [
           {
-            "id": "899a11dcf3aaf5d3",
+            "id": "f7fd4ecdb63f241a",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
                 "file": "书签导航.md",
-                "staged": false
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (书签导航)"
+              "icon": "lucide-file",
+              "title": "书签导航"
             }
           }
         ]
@@ -121,9 +123,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "书签导航.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "书签导航 的大纲"
             }
           },
           {
@@ -236,7 +240,7 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "899a11dcf3aaf5d3",
+  "active": "f7fd4ecdb63f241a",
   "lastOpenFiles": [
     "书签导航.md",
     "工具集整理/06-Git 命令记录.md",
