@@ -256,6 +256,12 @@ $ npm i -g @antfu/ni
 - ✅ [麦软网](https://www.mairuan.com/) - 专业正版低价软件
 - ✅ [数码荔枝](https://lizhi.shop/) - 专注于分享最新鲜优秀的正版软件
 - ✅ [awesome-mac](https://github.com/jaywcjlove/awesome-mac)
+- ✅ [AppStorrent](https://appstorrent.org/)
+- ✅ [XMac](https://xmac.app/)
+- ✅ [XClient](https://xclient.info/)
+- ✅ [Digit77](https://www.digit77.com/)
+- ✅ [MacWK](https://macwk.cn/)
+- ✅ [MacBL](https://www.macbl.com/)
 - ❎ [MacKed](https://macked.app/) - 专注于 mac 软件分享与下载
 - ❎ [MacApp分享频道](https://macapp.org.cn/)
 - ✅ [IDEA 破解](https://o1h17wcfnl0.feishu.cn/docx/KwacdbYSkoOn1exdopVcADU0noa)
