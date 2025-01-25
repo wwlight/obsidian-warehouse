@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "03-Mac 开发工具命令",
+      "path": "工具集整理/03-Mac 开发工具命令.md"
+    },
+    {
       "basename": "04-Mac 系统工作环境",
       "path": "工具集整理/04-Mac 系统工作环境.md"
+    },
+    {
+      "basename": "vue 相关",
+      "path": "面试题整理/vue 相关.md"
+    },
+    {
+      "basename": "css 基础",
+      "path": "面试题整理/css 基础.md"
+    },
+    {
+      "basename": "项目相关",
+      "path": "面试题整理/项目相关.md"
+    },
+    {
+      "basename": "其他相关",
+      "path": "面试题整理/其他相关.md"
     },
     {
       "basename": "书签导航",
@@ -35,10 +55,6 @@
     {
       "basename": "Git 问题记录",
       "path": "错题集/Git 问题记录.md"
-    },
-    {
-      "basename": "03-Mac 开发工具命令",
-      "path": "工具集整理/03-Mac 开发工具命令.md"
     },
     {
       "basename": "开源项目学习",
@@ -75,22 +91,6 @@
     {
       "basename": "01-Obsidian 使用入门",
       "path": "工具集整理/01-Obsidian 使用入门.md"
-    },
-    {
-      "basename": "其他相关",
-      "path": "面试题整理/其他相关.md"
-    },
-    {
-      "basename": "项目相关",
-      "path": "面试题整理/项目相关.md"
-    },
-    {
-      "basename": "css 基础",
-      "path": "面试题整理/css 基础.md"
-    },
-    {
-      "basename": "vue 相关",
-      "path": "面试题整理/vue 相关.md"
     },
     {
       "basename": "单位换算",
