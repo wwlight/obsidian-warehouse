@@ -11,13 +11,15 @@
             "id": "f7fd4ecdb63f241a",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
                 "file": "书签导航.md",
-                "staged": false
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (书签导航)"
+              "icon": "lucide-file",
+              "title": "书签导航"
             }
           }
         ]
@@ -121,9 +123,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "书签导航.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "书签导航 的大纲"
             }
           },
           {

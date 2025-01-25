@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "书签导航",
+      "path": "书签导航.md"
+    },
+    {
       "basename": "03-Mac 开发工具命令",
       "path": "工具集整理/03-Mac 开发工具命令.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "其他相关",
       "path": "面试题整理/其他相关.md"
-    },
-    {
-      "basename": "书签导航",
-      "path": "书签导航.md"
     },
     {
       "basename": "js 实用小技巧",
