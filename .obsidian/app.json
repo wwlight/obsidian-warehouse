@@ -15,5 +15,6 @@
   "showInlineTitle": true,
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "uriCallbacks": true
+  "uriCallbacks": true,
+  "focusNewTab": true
 }
