@@ -288,3 +288,56 @@ const num = 42
 rawString = String.raw`The number is ${num}\n!`
 console.log(rawString) // The number is 42\n!
 ```
+
+### Function.prototype.before
+
+```js
+Function.prototype.before = function(beforefn){
+	const __self = this
+	return function(){
+		beforefn.apply(this, arguments)
+		return __self.apply(this, arguments)
+	}
+}
+```
+
+```js
+const func = function(param){
+    console.log(param)
+}
+
+func = func.before(function(param){
+	param.b = 'b'
+})
+
+func({a: 'a'})
+// {a: "a", b: "b"}
+```
+
+### Function.prototype.after
+
+```js
+Function.prototype.after = function(afterfn){
+	const __self = this
+	return function(){
+		const ret = __self.apply(this, arguments)
+		afterfn.apply(this, arguments)
+		return ret
+	}
+}
+```
+
+```js
+const func = function(param){
+    console.log(param) 
+}
+
+func = func.after(function(param){
+	param.b = 'b'
+    console.log(param)
+})
+
+func({a: 'a'})
+// {a: 'a'}
+// {a: 'a', b: 'b'}
+```
