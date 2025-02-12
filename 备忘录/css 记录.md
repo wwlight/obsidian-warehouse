@@ -69,7 +69,7 @@ p {
 
 - 元素设置 `pointer-events:none;`[链接](https://mdn.io/zh/pointer-events)
 
-### 移动端 1 像素问题
+### 实现 0.5 像素
 
 ```css
 ::before {
@@ -77,10 +77,7 @@ p {
   content: "";
   pointer-events: none;
   position: absolute;
-  right: -50%;
-  top: -50%;
-  bottom: -50%;
-  left: -50%;
+  inset: -50%;
   transform: scale(0.5);
   transform-origin: center;
   border: 1px solid red;

@@ -289,7 +289,7 @@ rawString = String.raw`The number is ${num}\n!`
 console.log(rawString) // The number is 42\n!
 ```
 
-### Function.prototype.before
+ ### Function.prototype.before
 
 ```js
 Function.prototype.before = function(beforefn){
@@ -302,7 +302,7 @@ Function.prototype.before = function(beforefn){
 ```
 
 ```js
-const func = function(param){
+let func = function(param){
     console.log(param)
 }
 
@@ -328,7 +328,7 @@ Function.prototype.after = function(afterfn){
 ```
 
 ```js
-const func = function(param){
+let func = function(param){
     console.log(param) 
 }
 
