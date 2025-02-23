@@ -50,6 +50,7 @@ $ brew pin [软件名]                    # 锁定不想更新的软件包
 $ brew unpin [软件名]                  # 取消锁定
 
 $ brew services list/ls               # 查看所有服务状态
+$ brew services list/ls -d            # 查看所有服务状态带日志
 $ brew services start [服务名]         # 启动服务
 $ brew services stop [服务名]          # 停止服务
 $ brew services restart [服务名]       # 重启服务
@@ -72,14 +73,15 @@ $ brew install git
 $ brew install starship
 $ brew install gh
 $ brew install bun
-$ brew install nginx
-$ brew install mysql
-$ brew install code-server
 $ brew install gping
 $ brew install onefetch
 $ brew install fzf
 $ brew install zoxide
 $ brew install lazygit
+$ brew install nginx
+$ brew install mysql
+$ brew install code-server
+$ brew install syncthing
 
 $ brew install --cask applite
 $ brew install --cask google-chrome

@@ -216,6 +216,7 @@ $ scoop install gping
 $ scoop install adb
 $ scoop install fzf
 $ scoop install zoxide
+$ scoop install syncthing
 
 $ scoop install extras/googlechrome
 $ scoop install extras/vscode

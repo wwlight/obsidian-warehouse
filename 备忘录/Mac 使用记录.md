@@ -6,6 +6,21 @@
 $ sudo security find-generic-password -ga "无线网名称" | grep "password"
 ```
 
+### 防止生成.DS_Store 的命令和恢复方法
+
+```sh
+# 禁止生成 .DS_Store
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
+defaults write com.apple.desktopservices DSDontWriteUSBStores -bool TRUE
+
+# 删除现有的 .DS_Store 文件
+find . -name ".DS_Store" -delete
+
+# 如果之后需要恢复默认设置，可以运行：
+defaults delete com.apple.desktopservices DSDontWriteNetworkStores
+defaults delete com.apple.desktopservices DSDontWriteUSBStores
+```
+
 ### app 取消证书校验
 
 ```sh
