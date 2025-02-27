@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "简历相关",
+      "path": "面试题整理/简历相关.md"
+    },
+    {
+      "basename": "面试题汇总",
+      "path": "面试题整理/面试题汇总.md"
+    },
+    {
+      "basename": "项目相关",
+      "path": "面试题整理/项目相关.md"
+    },
+    {
+      "basename": "自我介绍",
+      "path": "面试题整理/自我介绍.md"
+    },
+    {
+      "basename": "JavaScript 设计模式与开发实践",
+      "path": "面试题整理/JavaScript 设计模式与开发实践.md"
+    },
+    {
+      "basename": "css 基础",
+      "path": "面试题整理/css 基础.md"
+    },
+    {
+      "basename": "vue 相关",
+      "path": "面试题整理/vue 相关.md"
+    },
+    {
       "basename": "书签导航",
       "path": "书签导航.md"
     },
@@ -11,14 +39,6 @@
     {
       "basename": "开源项目学习",
       "path": "开源项目学习.md"
-    },
-    {
-      "basename": "JavaScript 设计模式与开发实践",
-      "path": "面试题整理/JavaScript 设计模式与开发实践.md"
-    },
-    {
-      "basename": "简历相关",
-      "path": "面试题整理/简历相关.md"
     },
     {
       "basename": "03-Mac 开发工具命令",
@@ -67,26 +87,6 @@
     {
       "basename": "lodash 记录",
       "path": "备忘录/lodash 记录.md"
-    },
-    {
-      "basename": "css 基础",
-      "path": "面试题整理/css 基础.md"
-    },
-    {
-      "basename": "vue 相关",
-      "path": "面试题整理/vue 相关.md"
-    },
-    {
-      "basename": "自我介绍",
-      "path": "面试题整理/自我介绍.md"
-    },
-    {
-      "basename": "项目相关",
-      "path": "面试题整理/项目相关.md"
-    },
-    {
-      "basename": "面试题汇总",
-      "path": "面试题整理/面试题汇总.md"
     },
     {
       "basename": "README",
