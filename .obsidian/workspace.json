@@ -26,10 +26,15 @@
             "id": "b88e416751f52cd4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "书签导航.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "书签导航"
             }
           }
         ],
@@ -136,12 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "书签导航.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "书签导航 的大纲"
             }
           },
           {
@@ -256,6 +262,11 @@
   },
   "active": "736f32738161797d",
   "lastOpenFiles": [
+    "工具集整理/03-Mac 开发工具命令.md",
+    "工具集整理/04-Mac 系统工作环境.md",
+    "书签导航.md",
+    "备忘录/js 实用小技巧.md",
+    "备忘录/js 常用整理.md",
     "面试题整理/简历相关.md",
     "面试题整理/面试题汇总.md",
     "面试题整理/项目相关.md",
@@ -263,20 +274,15 @@
     "面试题整理/JavaScript 设计模式与开发实践.md",
     "面试题整理/css 基础.md",
     "面试题整理/vue 相关.md",
-    "书签导航.md",
-    "备忘录/js 常用整理.md",
     "开源项目学习.md",
-    "工具集整理/03-Mac 开发工具命令.md",
     "备忘录/Mac 使用记录.md",
     "错题集/开发问题记录.md",
     "错题集/Git 问题记录.md",
     "工具集整理/02-常用工具命令.md",
-    "工具集整理/04-Mac 系统工作环境.md",
     "工具集整理/05-Windows 系统工作环境.md",
     "工具集整理/06-Git 命令记录.md",
     "工具集整理/07-Bash 命令记录.md",
     "备忘录/css 记录.md",
-    "备忘录/js 实用小技巧.md",
     "备忘录/lodash 记录.md",
     "README.md",
     "备忘录/魔方公式.md",

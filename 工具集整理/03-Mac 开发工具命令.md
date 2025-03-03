@@ -105,6 +105,7 @@ $ brew install --cask browserosaurus
 $ brew install --cask android-studio
 $ brew install --cask android-platform-tools
 $ brew install --cask picgo
+$ brew install --cask vmware-fusion  # 免费虚拟机
 ```
 
 ##### 部分工具使用配置
