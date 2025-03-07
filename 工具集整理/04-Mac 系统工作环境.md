@@ -106,11 +106,10 @@ export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
 [[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
 # sdkman end
 
-# pyenv python 版本管理工具
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-# pyenv end
+# nv python 版本管理工具
+eval "$(uv generate-shell-completion zsh)"
+eval "$(uvx --generate-shell-completion zsh)"
+# uv end
 
 # alias
 alias ping="gping"
@@ -217,7 +216,7 @@ $ npm i -g @antfu/ni
 ```
 
 - ✅ [SDKMAN](https://sdkman.io/) - 软件开发工具包管理器｜[brew 安装](https://github.com/sdkman/homebrew-tap)
-- ✅ [pyenv](https://github.com/pyenv/pyenv) - Python 版本管理工具
+- ✅ [uv](https://github.com/astral-sh/uv) -  Python 包和项目管理工具
 - ✅ [ngrok](https://ngrok.com/) - 反向代理，内网穿透
 
 ### 💻️ 办公工具

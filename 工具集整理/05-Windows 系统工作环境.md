@@ -230,6 +230,7 @@ $ scoop install extras/potplayer
 $ scoop install extras/keyviz
 $ scoop install extras/flow-launcher
 $ scoop install extras/onefetch
+$ scoop install main/uv
 $ scoop install main/pyenv
 ```
 
@@ -326,7 +327,7 @@ Remove-Item Alias:ni -Force -ErrorAction Ignore
 # end
 ```
 
-- ✅ [pyenv](https://github.com/pyenv/pyenv) - Python 版本管理工具
+- ✅ [uv](https://github.com/astral-sh/uv) -  Python 包和项目管理工具
 - ✅ [ngrok](https://ngrok.com/) - 反向代理，内网穿透
 
 ### 💻️ 系统工具

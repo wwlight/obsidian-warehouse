@@ -339,6 +339,44 @@ $ sdk home maven 3.9.9
 $ mvn -v
 ```
 
+### [uv](https://github.com/astral-sh/uv) -  Python 包和项目管理工具
+
+##### 安装
+
+```sh
+$ brew install uv
+
+# .zshrc config
+echo 'eval "$(uv generate-shell-completion zsh)"' >> ~/.zshrc
+echo 'eval "$(uvx --generate-shell-completion zsh)"' >> ~/.zshrc
+source ~/.zshrc
+```
+
+##### 常用命令
+
+```sh
+# 安装 python，uv 能检测系统上已经安装并使用安装的 Python
+$ uv python install 
+
+# 查看可用的或已安装的 Python 版本
+$ uv python list 
+
+# 初始化一个新项目，新项目的目录下会生成 `pyproject.toml`、`.python-version` 文件
+$ uv init 
+
+# 创建虚拟环境
+$ uv venv 
+
+# 下载依赖项并添加到项目中
+$ uv add 
+
+# 查看项目的依赖关系树
+$ uv tree 
+
+# 从项目中删除依赖项
+$ uv remove 
+```
+
 ### [pyenv](https://github.com/pyenv/pyenv) - Python 版本管理工具
 
 ##### 安装
@@ -352,7 +390,7 @@ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
 echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
 echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 echo '# pyenv end' >> ~/.zshrc
-$ source ~/.zshrc
+source ~/.zshrc
 ```
 
 ##### 常用命令
