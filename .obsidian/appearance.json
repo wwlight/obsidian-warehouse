@@ -16,6 +16,5 @@
   "textFontFamily": "LXGW WenKai Mono,FiraCode Nerd Font Mono",
   "interfaceFontFamily": "LXGW WenKai Mono,FiraCode Nerd Font Mono",
   "showViewHeader": true,
-  "baseFontSize": 16,
-  "showRibbon": false
+  "baseFontSize": 16
 }
