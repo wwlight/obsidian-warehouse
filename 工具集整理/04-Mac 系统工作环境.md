@@ -16,7 +16,7 @@ title: 说明
 - ✅ [Homebrew](https://brew.sh/) - 软件包的管理器｜[镜像](https://gitee.com/cunkai/HomebrewCN) `[!!success: 推荐]`
 - ✅ [Google](https://www.google.com/intl/zh-CN/chrome/) - 登录账号同步数据
 - ❎️ [Ghelper](https://ghelper.net/) - 浏览器插件，科学上网第一步
-- ✅ [ClashX Pro](https://github.com/yichengchen/clashX) - 简单轻量化的代理客户端
+- ✅ [Mihomo Party](https://github.com/mihomo-party-org/mihomo-party) - 一个更易用的代理客户端
 - ✅ [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - 修补了具有大量字形（图标）的开发人员目标字体
 	- 搜索下载 `FiraCode Nerd Font`
 - ✅ [SwitchHosts](https://switchhosts.vercel.app/zh) - 是一个管理、切换多个 hosts 方案的工具

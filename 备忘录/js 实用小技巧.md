@@ -292,9 +292,9 @@ console.log(rawString) // The number is 42\n!
  ### Function.prototype.before
 
 ```js
-Function.prototype.before = function(beforefn){
+Function.prototype.before = function(beforefn) {
 	const __self = this
-	return function(){
+	return function() {
 		beforefn.apply(this, arguments)
 		return __self.apply(this, arguments)
 	}
@@ -302,11 +302,11 @@ Function.prototype.before = function(beforefn){
 ```
 
 ```js
-let func = function(param){
+let func = function(param) {
     console.log(param)
 }
 
-func = func.before(function(param){
+func = func.before(function(param) {
 	param.b = 'b'
 })
 
@@ -317,9 +317,9 @@ func({a: 'a'})
 ### Function.prototype.after
 
 ```js
-Function.prototype.after = function(afterfn){
+Function.prototype.after = function(afterfn) {
 	const __self = this
-	return function(){
+	return function() {
 		const ret = __self.apply(this, arguments)
 		afterfn.apply(this, arguments)
 		return ret
@@ -328,11 +328,11 @@ Function.prototype.after = function(afterfn){
 ```
 
 ```js
-let func = function(param){
+let func = function(param) {
     console.log(param) 
 }
 
-func = func.after(function(param){
+func = func.after(function(param) {
 	param.b = 'b'
     console.log(param)
 })

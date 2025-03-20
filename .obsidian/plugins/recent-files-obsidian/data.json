@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "03-Mac 开发工具命令",
-      "path": "工具集整理/03-Mac 开发工具命令.md"
+      "basename": "书签导航",
+      "path": "书签导航.md"
     },
     {
       "basename": "04-Mac 系统工作环境",
@@ -13,20 +13,32 @@
       "path": "工具集整理/05-Windows 系统工作环境.md"
     },
     {
-      "basename": "02-常用工具命令",
-      "path": "工具集整理/02-常用工具命令.md"
+      "basename": "03-Mac 开发工具命令",
+      "path": "工具集整理/03-Mac 开发工具命令.md"
     },
     {
-      "basename": "js 常用整理",
-      "path": "备忘录/js 常用整理.md"
+      "basename": "02-常用工具命令",
+      "path": "工具集整理/02-常用工具命令.md"
     },
     {
       "basename": "js 实用小技巧",
       "path": "备忘录/js 实用小技巧.md"
     },
     {
-      "basename": "书签导航",
-      "path": "书签导航.md"
+      "basename": "js 常用整理",
+      "path": "备忘录/js 常用整理.md"
+    },
+    {
+      "basename": "lodash 记录",
+      "path": "备忘录/lodash 记录.md"
+    },
+    {
+      "basename": "unocss 记录",
+      "path": "备忘录/unocss 记录.md"
+    },
+    {
+      "basename": "汉语拼音和小鹤双拼",
+      "path": "备忘录/汉语拼音和小鹤双拼.md"
     },
     {
       "basename": "开源项目学习",
@@ -57,10 +69,6 @@
       "path": "备忘录/css 记录.md"
     },
     {
-      "basename": "lodash 记录",
-      "path": "备忘录/lodash 记录.md"
-    },
-    {
       "basename": "README",
       "path": "README.md"
     },
@@ -81,10 +89,6 @@
       "path": "错题集/git 问题记录.md"
     },
     {
-      "basename": "汉语拼音和小鹤双拼",
-      "path": "备忘录/汉语拼音和小鹤双拼.md"
-    },
-    {
       "basename": "css 渐变角度理解",
       "path": "备忘录/css 相关/css 渐变角度理解.md"
     },
@@ -103,10 +107,6 @@
     {
       "basename": "单位换算",
       "path": "TODO/单位换算.md"
-    },
-    {
-      "basename": "unocss 记录",
-      "path": "备忘录/unocss 记录.md"
     },
     {
       "basename": "剪藏句子",

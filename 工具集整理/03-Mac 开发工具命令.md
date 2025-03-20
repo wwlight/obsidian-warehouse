@@ -83,6 +83,7 @@ $ brew install mysql
 $ brew install code-server
 $ brew install syncthing
 
+$ brew install --cask mihomo-party
 $ brew install --cask applite
 $ brew install --cask google-chrome
 $ brew install --cask arc
