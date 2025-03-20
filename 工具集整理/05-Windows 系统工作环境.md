@@ -142,6 +142,11 @@ starship_precmd_user_func="set_win_title"
 precmd_functions+=(set_win_title)
 # starship end
 
+# nv python 版本管理工具
+eval "$(uv generate-shell-completion zsh)"
+eval "$(uvx --generate-shell-completion zsh)"
+# uv end
+
 # alias
 alias ping="gping"
 alias of="onefetch"
@@ -219,6 +224,7 @@ $ scoop install fzf
 $ scoop install zoxide
 $ scoop install syncthing
 
+$ scoop install extras/mihomo-party
 $ scoop install extras/googlechrome
 $ scoop install extras/vscode
 $ scoop install extras/webstorm
@@ -334,7 +340,6 @@ Remove-Item Alias:ni -Force -ErrorAction Ignore
 ### 💻️ 系统工具
 
 - ✅ [微信键盘](https://z.weixin.qq.com/)
-- ✅ [Clash for Windows](https://clashforwindows.org/)
 - ✅ [Tabby](https://tabby.sh/) - 跨平台终端应用程序，本地 shell、串行、SSH 和 Telnet 连接
 - ✅ [Quicker](https://getquicker.net/) - 是一个功能强大的操作捷径创建与自动化工具
 - ✅ [WinRAR](https://www.winrar.com.cn/) - 是一款功能强大的压缩包管理器
