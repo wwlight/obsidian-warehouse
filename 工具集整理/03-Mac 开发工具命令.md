@@ -163,7 +163,6 @@ $ ln -s ~/Library/Application\ Support/Code/Backups ~/.local/share/code-server
 
 ```bash
 $ brew install nginx
-$ brew uninstall nginx
 $ brew info nginx                    # 显示 nginx 信息
 $ brew services start nginx          # 启动 nginx 服务
 $ brew services stop nginx           # 停止 nginx 服务
@@ -180,6 +179,9 @@ $ nginx -V                           # 查看完整的 nginx 编译参数
 $ ps aux | grep nginx                # 确认启动用户
 $ sudo kill -QUIT <process_pid>      # 关闭指定 Nginx 进程
 $ sudo pkill -f nginx                # 关闭所有 Nginx 进程
+
+$ brew uninstall nginx
+$ rm -rf /opt/homebrew/etc/nginx     # 删除配置文件
 ```
 
 ###### MySQL 常用命令
@@ -369,7 +371,7 @@ $ uv init
 $ uv venv 
 
 # 下载依赖项并添加到项目中
-$ uv add 
+$ uv add
 
 # 查看项目的依赖关系树
 $ uv tree 

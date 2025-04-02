@@ -329,7 +329,7 @@ Function.prototype.after = function(afterfn) {
 
 ```js
 let func = function(param) {
-    console.log(param) 
+    console.log(param)
 }
 
 func = func.after(function(param) {
