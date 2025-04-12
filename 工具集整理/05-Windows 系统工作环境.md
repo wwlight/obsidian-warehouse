@@ -236,6 +236,7 @@ $ scoop install extras/winrar
 $ scoop install extras/potplayer
 $ scoop install extras/keyviz
 $ scoop install extras/flow-launcher
+$ scoop install extras/powertoys
 $ scoop install extras/onefetch
 $ scoop install main/uv
 $ scoop install main/pyenv
@@ -343,7 +344,8 @@ Remove-Item Alias:ni -Force -ErrorAction Ignore
 - ✅ [Tabby](https://tabby.sh/) - 跨平台终端应用程序，本地 shell、串行、SSH 和 Telnet 连接
 - ✅ [Quicker](https://getquicker.net/) - 是一个功能强大的操作捷径创建与自动化工具
 - ✅ [WinRAR](https://www.winrar.com.cn/) - 是一款功能强大的压缩包管理器
-- ✅ [flowlauncher](https://www.flowlauncher.com/) - Quick File Search & App Launcher for Windows
+- ✅ [PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/) - 自定义 Windows 的实用工具
+- ✅ [flowlauncher](https://www.flowlauncher.com/) - 快速文件搜索和应用程序启动器
 - ✅ [IDM](https://vip.jokerps.com/?s=idm&type=post) - 是一款优秀下载工具
 - ✅ [Potplayer](https://potplayer.daum.net/) - 万能播放器
 - ✅ [LocalSend](https://localsend.org/) - 免费、开源、跨平台，将文件分享到附近的设备
