@@ -225,7 +225,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340.5
+    "width": 340.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,8 +248,8 @@
   "active": "736f32738161797d",
   "lastOpenFiles": [
     "前端的进击.pdf",
-    "工具集整理/04-Mac 系统工作环境.md",
     "书签导航.md",
+    "工具集整理/04-Mac 系统工作环境.md",
     "README.md",
     "工具集整理/05-Windows 系统工作环境.md",
     "工具集整理/03-Mac 开发工具命令.md",
@@ -291,7 +292,6 @@
     "WeRead/期刊杂志",
     "WeRead/计算机",
     "WeRead/历史",
-    "WeRead/人物传记",
     "未命名.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas",
