@@ -54,6 +54,7 @@ $ brew services list/ls -d            # 查看所有服务状态带日志
 $ brew services start [服务名]         # 启动服务
 $ brew services stop [服务名]          # 停止服务
 $ brew services restart [服务名]       # 重启服务
+$ brew services info [服务名]          # 查看服务状态
 
 $ brew deps [软件名]                   # 查看包的依赖关系
 $ brew uses [软件名] --installed       # 查看哪些包依赖于这个包
