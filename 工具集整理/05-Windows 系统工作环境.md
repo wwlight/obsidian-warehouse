@@ -143,6 +143,7 @@ precmd_functions+=(set_win_title)
 # starship end
 
 # nv python 版本管理工具
+autoload -Uz compinit && compinit
 eval "$(uv generate-shell-completion zsh)"
 eval "$(uvx --generate-shell-completion zsh)"
 # uv end
