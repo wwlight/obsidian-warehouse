@@ -73,11 +73,22 @@ $ scoop bucket rm [name]           # 删除 Bucket
 
 - ✅ [zsh](https://www.zsh.org/) - 一个为交互式使用而设计的 shell
 	- 将 [zsh 安装包](https://packages.msys2.org/packages/zsh?repo=msys&variant=x86_64) 解压到 git 的安装根目录下
-	- zsh plugins：
+	- Zsh plugins：
 		- [zdharma-continuum/fast-syntax-highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting)
 		- [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 		- [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions)
 	- & 参考资料：[Using ZSH without OMZ](https://dev.to/hbenvenutti/using-zsh-without-omz-4gch)、[npm completion](https://didiaohu.gitbooks.io/npm/content/yong-npm-script-da-zao-chao-liu-de-qian-duan-gong-zuo-liu/23-shi-xian-ming-ling-xing-zi-dong-bu-quan.html)
+
+````ad-info
+title: .bashrc 配置文件
+collapse: closed
+
+```bash
+	if [ -t 1 ]; then
+	  	exec zsh
+	fi
+```
+````
 
 ````ad-info
 title: .zshrc 配置文件
@@ -167,6 +178,7 @@ alias gc='git branch | fzf | xargs git checkout' # 搜索 git 分支并切换
 - ✅️ [Hyper](https://hyper.is/) - 是一款跨平台的终端软件
     - [awesome-hyper](https://github.com/bnb/awesome-hyper)
     - 配置文件位置：`~\AppData\Roaming\Hyper\.hyper.js`
+    - `fontFamily: 'FiraCode Nerd Font, Input Mono, monospace'`
 
 ```bash
 $ hyper install hyper-dracula
@@ -178,7 +190,7 @@ $ hyper install hyperpower
     - [popular-scripts](https://chrisant996.github.io/clink/clink.html#popular-scripts)
 
 ```bash
-$ scoop install clink
+$ scoop install main/clink
 $ clink info
 
 # 下载插件
@@ -193,7 +205,7 @@ $ clink installscripts D:\DevelopmentApplication\Scoop\apps\clink\current\script
 - ✅ [Starship](https://starship.rs/zh-CN/) - 轻量、迅速、客制化的高颜值终端
 
 ```bash
-$ scoop install starship
+$ scoop install main/starship
 $ cd .config && mkdir starship && cd starship && type nul>starship.toml
 
 # powershell 7
@@ -236,7 +248,6 @@ $ scoop install extras/obsidian
 $ scoop install extras/winrar
 $ scoop install extras/potplayer
 $ scoop install extras/keyviz
-$ scoop install extras/flow-launcher
 $ scoop install extras/powertoys
 $ scoop install extras/onefetch
 $ scoop install main/uv
@@ -267,11 +278,11 @@ $ code $PROFILE                               # 直接打开配置文件
 $ $psversiontable                             # powershell 版本
 ```
 
-- ✅ [fnm](https://github.com/Schniz/fnm) - 快速简单的 Node.js 版本管理器，用 Rust 构建
+- ✅ [fnm](https://github.com/Schniz/fnm) - 快速简单的 Node. Js 版本管理器，用 Rust 构建
 
 ```bash
 # fnm 支持多项目单独切换版本
-$ scoop install fnm
+$ scoop install main/fnm
 $ echo 'eval "$(fnm env --use-on-cd)"' >> ~/.zshrc
 $ source ~/.zshrc
 
@@ -301,7 +312,7 @@ $ fnm use X
 $ node --version > .node-version
 ```
 
-- ✅ [Corepack](https://github.com/nodejs/corepack) - 允许您使用 Yarn、npm 和 pnpm，默认随 node 一起安装（v16.9.0+）
+- ✅ [Corepack](https://github.com/nodejs/corepack) - 允许您使用 Yarn、npm 和 pnpm，默认随 node 一起安装（v 16.9.0+）
 
 ```bash
 $ corepack -h
@@ -346,11 +357,10 @@ Remove-Item Alias:ni -Force -ErrorAction Ignore
 - ✅ [Quicker](https://getquicker.net/) - 是一个功能强大的操作捷径创建与自动化工具
 - ✅ [WinRAR](https://www.winrar.com.cn/) - 是一款功能强大的压缩包管理器
 - ✅ [PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/) - 自定义 Windows 的实用工具
-- ✅ [flowlauncher](https://www.flowlauncher.com/) - 快速文件搜索和应用程序启动器
 - ✅ [IDM](https://vip.jokerps.com/?s=idm&type=post) - 是一款优秀下载工具
 - ✅ [Potplayer](https://potplayer.daum.net/) - 万能播放器
 - ✅ [LocalSend](https://localsend.org/) - 免费、开源、跨平台，将文件分享到附近的设备
-- ✅ [FSCapture](https://www.faststone.org/) - 强大、轻便但功能齐全的屏幕捕捉 和 屏幕录像 工具（网上随便搜索注册码）
+- ✅ [FSCapture](https://www.faststone.org/) - 强大、轻便但功能齐全的屏幕捕捉和屏幕录像工具（网上随便搜索注册码）
 - ✅ [PixPin](https://pixpinapp.com/) - 功能强大使用简单的截图/贴图工具
 - ✅ [金山毒霸垃圾清理独立版](https://vip.jokerps.com/6164.html) - 短小精悍垃圾清理工具
 - ✅ [Obsidian](https://obsidian.md/) - 是一款私密且灵活的写作应用程序
