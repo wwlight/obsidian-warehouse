@@ -371,3 +371,4 @@ Remove-Item Alias:ni -Force -ErrorAction Ignore
 ### ♻️ 资源平台
 
 - ✅ [鹏少资源网](https://vip.jokerps.com/)
+- ✅ [软件小妹](http://add.qianqian.club/)
