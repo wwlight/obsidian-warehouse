@@ -168,15 +168,9 @@ $ git merge feature
 ### 下载源代码和仓库关联
 
 ```bash
-
 # 方式一：
-
 $ git push --force origin main
 
-  
-
 # 方式二（推荐）：
-
 $ git pull origin main --allow-unrelated-histories
-
 ```
