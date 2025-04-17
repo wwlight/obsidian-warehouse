@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "lodash 记录",
+      "path": "备忘录/lodash 记录.md"
+    },
+    {
+      "basename": "02-常用工具命令",
+      "path": "工具集整理/02-常用工具命令.md"
+    },
+    {
+      "basename": "开发问题记录",
+      "path": "错题集/开发问题记录.md"
+    },
+    {
+      "basename": "01-Obsidian 使用入门",
+      "path": "工具集整理/01-Obsidian 使用入门.md"
+    },
+    {
+      "basename": "03-Mac 开发工具命令",
+      "path": "工具集整理/03-Mac 开发工具命令.md"
+    },
+    {
+      "basename": "04-Mac 系统工作环境",
+      "path": "工具集整理/04-Mac 系统工作环境.md"
+    },
+    {
       "basename": "书签导航",
       "path": "书签导航.md"
     },
@@ -17,20 +41,8 @@
       "path": "备忘录/css 记录.md"
     },
     {
-      "basename": "03-Mac 开发工具命令",
-      "path": "工具集整理/03-Mac 开发工具命令.md"
-    },
-    {
-      "basename": "04-Mac 系统工作环境",
-      "path": "工具集整理/04-Mac 系统工作环境.md"
-    },
-    {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "02-常用工具命令",
-      "path": "工具集整理/02-常用工具命令.md"
     },
     {
       "basename": "Mac 使用记录",
@@ -65,16 +77,8 @@
       "path": "备忘录/汉语拼音和小鹤双拼.md"
     },
     {
-      "basename": "lodash 记录",
-      "path": "备忘录/lodash 记录.md"
-    },
-    {
       "basename": "魔方公式",
       "path": "备忘录/魔方公式.md"
-    },
-    {
-      "basename": "开发问题记录",
-      "path": "错题集/开发问题记录.md"
     },
     {
       "basename": "未命名",
@@ -99,10 +103,6 @@
     {
       "basename": "悟空拼音字母表",
       "path": "Attachmets/悟空拼音字母表.jpg"
-    },
-    {
-      "basename": "01-Obsidian 使用入门",
-      "path": "工具集整理/01-Obsidian 使用入门.md"
     },
     {
       "basename": "单位换算",
