@@ -26,15 +26,13 @@
             "id": "aaab93d21b993c79",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "工具集整理/03-Mac 开发工具命令.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "工具集整理/04-Mac 系统工作环境.md",
+                "staged": true
               },
-              "icon": "lucide-file",
-              "title": "03-Mac 开发工具命令"
+              "icon": "git-pull-request",
+              "title": "Diff View (04-Mac 系统工作环境)"
             }
           },
           {
@@ -156,13 +154,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具集整理/03-Mac 开发工具命令.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "03-Mac 开发工具命令 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -275,11 +272,11 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "736f32738161797d",
+  "active": "aaab93d21b993c79",
   "lastOpenFiles": [
+    "工具集整理/03-Mac 开发工具命令.md",
     "工具集整理/04-Mac 系统工作环境.md",
     "备忘录/Mac 使用记录.md",
-    "工具集整理/03-Mac 开发工具命令.md",
     "工具集整理/02-常用工具命令.md",
     "工具集整理/05-Windows 系统工作环境.md",
     "书签导航.md",
