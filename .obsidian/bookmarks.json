@@ -58,6 +58,19 @@
             }
           ],
           "title": "备忘录"
+        },
+        {
+          "type": "group",
+          "ctime": 1745059151826,
+          "items": [
+            {
+              "type": "file",
+              "ctime": 1745059151826,
+              "path": "工具集整理/Obsidian 使用入门.md",
+              "subpath": "#^-"
+            }
+          ],
+          "title": "工具集整理"
         }
       ],
       "title": "sortspec"

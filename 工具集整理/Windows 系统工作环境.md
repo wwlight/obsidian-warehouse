@@ -236,6 +236,7 @@ $ scoop install adb
 $ scoop install fzf
 $ scoop install zoxide
 $ scoop install syncthing
+$ scoop install ngrok
 
 $ scoop install extras/mihomo-party
 $ scoop install extras/googlechrome

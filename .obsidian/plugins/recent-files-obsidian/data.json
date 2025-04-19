@@ -1,24 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "03-Mac 开发工具命令",
-      "path": "工具集整理/03-Mac 开发工具命令.md"
+      "basename": "Windows 系统工作环境",
+      "path": "工具集整理/Windows 系统工作环境.md"
     },
     {
-      "basename": "04-Mac 系统工作环境",
-      "path": "工具集整理/04-Mac 系统工作环境.md"
+      "basename": "Git 命令记录",
+      "path": "工具集整理/Git 命令记录.md"
+    },
+    {
+      "basename": "bash 命令记录",
+      "path": "工具集整理/bash 命令记录.md"
+    },
+    {
+      "basename": "Obsidian 使用入门",
+      "path": "工具集整理/Obsidian 使用入门.md"
+    },
+    {
+      "basename": "Mac 系统工作环境",
+      "path": "工具集整理/Mac 系统工作环境.md"
+    },
+    {
+      "basename": "Mac 开发工具命令",
+      "path": "工具集整理/Mac 开发工具命令.md"
+    },
+    {
+      "basename": "常用工具命令",
+      "path": "工具集整理/常用工具命令.md"
+    },
+    {
+      "basename": "开源项目学习",
+      "path": "开源项目学习.md"
+    },
+    {
+      "basename": "单位换算",
+      "path": "TODO/单位换算.md"
+    },
+    {
+      "basename": "css 渐变角度理解",
+      "path": "备忘录/css 相关/css 渐变角度理解.md"
+    },
+    {
+      "basename": "unocss 记录",
+      "path": "备忘录/unocss 记录.md"
+    },
+    {
+      "basename": "开发问题记录",
+      "path": "错题集/开发问题记录.md"
+    },
+    {
+      "basename": "git 问题记录",
+      "path": "错题集/git 问题记录.md"
     },
     {
       "basename": "Mac 使用记录",
       "path": "备忘录/Mac 使用记录.md"
-    },
-    {
-      "basename": "02-常用工具命令",
-      "path": "工具集整理/02-常用工具命令.md"
-    },
-    {
-      "basename": "05-Windows 系统工作环境",
-      "path": "工具集整理/05-Windows 系统工作环境.md"
     },
     {
       "basename": "书签导航",
@@ -33,20 +69,8 @@
       "path": "备忘录/未命名.md"
     },
     {
-      "basename": "开发问题记录",
-      "path": "错题集/开发问题记录.md"
-    },
-    {
-      "basename": "git 问题记录",
-      "path": "错题集/git 问题记录.md"
-    },
-    {
       "basename": "lodash 记录",
       "path": "备忘录/lodash 记录.md"
-    },
-    {
-      "basename": "01-Obsidian 使用入门",
-      "path": "工具集整理/01-Obsidian 使用入门.md"
     },
     {
       "basename": "js 常用整理",
@@ -69,20 +93,8 @@
       "path": "工具集整理/07-Bash 命令记录.md"
     },
     {
-      "basename": "06-Git 命令记录",
-      "path": "工具集整理/06-Git 命令记录.md"
-    },
-    {
       "basename": "Git 问题记录",
       "path": "错题集/Git 问题记录.md"
-    },
-    {
-      "basename": "开源项目学习",
-      "path": "开源项目学习.md"
-    },
-    {
-      "basename": "unocss 记录",
-      "path": "备忘录/unocss 记录.md"
     },
     {
       "basename": "汉语拼音和小鹤双拼",
@@ -97,20 +109,12 @@
       "path": "WeRead/计算机/JavaScript设计模式与开发实践-曾探.md"
     },
     {
-      "basename": "css 渐变角度理解",
-      "path": "备忘录/css 相关/css 渐变角度理解.md"
-    },
-    {
       "basename": "小鹤双拼键盘布局",
       "path": "Attachmets/小鹤双拼键盘布局.png"
     },
     {
       "basename": "悟空拼音字母表",
       "path": "Attachmets/悟空拼音字母表.jpg"
-    },
-    {
-      "basename": "单位换算",
-      "path": "TODO/单位换算.md"
     },
     {
       "basename": "剪藏句子",

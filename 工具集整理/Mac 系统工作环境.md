@@ -146,7 +146,7 @@ $ cd .config && mkdir starship && cd starship && type nul>starship.toml
 
 ### 💻️ 开发工具
 
-![[03-Mac 开发工具命令#常用安装应用]]
+![[Mac 开发工具命令#常用安装应用]]
 
 - ✅ [VS Code](https://code.visualstudio.com/) - 登录账号同步数据
 - ✅ [GitHub Cli](https://cli.github.com/)

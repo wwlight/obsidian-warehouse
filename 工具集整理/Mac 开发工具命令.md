@@ -98,7 +98,7 @@ $ brew install --cask hyper
 $ brew install --cask tabby
 $ brew install --cask raycast
 $ brew install --cask obsidian
-$ brew install --cask gitbutler
+$ brew install --cask ngrok
 $ brew install --cask loop
 $ brew install --cask cleanshot
 $ brew install --cask screen-studio
@@ -389,7 +389,7 @@ $ uv python install
 # 查看可用的或已安装的 Python 版本
 $ uv python list 
 
-# 初始化一个新项目，新项目的目录下会生成 `pyproject.toml`、`.python-version` 文件
+# 初始化一个新项目，目录下会生成 `pyproject.toml`、`.python-version` 文件
 $ uv init 
 
 # 创建虚拟环境
