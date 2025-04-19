@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "未命名",
-      "path": "备忘录/未命名.md"
+      "basename": "03-Mac 开发工具命令",
+      "path": "工具集整理/03-Mac 开发工具命令.md"
+    },
+    {
+      "basename": "04-Mac 系统工作环境",
+      "path": "工具集整理/04-Mac 系统工作环境.md"
     },
     {
       "basename": "Mac 使用记录",
       "path": "备忘录/Mac 使用记录.md"
+    },
+    {
+      "basename": "02-常用工具命令",
+      "path": "工具集整理/02-常用工具命令.md"
+    },
+    {
+      "basename": "05-Windows 系统工作环境",
+      "path": "工具集整理/05-Windows 系统工作环境.md"
+    },
+    {
+      "basename": "书签导航",
+      "path": "书签导航.md"
+    },
+    {
+      "basename": "VSCode 使用记录",
+      "path": "备忘录/VSCode 使用记录.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "备忘录/未命名.md"
     },
     {
       "basename": "开发问题记录",
@@ -21,28 +45,8 @@
       "path": "备忘录/lodash 记录.md"
     },
     {
-      "basename": "02-常用工具命令",
-      "path": "工具集整理/02-常用工具命令.md"
-    },
-    {
       "basename": "01-Obsidian 使用入门",
       "path": "工具集整理/01-Obsidian 使用入门.md"
-    },
-    {
-      "basename": "03-Mac 开发工具命令",
-      "path": "工具集整理/03-Mac 开发工具命令.md"
-    },
-    {
-      "basename": "04-Mac 系统工作环境",
-      "path": "工具集整理/04-Mac 系统工作环境.md"
-    },
-    {
-      "basename": "书签导航",
-      "path": "书签导航.md"
-    },
-    {
-      "basename": "05-Windows 系统工作环境",
-      "path": "工具集整理/05-Windows 系统工作环境.md"
     },
     {
       "basename": "js 常用整理",

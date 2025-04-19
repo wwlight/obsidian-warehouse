@@ -39,6 +39,7 @@ $ brew install --cask [应用名]         # 安装 GUI 应用程序
 $ brew tap                            # 查看已添加的仓库
 $ brew tap [用户名/仓库名]              # 添加第三方仓库
 $ brew untap [用户名/仓库名]            # 删除仓库
+$ brew tap --repair                   # 修复所有 tap 的 git 仓库状态
 
 # 更新
 $ brew update                         # 更新 Homebrew 自身
@@ -136,6 +137,8 @@ $ adb kill-server
 
 ###### code-server 常用命令
 
+- @ 配置路径：~/.config/code-server/config.yaml
+
 ```bash
 $ brew install code-server
 $ brew uninstall code-server
@@ -185,6 +188,19 @@ $ brew uninstall nginx
 $ rm -rf /opt/homebrew/etc/nginx     # 删除配置文件
 ```
 
+````ad-info
+title: nginx 配置
+collapse: closed
+
+```bash
+location / {
+	root html;
+	index index.html index.htm;
+	try_files $uri $uri/ /index.html;
+}
+```
+````
+
 ###### MySQL 常用命令
 
 ```bash
@@ -221,7 +237,7 @@ Error: Failure while executing; `/bin/launchctl bootstrap system /Library/Launch
 # 解决方案：
 $ brew services stop nginx
 $ sudo rm -f ~/Library/LaunchAgents/homebrew.mxcl.nginx.plist
-$ brew services start nginx
+$ brew services reload nginx
 
 # 验证 `/opt/homebrew/` 的相关权限
 $ sudo chown -R $(whoami):admin /opt/homebrew
@@ -303,7 +319,7 @@ $ sdk list java
 
 # 安装 java 指定版本
 $ sdk install java 8.0.432-zulu
-$ sdk install java 17.0.13-zulu
+$ dl
 
 # 设置默认版本
 $ sdk default java 8.0.432-zulu
@@ -341,6 +357,14 @@ $ sdk home maven 3.9.9
 
 # 查看 maven 版本
 $ mvn -v
+```
+
+### [ngrok](https://ngrok.com/) - 反向代理
+
+#### 命令
+
+```sh
+$ ngrok http http://localhost:8080
 ```
 
 ### [uv](https://github.com/astral-sh/uv) -  Python 包和项目管理工具
@@ -417,4 +441,13 @@ $ pyenv local 3.9.0
 
 # 检查当前使用的 Python 版本
 $ pyenv version
+```
+
+### [syncthing](https://syncthing.net/)
+
+###### 命令
+
+```bash
+$ syncthing -h
+$ syncthing -paths        # 检查默认配置路径
 ```
