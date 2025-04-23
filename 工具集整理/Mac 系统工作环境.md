@@ -41,7 +41,7 @@ collapse: closed
 # ~/.zshrc
 export ZSH=$HOME/.zsh
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
-export HISTFILE=$HOME/.zsh_history
+export HISTFILE=$ZSH/.zsh_history
 export HISTSIZE=5000
 export SAVEHIST=5000
 setopt appendhistory
@@ -168,6 +168,11 @@ alias grt='cd "$(git rev-parse --show-toplevel)"'
 alias gc='git branch | fzf | xargs git checkout' # 搜索 git 分支并切换
 alias t='tldr' # tldr 命令
 # alias end
+```
+---
+
+```bash
+$ touch $HISTFILE
 ```
 ````
 

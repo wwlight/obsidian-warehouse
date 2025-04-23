@@ -99,7 +99,7 @@ collapse: closed
 # zsh
 export ZSH=$HOME/.zsh
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
-export HISTFILE=$HOME/.zsh_history
+export HISTFILE=$ZSH/.zsh_history
 export HISTSIZE=5000
 export SAVEHIST=5000
 export HISTDUP=erase
