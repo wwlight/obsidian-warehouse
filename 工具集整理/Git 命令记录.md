@@ -174,8 +174,7 @@ $ git commit --no-verify -m "message"
 ### 推送远端
 
 ```shell
-# 默认推送当前分支
-# （等价于 git push origin，实际上推送到一个叫 origin 默认仓库名字）
+# 默认推送当前分支（等价于 git push origin，实际上推送到一个叫 origin 默认仓库名字）
 $ git push
 
 # 推送到主分支

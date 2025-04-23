@@ -79,6 +79,8 @@ $ brew install gping
 $ brew install onefetch
 $ brew install fzf
 $ brew install zoxide
+$ brew install tlrc # 开源命令手册库 tldr-pages
+$ brew install git-extras # 命令增强扩展工具
 $ brew install lazygit
 $ brew install nginx
 $ brew install mysql

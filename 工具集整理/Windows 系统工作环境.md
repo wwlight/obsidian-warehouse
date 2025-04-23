@@ -367,6 +367,7 @@ Remove-Item Alias:ni -Force -ErrorAction Ignore
 - ✅ [Obsidian](https://obsidian.md/) - 是一款私密且灵活的写作应用程序
 - ✅ [PicGo](https://molunerfinn.com/PicGo/) - 图片上传 - 管理新体验
 - ✅ [Keyviz](https://mularahul.github.io/keyviz/) - 一个免费开源按键可视化工具
+- ✅ [Watt Toolkit](https://steampp.net/) - 开源跨平台的多功能 Steam 工具箱
 - ✅ [护眼宝](https://pc.qq.com/detail/7/detail_22407.html)
 
 ### ♻️ 资源平台
