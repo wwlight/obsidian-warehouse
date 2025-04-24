@@ -244,6 +244,7 @@ $ git clone https://github.com/tj/git-extras.git
 $ cd git-extras
 $ git checkout $(git describe --tags $(git rev-list --tags --max-count=1))
 $ ./install.cmd 'D:\DevelopmentApplication\Scoop\apps\git\current'
+$ git extras --help
 ```
 ````
 
