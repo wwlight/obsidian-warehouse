@@ -58,10 +58,16 @@ $ scoop bucket update              # 更新所有已添加的 Bucket
 $ scoop bucket known               # 列出所有官方认可的 Bucket
 $ scoop bucket add [name]          # 添加 Bucket
 $ scoop bucket rm [name]           # 删除 Bucket
+
+$ scoop alias list
+$ scoop alias add [名称] [命令]
+# scoop alias add ls 'scoop list'
+$ scoop alias rm [名称]
+$ scoop alias show [名称]
 ```
 ````
 
-- ✅ ️[Google Chrome](https://www.google.com/intl/zh-CN/chrome/) - 登录账号同步数据
+- ✅ ️ [Google Chrome](https://www.google.com/intl/zh-CN/chrome/) - 登录账号同步数据
 - ❎️ [Ghelper](https://ghelper.net/) - 浏览器插件，科学上网第一步
 - ✅ [Mihomo Party](https://github.com/mihomo-party-org/mihomo-party) - 一个更易用的代理客户端
 - ✅ [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - 修补了具有大量字形（图标）的开发人员目标字体
@@ -96,21 +102,23 @@ collapse: closed
 
 ```bash
 # ~/.zshrc
-# zsh
 export ZSH=$HOME/.zsh
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 export HISTFILE=$ZSH/.zsh_history
 export HISTSIZE=5000
 export SAVEHIST=5000
-export HISTDUP=erase
 setopt appendhistory
-setopt sharehistory
-setopt incappendhistory
-setopt hist_ignore_all_dups
-setopt hist_save_no_dups
-setopt hist_ignore_dups
-setopt hist_find_no_dups
-
+setopt incappendhistory        # 实时写入，避免丢失
+unsetopt sharehistory          # 禁用共享，防止竞争
+setopt extended_history        # 记录时间戳
+setopt hist_ignore_all_dups    # 完全去重
+setopt hist_save_no_dups       # 文件去重
+setopt hist_find_no_dups       # 搜索去重
+setopt hist_expire_dups_first  # 优先删除重复项
+setopt hist_ignore_space       # 忽略以空格开头的命令
+setopt hist_reduce_blanks      # 去除多余空格
+setopt hist_ignore_dups        # 忽略连续重复命令
+setopt hist_verify             # 执行历史命令前先显示
 # zsh plugins
 source $ZSH/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 source $ZSH/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -143,6 +151,10 @@ function cdd() {
 }
 # zoxide end
 
+# tldr
+export TLDR_LANGUAGE=zh
+# tldr end
+
 # starship
 eval "$(starship init zsh)"
 export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
@@ -159,6 +171,53 @@ eval "$(uv generate-shell-completion zsh)"
 eval "$(uvx --generate-shell-completion zsh)"
 # uv end
 
+# 添加清理历史记录的函数
+function history_clean() {
+    # 创建临时文件
+    local tmp=$(mktemp)
+
+    # Windows 上没有 tail -r，使用 awk 逆序读取
+    awk '
+    {
+        # 保存所有行
+        lines[NR] = $0;
+    }
+    END {
+        # 反向处理每一行
+        for (i = NR; i >= 1; i--) {
+            line = lines[i];
+            if (index(line, ";") > 0) {
+                # 命令部分是分号后面的内容
+                cmd = substr(line, index(line, ";") + 1);
+                if (!seen[cmd]++) {
+                    # 第一次遇到这个命令（因为是反向处理的，所以是最新的）
+                    result[++count] = line;
+                }
+            } else {
+                # 处理没有分号的行（可能是没有时间戳的记录）
+                if (!seen[line]++) {
+                    result[++count] = line;
+                }
+            }
+        }
+
+        # 恢复原来的顺序（再次反转）
+        for (i = count; i > 0; i--) {
+            print result[i];
+        }
+    }' $HISTFILE > $tmp
+
+    # 确保处理成功后再替换原文件
+    if [ -s "$tmp" ]; then
+        cp $HISTFILE "$HISTFILE.bak"  # 创建备份
+        mv $tmp $HISTFILE
+        echo "历史记录已去重，保留了最新的命令记录"
+    else
+        echo "处理出错，历史记录未修改"
+        rm $tmp
+    fi
+}
+
 # alias
 alias ping="gping"
 alias of="onefetch"
@@ -171,7 +230,20 @@ alias gp='git push'
 alias gl='git pull'
 alias grt='cd "$(git rev-parse --show-toplevel)"'
 alias gc='git branch | fzf | xargs git checkout' # 搜索 git 分支并切换
+alias t='tldr' # tldr
 # alias end
+```
+````
+
+````ad-info
+title: git-extras 安装
+collapse: closed
+
+```bash
+$ git clone https://github.com/tj/git-extras.git
+$ cd git-extras
+$ git checkout $(git describe --tags $(git rev-list --tags --max-count=1))
+$ ./install.cmd 'D:\DevelopmentApplication\Scoop\apps\git\current'
 ```
 ````
 
@@ -236,7 +308,9 @@ $ scoop install adb
 $ scoop install fzf
 $ scoop install zoxide
 $ scoop install syncthing
+$ scoop install nginx
 $ scoop install ngrok
+$ scoop install tlrc # 开源命令手册库 tldr-pages
 
 $ scoop install extras/mihomo-party
 $ scoop install extras/googlechrome

@@ -5,16 +5,20 @@
       "path": "工具集整理/Windows 系统工作环境.md"
     },
     {
-      "basename": "Git 命令记录",
-      "path": "工具集整理/Git 命令记录.md"
-    },
-    {
       "basename": "Mac 系统工作环境",
       "path": "工具集整理/Mac 系统工作环境.md"
     },
     {
       "basename": "Mac 开发工具命令",
       "path": "工具集整理/Mac 开发工具命令.md"
+    },
+    {
+      "basename": "书签导航",
+      "path": "书签导航.md"
+    },
+    {
+      "basename": "Git 命令记录",
+      "path": "工具集整理/Git 命令记录.md"
     },
     {
       "basename": "Mac 使用记录",
@@ -35,10 +39,6 @@
     {
       "basename": "Obsidian 使用入门",
       "path": "工具集整理/Obsidian 使用入门.md"
-    },
-    {
-      "basename": "书签导航",
-      "path": "书签导航.md"
     },
     {
       "basename": "Drawing 2025-04-20 11.43.14.excalidraw",
