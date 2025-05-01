@@ -26,6 +26,7 @@ $ /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homeb
 ```bash
 $ brew config                         # 显示配置信息
 $ brew list/ls                        # 查看已安装的软件包
+$ brew list/ls [软件名]                # 查看软件包安装路径
 $ brew info [软件名]                   # 显示软件包信息
 $ brew home [软件名]                   # 打开软件包主页
 $ brew help                           # 查看详细帮助信息

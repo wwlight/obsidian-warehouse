@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具集整理/Windows 系统工作环境.md",
+                "file": "书签导航.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Windows 系统工作环境"
+              "title": "书签导航"
             }
           }
         ]
@@ -125,13 +125,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具集整理/Windows 系统工作环境.md",
+                "file": "书签导航.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Windows 系统工作环境 的大纲"
+              "title": "书签导航 的大纲"
             }
           },
           {
@@ -246,9 +246,9 @@
   },
   "active": "736f32738161797d",
   "lastOpenFiles": [
-    "工具集整理/Mac 系统工作环境.md",
-    "工具集整理/Windows 系统工作环境.md",
     "工具集整理/Mac 开发工具命令.md",
+    "工具集整理/Windows 系统工作环境.md",
+    "工具集整理/Mac 系统工作环境.md",
     "书签导航.md",
     "备忘录/js 常用整理.md",
     "备忘录/js 实用小技巧.md",
