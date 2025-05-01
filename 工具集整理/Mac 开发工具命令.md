@@ -370,7 +370,7 @@ $ mvn -v
 $ ngrok http http://localhost:8080
 ```
 
-### [uv](https://github.com/astral-sh/uv) -  Python 包和项目管理工具
+### [uv](https://github.com/astral-sh/uv) - Python 包和项目管理工具
 
 ##### 安装
 

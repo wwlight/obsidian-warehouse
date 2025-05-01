@@ -13,6 +13,18 @@ title: 说明
 ### 🍀 准备工作
 
 - 🗂️ 创建文件夹：`DevelopmentApplication`、`SystemApplication`
+
+```bash
+$ md D:\DevelopmentApplication
+$ md D:\SystemApplication
+```
+
+- ❎️ [Ghelper](https://ghelper.net/) - 浏览器插件 | [极简插件](https://chrome.zzzmh.cn/)
+- ✅ [Mihomo Party](https://github.com/mihomo-party-org/mihomo-party) - 一个更易用的代理客户端
+- ✅ [SwitchHosts](https://switchhosts.vercel.app/zh) - 是一个管理、切换多个 hosts 方案的工具
+    - [GitHub Hosts](https://ineo6.github.io/hosts/) - GitHub 最新 hosts
+- ✅ [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - 修补了具有大量字形（图标）的开发人员目标字体
+    - 搜索下载 `FiraCode Nerd Font`
 - ✅ [Scoop](https://scoop.sh/) - 适用于 Windows 的命令行安装程序 | [镜像](https://gitee.com/scoop-installer/scoop)
 
 ```bash
@@ -67,13 +79,61 @@ $ scoop alias show [名称]
 ```
 ````
 
-- ✅ ️ [Google Chrome](https://www.google.com/intl/zh-CN/chrome/) - 登录账号同步数据
-- ❎️ [Ghelper](https://ghelper.net/) - 浏览器插件，科学上网第一步
-- ✅ [Mihomo Party](https://github.com/mihomo-party-org/mihomo-party) - 一个更易用的代理客户端
-- ✅ [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - 修补了具有大量字形（图标）的开发人员目标字体
-    - 搜索下载 `FiraCode Nerd Font`
-- ✅ [SwitchHosts](https://switchhosts.vercel.app/zh) - 是一个管理、切换多个 hosts 方案的工具
-    - [GitHub Hosts](https://ineo6.github.io/hosts/) - GitHub 最新 hosts
+### 💻️ 工具下载
+
+```bash
+$ scoop install git
+$ scoop install winrar
+$ scoop install mihomo-party
+$ scoop install googlechrome
+$ scoop install vscode
+$ scoop install hyper
+$ scoop install starship
+$ scoop install clink
+$ scoop install switchhosts
+$ scoop install obsidian       # 写作应用程序
+$ scoop install fnm
+$ scoop install pnpm
+$ scoop install gsudo
+$ scoop install gping
+$ scoop install fzf
+$ scoop install zoxide
+$ scoop install nginx
+$ scoop install ngrok          # 反向代理，内网穿透
+$ scoop install tlrc           # 开源命令手册库 tldr-pages
+
+$ scoop install webstorm
+$ scoop install tabby          # 本地 shell、串行、SSH 和 Telnet 连接终端
+$ scoop install potplayer      # 万能播放器
+$ scoop install keyviz         # 开源按键可视化工具
+$ scoop install powertoys      # 自定义 Windows 的实用工具
+$ scoop install onefetch
+$ scoop install uv             # Python 包和项目管理工具
+$ scoop install pyenv
+$ scoop install adb
+$ scoop install bun
+$ scoop install gh
+$ scoop install syncthing
+```
+
+```bash
+# 设置本地默认分支 main
+$ git config --global init.defaultBranch main
+
+# 设置文件大小写敏感
+$ git config --global core.ignorecase false
+
+# 忽略目录安全限制
+$ git config --global --add safe.directory "*"
+
+# 管理员身份运行 PowerShell
+$ get-ExecutionPolicy
+$ set-ExecutionPolicy RemoteSigned
+
+$ $PROFILE                                    # powershell 配置文件地址
+$ code $PROFILE                               # 直接打开配置文件
+$ $psversiontable                             # powershell 版本
+```
 
 ### ✍🏻 终端配置
 
@@ -85,14 +145,22 @@ $ scoop alias show [名称]
 		- [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions)
 	- & 参考资料：[Using ZSH without OMZ](https://dev.to/hbenvenutti/using-zsh-without-omz-4gch)、[npm completion](https://didiaohu.gitbooks.io/npm/content/yong-npm-script-da-zao-chao-liu-de-qian-duan-gong-zuo-liu/23-shi-xian-ming-ling-xing-zi-dong-bu-quan.html)
 
+```bash
+$ md $HOME/.zsh/plugins
+
+$ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git $HOME\.zsh\plugins\fast-syntax-highlighting
+$ git clone https://github.com/zsh-users/zsh-autosuggestions.git $HOME\.zsh\plugins\zsh-autosuggestions
+$ git clone https://github.com/zsh-users/zsh-completions.git $HOME\.zsh\plugins\zsh-completions
+```
+
 ````ad-info
 title: .bashrc 配置文件
 collapse: closed
 
 ```bash
-	if [ -t 1 ]; then
-	  	exec zsh
-	fi
+if [ -t 1 ]; then
+	exec zsh
+fi
 ```
 ````
 
@@ -248,7 +316,7 @@ $ git extras --help
 ```
 ````
 
-- ✅️ [Hyper](https://hyper.is/) - 是一款跨平台的终端软件
+- ✅️ [Hyper](https://hyper.is/) - 跨平台的终端软件
     - [awesome-hyper](https://github.com/bnb/awesome-hyper)
     - 配置文件位置：`~\AppData\Roaming\Hyper\.hyper.js`
     - `fontFamily: 'FiraCode Nerd Font, Input Mono, monospace'`
@@ -263,7 +331,6 @@ $ hyper install hyperpower
     - [popular-scripts](https://chrisant996.github.io/clink/clink.html#popular-scripts)
 
 ```bash
-$ scoop install main/clink
 $ clink info
 
 # 下载插件
@@ -273,12 +340,14 @@ $ git clone https://github.com/chrisant996/clink-gizmos D:\DevelopmentApplicatio
 $ clink installscripts D:\DevelopmentApplication\Scoop\apps\clink\current\scripts
 $ clink installscripts D:\DevelopmentApplication\Scoop\apps\clink\current\scripts\clink-completions
 $ clink installscripts D:\DevelopmentApplication\Scoop\apps\clink\current\scripts\clink-gizmos
+
+# 在 cmd.exe 后追加 /k clink inject
+$ clink set tips.enable false
 ```
 
 - ✅ [Starship](https://starship.rs/zh-CN/) - 轻量、迅速、客制化的高颜值终端
 
 ```bash
-$ scoop install main/starship
 $ cd .config && mkdir starship && cd starship && type nul>starship.toml
 
 # powershell 7
@@ -297,68 +366,12 @@ os.setenv('STARSHIP_CONFIG', 'C:\\Users\\<username>\\.config\\starship\\starship
 # end
 ```
 
-### 💻️ 开发工具
-
-```bash
-$ scoop install git
-$ scoop install gh
-$ scoop install bun
-$ scoop install gsudo
-$ scoop install gping
-$ scoop install adb
-$ scoop install fzf
-$ scoop install zoxide
-$ scoop install syncthing
-$ scoop install nginx
-$ scoop install ngrok
-$ scoop install tlrc # 开源命令手册库 tldr-pages
-
-$ scoop install extras/mihomo-party
-$ scoop install extras/googlechrome
-$ scoop install extras/vscode
-$ scoop install extras/webstorm
-$ scoop install extras/hyper
-$ scoop install extras/tabby
-$ scoop install extras/switchhosts
-$ scoop install extras/obsidian
-$ scoop install extras/winrar
-$ scoop install extras/potplayer
-$ scoop install extras/keyviz
-$ scoop install extras/powertoys
-$ scoop install extras/onefetch
-$ scoop install main/uv
-$ scoop install main/pyenv
-```
-
-- ✅ [VS Code](https://code.visualstudio.com/) - 登录账号同步数据
-- ✅ [GitHub Cli](https://cli.github.com/)
-
 ### 💻️ 开发环境
 
-```bash
-# 设置本地默认分支 main
-$ git config --global init.defaultBranch main
-
-# 设置文件大小写敏感
-$ git config --global core.ignorecase false
-
-# 忽略目录安全限制
-$ git config --global --add safe.directory "*"
-
-# 管理员身份运行 PowerShell
-$ get-ExecutionPolicy
-$ set-ExecutionPolicy RemoteSigned
-
-$ $PROFILE                                    # powershell 配置文件地址
-$ code $PROFILE                               # 直接打开配置文件
-$ $psversiontable                             # powershell 版本
-```
-
-- ✅ [fnm](https://github.com/Schniz/fnm) - 快速简单的 Node. Js 版本管理器，用 Rust 构建
+- ✅ [fnm](https://github.com/Schniz/fnm) - 快速简单的 Node 版本管理器，用 Rust 构建
 
 ```bash
 # fnm 支持多项目单独切换版本
-$ scoop install main/fnm
 $ echo 'eval "$(fnm env --use-on-cd)"' >> ~/.zshrc
 $ source ~/.zshrc
 
@@ -388,18 +401,6 @@ $ fnm use X
 $ node --version > .node-version
 ```
 
-- ✅ [Corepack](https://github.com/nodejs/corepack) - 允许您使用 Yarn、npm 和 pnpm，默认随 node 一起安装（v 16.9.0+）
-
-```bash
-$ corepack -h
-$ corepack enable
-
-# 切换 pnpm 最新版本
-$ corepack use pnpm@latest
-# 切换 pnpm 指定版本
-$ corepack use pnpm@9.0.6  
-```
-
 - 自定义 npm 全局包安装路径
 
 ```bash
@@ -408,14 +409,17 @@ $ npm config set prefix ~/.npm_global
 
 # 设置系统环境变量
 C:\Users\wwlight\.npm_global
+```
 
+```bash
 # 全局安装 ni 及配置
 $ npm i -g @antfu/ni
+
 #  powershell 7
 Remove-Alias -Name ni -Force
 # end
 
-#  powershell 5
+# powershell 5
 if (-not (Test-Path $profile)) {
   New-Item -ItemType File -Path (Split-Path $profile) -Force -Name (Split-Path $profile -Leaf)
 }
@@ -423,25 +427,16 @@ Remove-Item Alias:ni -Force -ErrorAction Ignore
 # end
 ```
 
-- ✅ [uv](https://github.com/astral-sh/uv) -  Python 包和项目管理工具
-- ✅ [ngrok](https://ngrok.com/) - 反向代理，内网穿透
-
-### 💻️ 系统工具
+### 💻️ 其他工具
 
 - ✅ [微信键盘](https://z.weixin.qq.com/)
-- ✅ [Tabby](https://tabby.sh/) - 跨平台终端应用程序，本地 shell、串行、SSH 和 Telnet 连接
 - ✅ [Quicker](https://getquicker.net/) - 是一个功能强大的操作捷径创建与自动化工具
-- ✅ [WinRAR](https://www.winrar.com.cn/) - 是一款功能强大的压缩包管理器
-- ✅ [PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/) - 自定义 Windows 的实用工具
 - ✅ [IDM](https://vip.jokerps.com/?s=idm&type=post) - 是一款优秀下载工具
-- ✅ [Potplayer](https://potplayer.daum.net/) - 万能播放器
 - ✅ [LocalSend](https://localsend.org/) - 免费、开源、跨平台，将文件分享到附近的设备
 - ✅ [FSCapture](https://www.faststone.org/) - 强大、轻便但功能齐全的屏幕捕捉和屏幕录像工具（网上随便搜索注册码）
 - ✅ [PixPin](https://pixpinapp.com/) - 功能强大使用简单的截图/贴图工具
 - ✅ [金山毒霸垃圾清理独立版](https://vip.jokerps.com/6164.html) - 短小精悍垃圾清理工具
-- ✅ [Obsidian](https://obsidian.md/) - 是一款私密且灵活的写作应用程序
 - ✅ [PicGo](https://molunerfinn.com/PicGo/) - 图片上传 - 管理新体验
-- ✅ [Keyviz](https://mularahul.github.io/keyviz/) - 一个免费开源按键可视化工具
 - ✅ [Watt Toolkit](https://steampp.net/) - 开源跨平台的多功能 Steam 工具箱
 - ✅ [护眼宝](https://pc.qq.com/detail/7/detail_22407.html)
 
