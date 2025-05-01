@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Git 命令记录",
+      "path": "工具集整理/Git 命令记录.md"
+    },
+    {
       "basename": "Windows 系统工作环境",
       "path": "工具集整理/Windows 系统工作环境.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "书签导航",
       "path": "书签导航.md"
-    },
-    {
-      "basename": "Git 命令记录",
-      "path": "工具集整理/Git 命令记录.md"
     },
     {
       "basename": "Mac 使用记录",
