@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具集整理/Mac 系统工作环境.md",
+                "file": "开源项目学习.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Mac 系统工作环境"
+              "title": "开源项目学习"
             }
           },
           {
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具集整理/Mac 系统工作环境.md",
+                "file": "开源项目学习.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Mac 系统工作环境 的大纲"
+              "title": "开源项目学习 的大纲"
             }
           },
           {
@@ -261,9 +261,10 @@
   },
   "active": "736f32738161797d",
   "lastOpenFiles": [
-    "工具集整理/Windows 系统工作环境.md",
-    "工具集整理/Mac 系统工作环境.md",
     "书签导航.md",
+    "README.md",
+    "工具集整理/Mac 系统工作环境.md",
+    "工具集整理/Windows 系统工作环境.md",
     "工具集整理/Mac 开发工具命令.md",
     "备忘录/js 常用整理.md",
     "备忘录/js 实用小技巧.md",
@@ -286,7 +287,6 @@
     "面试题整理/项目相关.md",
     "面试题整理/自我介绍.md",
     "面试题整理/JavaScript 设计模式与开发实践.md",
-    "面试题整理/css 基础.md",
     "Attachmets/git-lfs-graphic.gif",
     "attachmets_temp/悟空拼音字母表.jpg",
     "attachmets_temp/小鹤双拼键盘布局.png",

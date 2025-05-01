@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "开源项目学习",
+      "path": "开源项目学习.md"
+    },
+    {
+      "basename": "书签导航",
+      "path": "书签导航.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "Mac 系统工作环境",
       "path": "工具集整理/Mac 系统工作环境.md"
     },
@@ -19,10 +31,6 @@
     {
       "basename": "常用工具命令",
       "path": "工具集整理/常用工具命令.md"
-    },
-    {
-      "basename": "书签导航",
-      "path": "书签导航.md"
     },
     {
       "basename": "Mac 使用记录",
@@ -47,10 +55,6 @@
     {
       "basename": "未命名",
       "path": "未命名.canvas"
-    },
-    {
-      "basename": "开源项目学习",
-      "path": "开源项目学习.md"
     },
     {
       "basename": "单位换算",
@@ -87,10 +91,6 @@
     {
       "basename": "css 记录",
       "path": "备忘录/css 记录.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "js 实用小技巧",
