@@ -147,6 +147,7 @@ $ $psversiontable                             # powershell 版本
 
 ```bash
 $ md $HOME/.zsh/plugins
+$ touch $HISTFILE # 安装成功才能使用
 
 $ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git $HOME\.zsh\plugins\fast-syntax-highlighting
 $ git clone https://github.com/zsh-users/zsh-autosuggestions.git $HOME\.zsh\plugins\zsh-autosuggestions
@@ -366,6 +367,36 @@ os.setenv('STARSHIP_CONFIG', 'C:\\Users\\<username>\\.config\\starship\\starship
 # end
 ```
 
+````ad-info
+title: starship.toml 配置文件
+collapse: closed
+
+```bash
+command_timeout = 10000
+
+# 在提示符之间插入空行
+add_newline = true
+
+# 将提示符中的 '❯' 替换为 '➜'
+[character] 
+success_symbol = '[➜](bold green)'
+
+# 禁用 'package' 组件，将其隐藏
+[package]
+disabled = true
+
+[localip]
+ssh_only = false
+format = '[$localipv4](bold green) '
+disabled = true
+
+[cmd_duration]
+min_time = 500
+format = 'underwent [$duration](bold yellow)'
+disabled = true
+```
+````
+
 ### 💻️ 开发环境
 
 - ✅ [fnm](https://github.com/Schniz/fnm) - 快速简单的 Node 版本管理器，用 Rust 构建
@@ -401,7 +432,7 @@ $ fnm use X
 $ node --version > .node-version
 ```
 
-- 自定义 npm 全局包安装路径
+- ✅ 自定义 npm 全局包安装位置
 
 ```bash
 $ mkdir .npm_global
@@ -427,10 +458,9 @@ Remove-Item Alias:ni -Force -ErrorAction Ignore
 # end
 ```
 
-### 💻️ 其他工具
+### 💻️ 其它工具
 
 - ✅ [微信键盘](https://z.weixin.qq.com/)
-- ✅ [Quicker](https://getquicker.net/) - 是一个功能强大的操作捷径创建与自动化工具
 - ✅ [IDM](https://vip.jokerps.com/?s=idm&type=post) - 是一款优秀下载工具
 - ✅ [LocalSend](https://localsend.org/) - 免费、开源、跨平台，将文件分享到附近的设备
 - ✅ [FSCapture](https://www.faststone.org/) - 强大、轻便但功能齐全的屏幕捕捉和屏幕录像工具（网上随便搜索注册码）

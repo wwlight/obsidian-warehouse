@@ -14,13 +14,12 @@ title: 说明
 ### 🍀 准备工作
 
 - ✅ [Homebrew](https://brew.sh/) - 软件包的管理器｜[镜像](https://gitee.com/cunkai/HomebrewCN) `[!!success: 推荐]`
-- ✅ [Google](https://www.google.com/intl/zh-CN/chrome/) - 登录账号同步数据
-- ❎️ [Ghelper](https://ghelper.net/) - 浏览器插件，科学上网第一步
+- ❎️ [Ghelper](https://ghelper.net/) - 浏览器插件 | [极简插件](https://chrome.zzzmh.cn/)
 - ✅ [Mihomo Party](https://github.com/mihomo-party-org/mihomo-party) - 一个更易用的代理客户端
-- ✅ [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - 修补了具有大量字形（图标）的开发人员目标字体
-	- 搜索下载 `FiraCode Nerd Font`
 - ✅ [SwitchHosts](https://switchhosts.vercel.app/zh) - 是一个管理、切换多个 hosts 方案的工具
 	- [GitHub Hosts](https://ineo6.github.io/hosts/) - GitHub 最新 hosts
+- ✅ [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - 修补了具有大量字形（图标）的开发人员目标字体
+	- 搜索下载 `FiraCode Nerd Font`
 
 ### ✍🏻 终端配置
 
@@ -32,6 +31,15 @@ title: 说明
 		- [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions)
 		- [incr](https://mimosa-pudica.net/zsh-incremental.html)
 	- & 参考资料：[Using ZSH without OMZ](https://dev.to/hbenvenutti/using-zsh-without-omz-4gch)、[npm completion](https://didiaohu.gitbooks.io/npm/content/yong-npm-script-da-zao-chao-liu-de-qian-duan-gong-zuo-liu/23-shi-xian-ming-ling-xing-zi-dong-bu-quan.html)
+
+```bash
+$ touch $HOME/.zsh/plugins
+$ touch $HISTFILE
+
+$ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git $HOME\.zsh\plugins\fast-syntax-highlighting
+$ git clone https://github.com/zsh-users/zsh-autosuggestions.git $HOME\.zsh\plugins\zsh-autosuggestions
+$ git clone https://github.com/zsh-users/zsh-completions.git $HOME\.zsh\plugins\zsh-completions
+```
 
 ````ad-info
 title: .zshrc 配置文件
@@ -169,16 +177,12 @@ alias gc='git branch | fzf | xargs git checkout' # 搜索 git 分支并切换
 alias t='tldr' # tldr 命令
 # alias end
 ```
----
-
-```bash
-$ touch $HISTFILE
-```
 ````
 
 - ✅️ [Hyper](https://hyper.is/) - 是一款跨平台的终端软件
 	- [awesome-hyper](https://github.com/bnb/awesome-hyper)
-	- 配置文件位置：`~/Library/Application Support/Hyper/.hyper.js`
+	- 配置文件位置：`~/Library/Application Support/Hyper/.hyper.js``
+    - `fontFamily: 'FiraCode Nerd Font, Input Mono, monospace'
 
 ```bash
 $ hyper install hyper-dracula
@@ -193,12 +197,39 @@ $ brew install starship
 $ cd .config && mkdir starship && cd starship && type nul>starship.toml
 ```
 
+````ad-info
+title: starship.toml 配置文件
+collapse: closed
+
+```bash
+command_timeout = 10000
+
+# 在提示符之间插入空行
+add_newline = true
+
+# 将提示符中的 '❯' 替换为 '➜'
+[character]
+success_symbol = '[➜](bold green)'
+
+# 禁用 'package' 组件，将其隐藏
+[package]
+disabled = true
+
+[localip]
+ssh_only = false
+format = '[$localipv4](bold green) '
+disabled = true
+
+[cmd_duration]
+min_time = 500
+format = 'underwent [$duration](bold yellow)'
+disabled = true
+```
+````
+
 ### 💻️ 开发工具
 
 ![[Mac 开发工具命令#常用安装应用]]
-
-- ✅ [VS Code](https://code.visualstudio.com/) - 登录账号同步数据
-- ✅ [GitHub Cli](https://cli.github.com/)
 
 ### 💻️ 开发环境
 
@@ -236,20 +267,7 @@ $ fnm env
 $ node --version > .node-version
 ```
 
-- ✅ [Corepack](https://github.com/nodejs/corepack) - 允许您使用 Yarn、npm 和 pnpm，默认随 node 一起安装（v16.9.0+）
-
-```bash
-$ corepack -h
-$ corepack enable
-
-# 切换 pnpm 最新版本
-$ corepack use pnpm@latest
-
-# 切换 pnpm 指定版本
-$ corepack use pnpm@9.0.6
-```
-
-- 自定义 npm 全局包安装路径
+- ✅ 自定义 npm 全局包安装位置
 
 ```bash
 $ mkdir -p ~/.npm_global
