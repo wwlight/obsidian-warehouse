@@ -24,7 +24,6 @@ $ md D:\SystemApplication
 - ✅ [SwitchHosts](https://switchhosts.vercel.app/zh) - 是一个管理、切换多个 hosts 方案的工具
     - [GitHub Hosts](https://ineo6.github.io/hosts/) - GitHub 最新 hosts
 - ✅ [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - 修补了具有大量字形（图标）的开发人员目标字体
-    - 搜索下载 `FiraCode Nerd Font`
 - ✅ [Scoop](https://scoop.sh/) - 适用于 Windows 的命令行安装程序 | [镜像](https://gitee.com/scoop-installer/scoop)
 
 ```bash
@@ -38,6 +37,12 @@ $ iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
 
 # 安装 git
 $ scoop install git
+
+# 安装字体
+$ scoop bucket add nerd-fonts
+$ scoop install LXGWWenKaiMono
+$ scoop install FiraCode-NF
+$ scoop install FiraCode-NF-Mono
 ```
 
 ````ad-summary
@@ -101,6 +106,7 @@ $ scoop install zoxide
 $ scoop install nginx
 $ scoop install ngrok          # 反向代理，内网穿透
 $ scoop install tlrc           # 开源命令手册库 tldr-pages
+$ scoop install wechat
 
 $ scoop install webstorm
 $ scoop install tabby          # 本地 shell、串行、SSH 和 Telnet 连接终端
