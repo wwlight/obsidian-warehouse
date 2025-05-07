@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "剪藏句子",
+      "path": "心灵鸡汤/剪藏句子.md"
+    },
+    {
+      "basename": "git 问题记录",
+      "path": "错题集/git 问题记录.md"
+    },
+    {
+      "basename": "Git 命令记录",
+      "path": "工具集整理/Git 命令记录.md"
+    },
+    {
       "basename": "Windows 系统工作环境",
       "path": "工具集整理/Windows 系统工作环境.md"
+    },
+    {
+      "basename": "开发问题记录",
+      "path": "错题集/开发问题记录.md"
     },
     {
       "basename": "开源项目学习",
@@ -19,10 +35,6 @@
     {
       "basename": "Mac 系统工作环境",
       "path": "工具集整理/Mac 系统工作环境.md"
-    },
-    {
-      "basename": "Git 命令记录",
-      "path": "工具集整理/Git 命令记录.md"
     },
     {
       "basename": "Mac 开发工具命令",
@@ -67,14 +79,6 @@
     {
       "basename": "unocss 记录",
       "path": "备忘录/unocss 记录.md"
-    },
-    {
-      "basename": "开发问题记录",
-      "path": "错题集/开发问题记录.md"
-    },
-    {
-      "basename": "git 问题记录",
-      "path": "错题集/git 问题记录.md"
     },
     {
       "basename": "未命名",
@@ -123,10 +127,6 @@
     {
       "basename": "悟空拼音字母表",
       "path": "Attachmets/悟空拼音字母表.jpg"
-    },
-    {
-      "basename": "剪藏句子",
-      "path": "心灵鸡汤/剪藏句子.md"
     },
     {
       "basename": "小鹤双拼键位口诀",

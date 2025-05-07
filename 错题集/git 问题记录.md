@@ -19,6 +19,16 @@ $ git mv demo temp_demo
 $ git mv temp_demo Demo
 ``` 
 
+### Git 强制同步远程最新代码
+
+```bash
+# 检出远程所有分支最新数据
+$ git fetch --all
+
+# 强制将本地 main 分支重置到和远程仓库 (origin/main) 一致的状态
+$ git reset --hard origin/main
+```
+
 ### Git LFS 大文件存储
 
 ```ad-info

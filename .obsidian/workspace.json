@@ -4,20 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a6cb7067839a70b3",
+        "id": "5e15c3a0d3f86b95",
         "type": "tabs",
         "children": [
           {
-            "id": "eadb7df39ec2a155",
+            "id": "8008595f6926b21a",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "工具集整理/Windows 系统工作环境.md",
-                "staged": false
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (Windows 系统工作环境)"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -241,15 +238,18 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "eadb7df39ec2a155",
+  "active": "736f32738161797d",
   "lastOpenFiles": [
+    "心灵鸡汤/剪藏句子.md",
+    "错题集/git 问题记录.md",
+    "工具集整理/Git 命令记录.md",
     "工具集整理/Windows 系统工作环境.md",
+    "错题集/开发问题记录.md",
     "书签导航.md",
     "工具集整理/Mac 系统工作环境.md",
     "工具集整理/Mac 开发工具命令.md",
     "备忘录/js 常用整理.md",
     "备忘录/js 实用小技巧.md",
-    "工具集整理/Git 命令记录.md",
     "工具集整理/bash 命令记录.md",
     "工具集整理/Obsidian 使用入门.md",
     "工具集整理/常用工具命令.md",
@@ -257,8 +257,6 @@
     "TODO/单位换算.md",
     "备忘录/css 相关/css 渐变角度理解.md",
     "备忘录/unocss 记录.md",
-    "错题集/开发问题记录.md",
-    "错题集/git 问题记录.md",
     "备忘录/VSCode 使用记录.md",
     "备忘录/魔方公式.md",
     "备忘录/lodash 记录.md",
@@ -268,7 +266,6 @@
     "面试题整理/项目相关.md",
     "面试题整理/自我介绍.md",
     "面试题整理/JavaScript 设计模式与开发实践.md",
-    "面试题整理/css 基础.md",
     "Attachmets/git-lfs-graphic.gif",
     "attachmets_temp/悟空拼音字母表.jpg",
     "attachmets_temp/小鹤双拼键盘布局.png",
