@@ -15,15 +15,19 @@ title: 说明
 
 - ✅ [Homebrew](https://brew.sh/) - 软件包的管理器｜[镜像](https://gitee.com/cunkai/HomebrewCN) `[!!success: 推荐]`
 - ❎️ [Ghelper](https://ghelper.net/) - 浏览器插件 | [极简插件](https://chrome.zzzmh.cn/)
-- ✅ [Mihomo Party](https://github.com/mihomo-party-org/mihomo-party) - 一个更易用的代理客户端
-- ✅ [SwitchHosts](https://switchhosts.vercel.app/zh) - 是一个管理、切换多个 hosts 方案的工具
-	- [GitHub Hosts](https://ineo6.github.io/hosts/) - GitHub 最新 hosts
-- ✅ [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - 修补了具有大量字形（图标）的开发人员目标字体
-	- 搜索下载 `FiraCode Nerd Font`
+- ✅ [Mihomo Party](https://github.com/mihomo-party-org/mihomo-party) - 更易用的代理客户端
+- ✅ [SwitchHosts](https://switchhosts.vercel.app/zh) - 管理切换多个 hosts 的工具 | [GitHub Hosts](https://ineo6.github.io/hosts/)
+- ✅ [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - 为开发者提供**图标字体**补丁
+
+```bash
+$ brew install --cask font-fira-code-nerd-font
+$ brew install --cask font-fira-mono-nerd-font
+$ brew install --cask font-lxgw-wenkai-mono-tc
+```
 
 ### ✍🏻 终端配置
 
-- ✅ [zsh](https://www.zsh.org/) - 一个为交互式使用而设计的 shell
+- ✅ [zsh](https://www.zsh.org/) - 功能强大的 shell
 	- 系统自带
 	- zsh plugins：
 		- [zdharma-continuum/fast-syntax-highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting)
@@ -181,7 +185,7 @@ alias t='tldr' # tldr 命令
 
 - ✅️ [Hyper](https://hyper.is/) - 是一款跨平台的终端软件
 	- [awesome-hyper](https://github.com/bnb/awesome-hyper)
-	- 配置文件位置：`~/Library/Application Support/Hyper/.hyper.js``
+	- 配置文件位置：`~/Library/Application Support/Hyper/.hyper.js`
     - `fontFamily: 'FiraCode Nerd Font, Input Mono, monospace'
 
 ```bash
@@ -194,7 +198,7 @@ $ hyper install hyperpower
 
 ```bash
 $ brew install starship
-$ cd .config && mkdir starship && cd starship && type nul>starship.toml
+$ cd .config && mkdir starship && cd starship && type null>starship.toml
 ```
 
 ````ad-info
@@ -244,7 +248,7 @@ $ git config --global core.ignorecase false
 $ git config --global --add safe.directory "*"
 ```
 
-- ✅ [fnm](https://github.com/Schniz/fnm) - 快速简单的 Node.js 版本管理器，用 Rust 构建
+- ✅ [fnm](https://github.com/Schniz/fnm) - 快速简单的 Node.js 版本管理器
 
 ```bash
 # fnm 支持多项目单独切换版本
@@ -281,10 +285,6 @@ $ source ~/.zshrc
 
 $ npm i -g @antfu/ni
 ```
-
-- ✅ [SDKMAN](https://sdkman.io/) - 软件开发工具包管理器｜[brew 安装](https://github.com/sdkman/homebrew-tap)
-- ✅ [uv](https://github.com/astral-sh/uv) -  Python 包和项目管理工具
-- ✅ [ngrok](https://ngrok.com/) - 反向代理，内网穿透
 
 ### 💻️ 办公工具
 

@@ -20,10 +20,9 @@ $ md D:\SystemApplication
 ```
 
 - ❎️ [Ghelper](https://ghelper.net/) - 浏览器插件 | [极简插件](https://chrome.zzzmh.cn/)
-- ✅ [Mihomo Party](https://github.com/mihomo-party-org/mihomo-party) - 一个更易用的代理客户端
-- ✅ [SwitchHosts](https://switchhosts.vercel.app/zh) - 是一个管理、切换多个 hosts 方案的工具
-    - [GitHub Hosts](https://ineo6.github.io/hosts/) - GitHub 最新 hosts
-- ✅ [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - 修补了具有大量字形（图标）的开发人员目标字体
+- ✅ [Mihomo Party](https://github.com/mihomo-party-org/mihomo-party) - 更易用的代理客户端
+- ✅ [SwitchHosts](https://switchhosts.vercel.app/zh) - 管理切换多个 hosts 的工具 | [GitHub Hosts](https://ineo6.github.io/hosts/)
+- ✅ [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - 为开发者提供**图标字体**补丁
 - ✅ [Scoop](https://scoop.sh/) - 适用于 Windows 的命令行安装程序 | [镜像](https://gitee.com/scoop-installer/scoop)
 
 ```bash
@@ -84,6 +83,25 @@ $ scoop alias show [名称]
 ```
 ````
 
+```bash
+# 设置本地默认分支 main
+$ git config --global init.defaultBranch main
+
+# 设置文件大小写敏感
+$ git config --global core.ignorecase false
+
+# 忽略目录安全限制
+$ git config --global --add safe.directory "*"
+
+# 管理员身份运行 PowerShell
+$ get-ExecutionPolicy
+$ set-ExecutionPolicy RemoteSigned
+
+$ $PROFILE                                    # powershell 配置文件地址
+$ code $PROFILE                               # 直接打开配置文件
+$ $psversiontable                             # powershell 版本
+```
+
 ### 💻️ 工具下载
 
 ```bash
@@ -122,28 +140,9 @@ $ scoop install gh
 $ scoop install syncthing
 ```
 
-```bash
-# 设置本地默认分支 main
-$ git config --global init.defaultBranch main
-
-# 设置文件大小写敏感
-$ git config --global core.ignorecase false
-
-# 忽略目录安全限制
-$ git config --global --add safe.directory "*"
-
-# 管理员身份运行 PowerShell
-$ get-ExecutionPolicy
-$ set-ExecutionPolicy RemoteSigned
-
-$ $PROFILE                                    # powershell 配置文件地址
-$ code $PROFILE                               # 直接打开配置文件
-$ $psversiontable                             # powershell 版本
-```
-
 ### ✍🏻 终端配置
 
-- ✅ [zsh](https://www.zsh.org/) - 一个为交互式使用而设计的 shell
+- ✅ [zsh](https://www.zsh.org/) - 功能强大的 shell
 	- 将 [zsh 安装包](https://packages.msys2.org/packages/zsh?repo=msys&variant=x86_64) 解压到 git 的安装根目录下
 	- Zsh plugins：
 		- [zdharma-continuum/fast-syntax-highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting)
@@ -355,7 +354,7 @@ $ clink set tips.enable false
 - ✅ [Starship](https://starship.rs/zh-CN/) - 轻量、迅速、客制化的高颜值终端
 
 ```bash
-$ cd .config && mkdir starship && cd starship && type nul>starship.toml
+$ cd .config && mkdir starship && cd starship && type null>starship.toml
 
 # powershell 7
 Invoke-Expression (&starship init powershell)
@@ -405,7 +404,7 @@ disabled = true
 
 ### 💻️ 开发环境
 
-- ✅ [fnm](https://github.com/Schniz/fnm) - 快速简单的 Node 版本管理器，用 Rust 构建
+- ✅ [fnm](https://github.com/Schniz/fnm) - 快速简单的 Node 版本管理器
 
 ```bash
 # fnm 支持多项目单独切换版本

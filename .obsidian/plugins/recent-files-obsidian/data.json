@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "剪藏句子",
-      "path": "心灵鸡汤/剪藏句子.md"
+      "basename": "Mac 系统工作环境",
+      "path": "工具集整理/Mac 系统工作环境.md"
+    },
+    {
+      "basename": "Windows 系统工作环境",
+      "path": "工具集整理/Windows 系统工作环境.md"
+    },
+    {
+      "basename": "Mac 开发工具命令",
+      "path": "工具集整理/Mac 开发工具命令.md"
     },
     {
       "basename": "git 问题记录",
       "path": "错题集/git 问题记录.md"
     },
     {
-      "basename": "Git 命令记录",
-      "path": "工具集整理/Git 命令记录.md"
+      "basename": "剪藏句子",
+      "path": "心灵鸡汤/剪藏句子.md"
     },
     {
-      "basename": "Windows 系统工作环境",
-      "path": "工具集整理/Windows 系统工作环境.md"
+      "basename": "Git 命令记录",
+      "path": "工具集整理/Git 命令记录.md"
     },
     {
       "basename": "开发问题记录",
@@ -31,14 +39,6 @@
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "Mac 系统工作环境",
-      "path": "工具集整理/Mac 系统工作环境.md"
-    },
-    {
-      "basename": "Mac 开发工具命令",
-      "path": "工具集整理/Mac 开发工具命令.md"
     },
     {
       "basename": "常用工具命令",
@@ -117,10 +117,6 @@
       "path": "备忘录/魔方公式.md"
     },
     {
-      "basename": "JavaScript设计模式与开发实践-曾探",
-      "path": "WeRead/计算机/JavaScript设计模式与开发实践-曾探.md"
-    },
-    {
       "basename": "小鹤双拼键盘布局",
       "path": "Attachmets/小鹤双拼键盘布局.png"
     },
@@ -143,10 +139,6 @@
     {
       "basename": "Git 常用工具命令",
       "path": "工具集整理/Git 常用工具命令.md"
-    },
-    {
-      "basename": "博弈论-翟文明",
-      "path": "WeRead/个人成长/博弈论-翟文明.md"
     },
     {
       "basename": "未命名",
