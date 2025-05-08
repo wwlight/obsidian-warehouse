@@ -448,6 +448,9 @@ C:\Users\wwlight\.npm_global
 ```
 
 ```bash
+# npm 镜像管理器
+$ npm i -g nrm
+
 # 全局安装 ni 及配置
 $ npm i -g @antfu/ni
 
