@@ -63,6 +63,8 @@ $ scoop update                     # 更新 Scoop 自身
 $ scoop update *                   # 更新所有应用
 $ scoop update [软件名]             # 更新指定应用
 $ scoop status                     # 检查可更新的应用
+$ scoop hold [软件名]               # 禁止更新指定应用
+$ scoop unhold [软件名]             # 解除禁止更新指定应用
 
 $ scoop cache show                 # 显示缓存
 $ scoop cache rm [软件名]           # 删除指定应用缓存
@@ -347,8 +349,12 @@ $ clink installscripts D:\DevelopmentApplication\Scoop\apps\clink\current\script
 $ clink installscripts D:\DevelopmentApplication\Scoop\apps\clink\current\scripts\clink-completions
 $ clink installscripts D:\DevelopmentApplication\Scoop\apps\clink\current\scripts\clink-gizmos
 
-# 在 cmd.exe 后追加 /k clink inject
-$ clink set tips.enable false
+# 使用方法
+$ clink autorun install    # 启用自动运行
+$ clink autorun uninstall  # 禁用自动运行
+$ clink inject             # 临时运行
+
+$ scoop hold clink         # 禁止更新
 ```
 
 - ✅ [Starship](https://starship.rs/zh-CN/) - 轻量、迅速、客制化的高颜值终端
