@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0e1a362b0a2034bc",
+        "id": "3935d065a3a060b1",
         "type": "tabs",
         "children": [
           {
-            "id": "e4445df44c8e59f7",
+            "id": "00186fdfd9b3ca76",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具集整理/常用工具命令.md",
+                "file": "书签导航.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "常用工具命令"
+              "title": "书签导航"
             }
           }
         ]
@@ -100,8 +100,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ]
@@ -125,13 +125,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具集整理/常用工具命令.md",
+                "file": "书签导航.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "常用工具命令 的大纲"
+              "title": "书签导航 的大纲"
             }
           },
           {
@@ -140,8 +140,8 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "checkmark",
+              "title": "Todo List"
             }
           },
           {
@@ -156,26 +156,6 @@
               },
               "icon": "lucide-archive",
               "title": "添加笔记属性"
-            }
-          },
-          {
-            "id": "5a910e8a717a9be7",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          },
-          {
-            "id": "4a7489e9aa690c3b",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
             }
           }
         ]
@@ -251,34 +231,34 @@
     "hiddenItems": {
       "switcher:打开快速切换": false,
       "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "canvas:新建白板": false,
       "templates:插入模板": false,
       "workspaces:管理工作区布局": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-git:Open Git source control": true,
+      "obsidian-advanced-slides:Show Slide Preview": true,
       "custom-sort:Toggle custom sorting": false
     }
   },
   "active": "736f32738161797d",
   "lastOpenFiles": [
     "工具集整理/常用工具命令.md",
-    "工具集整理/Mac 开发工具命令.md",
-    "工具集整理/bash 命令记录.md",
-    "工具集整理/Git 命令记录.md",
     "工具集整理/Windows 系统工作环境.md",
+    "工具集整理/Mac 开发工具命令.md",
     "工具集整理/Mac 系统工作环境.md",
-    "开源项目学习.md",
-    "错题集/开发问题记录.md",
-    "README.md",
+    "工具集整理/Git 命令记录.md",
     "错题集/git 问题记录.md",
+    "错题集/开发问题记录.md",
+    "心灵鸡汤/剪藏句子.md",
     "书签导航.md",
     "备忘录/js 常用整理.md",
     "备忘录/js 实用小技巧.md",
+    "工具集整理/bash 命令记录.md",
     "工具集整理/Obsidian 使用入门.md",
+    "开源项目学习.md",
     "TODO/单位换算.md",
     "备忘录/css 相关/css 渐变角度理解.md",
     "备忘录/unocss 记录.md",

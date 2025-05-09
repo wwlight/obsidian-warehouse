@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "书签导航",
+      "path": "书签导航.md"
+    },
+    {
       "basename": "常用工具命令",
       "path": "工具集整理/常用工具命令.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "剪藏句子",
       "path": "心灵鸡汤/剪藏句子.md"
-    },
-    {
-      "basename": "书签导航",
-      "path": "书签导航.md"
     },
     {
       "basename": "Mac 使用记录",
