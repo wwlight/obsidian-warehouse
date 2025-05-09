@@ -104,10 +104,6 @@ function cdd() {
 }
 # zoxide end
 
-# tldr
-export TLDR_LANGUAGE=zh
-# tldr end
-
 # starship
 eval "$(starship init zsh)"
 export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
@@ -127,6 +123,25 @@ export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
 eval "$(uv generate-shell-completion zsh)"
 eval "$(uvx --generate-shell-completion zsh)"
 # uv end
+
+# tldr
+export TLDR_LANGUAGE=zh
+# tldr end
+
+# alias
+alias ping="gping"
+alias of="onefetch"
+alias nio="ni --prefer-offline"
+alias s="nr start"
+alias d="nr dev"
+alias b="nr build"
+alias cls="clear"
+alias gp='git push'
+alias gl='git pull'
+alias grt='cd "$(git rev-parse --show-toplevel)"'
+alias gc='git branch | fzf | xargs git checkout' # 搜索 git 分支并切换
+alias t='tldr' # tldr 命令
+# alias end
 
 # 添加清理历史记录的函数
 function history_clean() {
@@ -165,21 +180,6 @@ function history_clean() {
         rm $tmp
     fi
 }
-
-# alias
-alias ping="gping"
-alias of="onefetch"
-alias nio="ni --prefer-offline"
-alias s="nr start"
-alias d="nr dev"
-alias b="nr build"
-alias cls="clear"
-alias gp='git push'
-alias gl='git pull'
-alias grt='cd "$(git rev-parse --show-toplevel)"'
-alias gc='git branch | fzf | xargs git checkout' # 搜索 git 分支并切换
-alias t='tldr' # tldr 命令
-# alias end
 ```
 ````
 
