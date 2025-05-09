@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Mac 系统工作环境",
-      "path": "工具集整理/Mac 系统工作环境.md"
+      "basename": "常用工具命令",
+      "path": "工具集整理/常用工具命令.md"
+    },
+    {
+      "basename": "Mac 开发工具命令",
+      "path": "工具集整理/Mac 开发工具命令.md"
+    },
+    {
+      "basename": "bash 命令记录",
+      "path": "工具集整理/bash 命令记录.md"
+    },
+    {
+      "basename": "Git 命令记录",
+      "path": "工具集整理/Git 命令记录.md"
     },
     {
       "basename": "Windows 系统工作环境",
       "path": "工具集整理/Windows 系统工作环境.md"
+    },
+    {
+      "basename": "Mac 系统工作环境",
+      "path": "工具集整理/Mac 系统工作环境.md"
     },
     {
       "basename": "开源项目学习",
@@ -17,24 +33,8 @@
       "path": "错题集/开发问题记录.md"
     },
     {
-      "basename": "Mac 开发工具命令",
-      "path": "工具集整理/Mac 开发工具命令.md"
-    },
-    {
-      "basename": "Git 命令记录",
-      "path": "工具集整理/Git 命令记录.md"
-    },
-    {
       "basename": "git 问题记录",
       "path": "错题集/git 问题记录.md"
-    },
-    {
-      "basename": "常用工具命令",
-      "path": "工具集整理/常用工具命令.md"
-    },
-    {
-      "basename": "bash 命令记录",
-      "path": "工具集整理/bash 命令记录.md"
     },
     {
       "basename": "README",
