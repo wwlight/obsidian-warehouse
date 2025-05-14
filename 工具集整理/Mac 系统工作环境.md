@@ -124,10 +124,6 @@ eval "$(uv generate-shell-completion zsh)"
 eval "$(uvx --generate-shell-completion zsh)"
 # uv end
 
-# tldr
-export TLDR_LANGUAGE=zh
-# tldr end
-
 # alias
 alias ping="gping"
 alias of="onefetch"
