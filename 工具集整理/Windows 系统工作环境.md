@@ -125,7 +125,7 @@ $ scoop install fzf
 $ scoop install zoxide
 $ scoop install nginx
 $ scoop install ngrok          # 反向代理，内网穿透
-$ scoop install tlrc           # 开源命令手册库 tldr-pages
+$ scoop install tlrc           # 控制台命令速查表 tldr-pages
 $ scoop install wechat
 
 $ scoop install webstorm
@@ -237,7 +237,7 @@ starship_precmd_user_func="set_win_title"
 precmd_functions+=(set_win_title)
 # starship end
 
-# nv python 版本管理工具
+# uv python 版本管理工具
 autoload -Uz compinit && compinit
 eval "$(uv generate-shell-completion zsh)"
 eval "$(uvx --generate-shell-completion zsh)"
