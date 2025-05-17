@@ -11,15 +11,13 @@
             "id": "abc33573da1e1625",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "工具集整理/Windows 系统工作环境.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Attachmets/scoop_backup.json",
+                "staged": true
               },
-              "icon": "lucide-file",
-              "title": "Windows 系统工作环境"
+              "icon": "git-pull-request",
+              "title": "Diff View (scoop_backup.json)"
             }
           }
         ]
@@ -125,13 +123,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具集整理/Windows 系统工作环境.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Windows 系统工作环境 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -243,13 +240,13 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "736f32738161797d",
+  "active": "abc33573da1e1625",
   "lastOpenFiles": [
+    "工具集整理/Windows 系统工作环境.md",
     "Attachmets/小鹤双拼键盘布局.png",
     "Attachmets/小鹤双拼键位口诀.jpg",
     "Attachmets/dark-mode-angles.svg",
     "Attachmets/git-lfs-graphic.gif",
-    "工具集整理/Windows 系统工作环境.md",
     "Attachmets/scoop_backup.json",
     "Attachmets/Pasted image 20250109145925.png",
     "工具集整理/Mac 系统工作环境.md",
@@ -282,7 +279,6 @@
     "attachmets_temp/dark-mode-angles.svg",
     "attachmets_temp/Pasted image 20250109145925.png",
     "attachmets_temp",
-    "Attachmets/悟空拼音字母表.jpg",
     "Attachmets",
     "错题集",
     "WeRead/教育学习",
