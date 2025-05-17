@@ -34,14 +34,7 @@ $ [Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
 $ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 $ iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
 
-# 安装 git
-$ scoop install git
-
-# 安装字体
-$ scoop bucket add nerd-fonts
-$ scoop install LXGWWenKaiMono
-$ scoop install FiraCode-NF
-$ scoop install FiraCode-NF-Mono
+$ scoop import scoop_backup.json
 ```
 
 ````ad-summary
@@ -77,6 +70,11 @@ $ scoop bucket known               # 列出所有官方认可的 Bucket
 $ scoop bucket add [name]          # 添加 Bucket
 $ scoop bucket rm [name]           # 删除 Bucket
 
+# 导出已安装 Scoop 应用
+$ scoop export > scoop_backup.json
+# 从备份文件恢复所有应用
+$ scoop import scoop_backup.json
+
 $ scoop alias list
 $ scoop alias add [名称] [命令]
 # scoop alias add ls 'scoop list'
@@ -85,26 +83,9 @@ $ scoop alias show [名称]
 ```
 ````
 
-```bash
-# 设置本地默认分支 main
-$ git config --global init.defaultBranch main
-
-# 设置文件大小写敏感
-$ git config --global core.ignorecase false
-
-# 忽略目录安全限制
-$ git config --global --add safe.directory "*"
-
-# 管理员身份运行 PowerShell
-$ get-ExecutionPolicy
-$ set-ExecutionPolicy RemoteSigned
-
-$ $PROFILE                                    # powershell 配置文件地址
-$ code $PROFILE                               # 直接打开配置文件
-$ $psversiontable                             # powershell 版本
-```
-
-### 💻️ 工具下载
+````ad-summary
+title: 工具下载
+collapse: false
 
 ```bash
 $ scoop install git
@@ -140,6 +121,32 @@ $ scoop install adb
 $ scoop install bun
 $ scoop install gh
 $ scoop install syncthing
+
+# 安装字体
+$ scoop bucket add nerd-fonts
+$ scoop install LXGWWenKaiMono
+$ scoop install FiraCode-NF
+$ scoop install FiraCode-NF-Mono
+```
+````
+
+```bash
+# 设置本地默认分支 main
+$ git config --global init.defaultBranch main
+
+# 设置文件大小写敏感
+$ git config --global core.ignorecase false
+
+# 忽略目录安全限制
+$ git config --global --add safe.directory "*"
+
+# 管理员身份运行 PowerShell
+$ get-ExecutionPolicy
+$ set-ExecutionPolicy RemoteSigned
+
+$ $PROFILE                                    # powershell 配置文件地址
+$ code $PROFILE                               # 直接打开配置文件
+$ $psversiontable                             # powershell 版本
 ```
 
 ### ✍🏻 终端配置
