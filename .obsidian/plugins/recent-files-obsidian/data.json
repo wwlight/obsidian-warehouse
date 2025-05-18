@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Mac 开发工具命令",
+      "path": "工具集整理/Mac 开发工具命令.md"
+    },
+    {
+      "basename": "Mac 系统工作环境",
+      "path": "工具集整理/Mac 系统工作环境.md"
+    },
+    {
       "basename": "Windows 系统工作环境",
       "path": "工具集整理/Windows 系统工作环境.md"
     },
     {
-      "basename": "悟空拼音字母表",
-      "path": "Attachmets/悟空拼音字母表.jpg"
+      "basename": "Git 命令记录",
+      "path": "工具集整理/Git 命令记录.md"
     },
     {
-      "basename": "小鹤双拼键盘布局",
-      "path": "Attachmets/小鹤双拼键盘布局.png"
-    },
-    {
-      "basename": "小鹤双拼键位口诀",
-      "path": "Attachmets/小鹤双拼键位口诀.jpg"
+      "basename": "常用工具命令",
+      "path": "工具集整理/常用工具命令.md"
     },
     {
       "basename": "dark-mode-angles",
@@ -25,8 +29,24 @@
       "path": "Attachmets/git-lfs-graphic.gif"
     },
     {
-      "basename": "Mac 系统工作环境",
-      "path": "工具集整理/Mac 系统工作环境.md"
+      "basename": "小鹤双拼键位口诀",
+      "path": "Attachmets/小鹤双拼键位口诀.jpg"
+    },
+    {
+      "basename": "小鹤双拼键盘布局",
+      "path": "Attachmets/小鹤双拼键盘布局.png"
+    },
+    {
+      "basename": "悟空拼音字母表",
+      "path": "Attachmets/悟空拼音字母表.jpg"
+    },
+    {
+      "basename": "单位换算",
+      "path": "TODO/单位换算.md"
+    },
+    {
+      "basename": "汉语拼音和小鹤双拼",
+      "path": "备忘录/汉语拼音和小鹤双拼.md"
     },
     {
       "basename": "书签导航",
@@ -39,18 +59,6 @@
     {
       "basename": "开发问题记录",
       "path": "错题集/开发问题记录.md"
-    },
-    {
-      "basename": "Mac 开发工具命令",
-      "path": "工具集整理/Mac 开发工具命令.md"
-    },
-    {
-      "basename": "Git 命令记录",
-      "path": "工具集整理/Git 命令记录.md"
-    },
-    {
-      "basename": "常用工具命令",
-      "path": "工具集整理/常用工具命令.md"
     },
     {
       "basename": "bash 命令记录",
@@ -89,10 +97,6 @@
       "path": "未命名.canvas"
     },
     {
-      "basename": "单位换算",
-      "path": "TODO/单位换算.md"
-    },
-    {
       "basename": "css 渐变角度理解",
       "path": "备忘录/css 相关/css 渐变角度理解.md"
     },
@@ -127,10 +131,6 @@
     {
       "basename": "Git 问题记录",
       "path": "错题集/Git 问题记录.md"
-    },
-    {
-      "basename": "汉语拼音和小鹤双拼",
-      "path": "备忘录/汉语拼音和小鹤双拼.md"
     },
     {
       "basename": "魔方公式",

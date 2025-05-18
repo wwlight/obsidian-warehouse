@@ -37,6 +37,7 @@ $ iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
 $ scoop import scoop_backup.json
 ```
 
+![[scoop_backup.json]]
 ````ad-summary
 title: Scoop 常用命令
 collapse: closed
@@ -84,7 +85,7 @@ $ scoop alias show [名称]
 ````
 
 ````ad-summary
-title: 工具下载
+title:常用工具下载
 collapse: false
 
 ```bash
@@ -129,25 +130,6 @@ $ scoop install FiraCode-NF
 $ scoop install FiraCode-NF-Mono
 ```
 ````
-
-```bash
-# 设置本地默认分支 main
-$ git config --global init.defaultBranch main
-
-# 设置文件大小写敏感
-$ git config --global core.ignorecase false
-
-# 忽略目录安全限制
-$ git config --global --add safe.directory "*"
-
-# 管理员身份运行 PowerShell
-$ get-ExecutionPolicy
-$ set-ExecutionPolicy RemoteSigned
-
-$ $PROFILE                                    # powershell 配置文件地址
-$ code $PROFILE                               # 直接打开配置文件
-$ $psversiontable                             # powershell 版本
-```
 
 ### ✍🏻 终端配置
 
@@ -412,6 +394,25 @@ disabled = true
 ````
 
 ### 💻️ 开发环境
+
+```bash
+# 设置本地默认分支 main
+$ git config --global init.defaultBranch main
+
+# 设置文件大小写敏感
+$ git config --global core.ignorecase false
+
+# 忽略目录安全限制
+$ git config --global --add safe.directory "*"
+
+# 管理员身份运行 PowerShell
+$ get-ExecutionPolicy
+$ set-ExecutionPolicy RemoteSigned
+
+$ $PROFILE                                    # powershell 配置文件地址
+$ code $PROFILE                               # 直接打开配置文件
+$ $psversiontable                             # powershell 版本
+```
 
 - ✅ [fnm](https://github.com/Schniz/fnm) - 快速简单的 Node 版本管理器
 

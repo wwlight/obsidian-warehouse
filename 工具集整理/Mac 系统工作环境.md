@@ -19,11 +19,58 @@ title: 说明
 - ✅ [SwitchHosts](https://switchhosts.vercel.app/zh) - 管理切换多个 hosts 的工具 | [GitHub Hosts](https://ineo6.github.io/hosts/)
 - ✅ [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - 为开发者提供**图标字体**补丁
 
+````ad-summary
+title: 常用工具下载
+collapse: false
+
 ```bash
+$ brew install git
+$ brew install starship
+$ brew install gh
+$ brew install bun
+$ brew install gping
+$ brew install onefetch
+$ brew install fzf
+$ brew install zoxide
+$ brew install tlrc  # 控制台命令速查表 tldr-pages
+$ brew install git-extras  # 命令增强扩展工具
+$ brew install lazygit
+$ brew install nginx
+$ brew install mysql
+$ brew install code-server
+$ brew install syncthing
+
 $ brew install --cask font-fira-code-nerd-font
 $ brew install --cask font-fira-mono-nerd-font
 $ brew install --cask font-lxgw-wenkai-mono-tc
+
+$ brew install --cask mihomo-party
+$ brew install --cask applite
+$ brew install --cask google-chrome
+$ brew install --cask arc
+$ brew install --cask visual-studio-code
+$ brew install --cask cursor
+$ brew install --cask webstorm
+$ brew install --cask intellij-idea
+$ brew install --cask hbuilderx
+$ brew install --cask hyper
+$ brew install --cask tabby
+$ brew install --cask raycast
+$ brew install --cask obsidian
+$ brew install --cask ngrok
+$ brew install --cask loop
+$ brew install --cask cleanshot
+$ brew install --cask screen-studio
+$ brew install --cask switchhosts
+$ brew install --cask keycastr
+$ brew install --cask browserosaurus
+$ brew install --cask android-studio
+$ brew install --cask android-platform-tools
+$ brew install --cask picgo
+$ brew install --cask vmware-fusion  # 免费虚拟机
+
 ```
+````
 
 ### ✍🏻 终端配置
 
@@ -226,10 +273,6 @@ format = 'underwent [$duration](bold yellow)'
 disabled = true
 ```
 ````
-
-### 💻️ 开发工具
-
-![[Mac 开发工具命令#常用安装应用]]
 
 ### 💻️ 开发环境
 
