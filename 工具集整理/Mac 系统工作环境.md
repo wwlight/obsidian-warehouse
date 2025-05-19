@@ -19,6 +19,11 @@ title: 说明
 - ✅ [SwitchHosts](https://switchhosts.vercel.app/zh) - 管理切换多个 hosts 的工具 | [GitHub Hosts](https://ineo6.github.io/hosts/)
 - ✅ [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - 为开发者提供**图标字体**补丁
 
+```bash
+$ brew bundle dump --force --file=~/Desktop/Brewfile  # 生成 Brewfile
+$ brew bundle install --file=~/Desktop/Brewfile       # 读取 Brewfile 并安装所有依赖
+```
+
 ````ad-summary
 title: 常用工具下载
 collapse: false
