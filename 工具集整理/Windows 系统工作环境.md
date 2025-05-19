@@ -101,7 +101,6 @@ $ scoop install clink
 $ scoop install switchhosts
 $ scoop install obsidian       # 写作应用程序
 $ scoop install fnm
-$ scoop install pnpm
 $ scoop install gsudo
 $ scoop install gping
 $ scoop install fzf

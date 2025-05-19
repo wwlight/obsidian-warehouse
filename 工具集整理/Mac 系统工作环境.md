@@ -67,7 +67,7 @@ $ brew install --cask vmware-fusion  # 免费虚拟机
 
 $ brew install --cask font-fira-code-nerd-font
 $ brew install --cask font-fira-mono-nerd-font
-$ brew install --cask font-lxgw-wenkai-gb
+$ brew install --cask font-lxgw-wenkai
 $ brew install --cask font-monaspace
 $ brew install --cask font-maple-mono-nf-cn
 $ brew install --cask font-symbols-only-nerd-font
