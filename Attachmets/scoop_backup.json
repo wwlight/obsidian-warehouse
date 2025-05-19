@@ -175,13 +175,6 @@
             "Info": ""
         },
         {
-            "Version": "10.11.0",
-            "Updated": "2025-05-14T21:15:58.662167+08:00",
-            "Source": "main",
-            "Name": "pnpm",
-            "Info": ""
-        },
-        {
             "Version": "250514",
             "Updated": "2025-05-14T21:16:17.3761727+08:00",
             "Source": "extras",
@@ -214,20 +207,6 @@
             "Updated": "2024-12-24T22:23:16.0817062+08:00",
             "Source": "extras",
             "Name": "switchhosts",
-            "Info": ""
-        },
-        {
-            "Version": "1.29.6",
-            "Updated": "2025-05-14T21:16:24.4211118+08:00",
-            "Source": "main",
-            "Name": "syncthing",
-            "Info": ""
-        },
-        {
-            "Version": "1.0.223",
-            "Updated": "2025-04-29T21:39:34.9817345+08:00",
-            "Source": "extras",
-            "Name": "tabby",
             "Info": ""
         },
         {

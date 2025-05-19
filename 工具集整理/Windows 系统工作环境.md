@@ -38,6 +38,7 @@ $ scoop import scoop_backup.json
 ```
 
 ![[scoop_backup.json]]
+
 ````ad-summary
 title: Scoop 常用命令
 collapse: closed
@@ -109,9 +110,7 @@ $ scoop install nginx
 $ scoop install ngrok          # 反向代理，内网穿透
 $ scoop install tlrc           # 控制台命令速查表 tldr-pages
 $ scoop install wechat
-
 $ scoop install webstorm
-$ scoop install tabby          # 本地 shell、串行、SSH 和 Telnet 连接终端
 $ scoop install potplayer      # 万能播放器
 $ scoop install keyviz         # 开源按键可视化工具
 $ scoop install powertoys      # 自定义 Windows 的实用工具
@@ -121,13 +120,18 @@ $ scoop install pyenv
 $ scoop install adb
 $ scoop install bun
 $ scoop install gh
+$ scoop install tabby          # 本地 shell、串行、SSH 和 Telnet 连接终端
 $ scoop install syncthing
 
 # 安装字体
 $ scoop bucket add nerd-fonts
+
 $ scoop install LXGWWenKaiMono
 $ scoop install FiraCode-NF
 $ scoop install FiraCode-NF-Mono
+$ scoop install Monaspace-NF
+$ scoop install Monaspace-NF-Mono
+$ scoop install Maple-Mono-NF-CN
 ```
 ````
 
@@ -458,9 +462,12 @@ C:\Users\wwlight\.npm_global
 ```
 
 ```bash
-# npm 镜像管理器
-$ npm i -g nrm
+$ npm i -g nrm        # npm 镜像管理器
+$ npm i -g pnpm
+$ npm i -g yarn
+```
 
+```bash
 # 全局安装 ni 及配置
 $ npm i -g @antfu/ni
 

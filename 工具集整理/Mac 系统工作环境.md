@@ -40,12 +40,6 @@ $ brew install mysql
 $ brew install code-server
 $ brew install syncthing
 
-$ brew install --cask font-fira-code-nerd-font
-$ brew install --cask font-fira-mono-nerd-font
-$ brew install --cask font-lxgw-wenkai-gb
-$ brew install --cask font-monaspace
-$ brew install --cask font-symbols-only-nerd-font
-
 $ brew install --cask mihomo-party
 $ brew install --cask applite
 $ brew install --cask google-chrome
@@ -70,6 +64,13 @@ $ brew install --cask android-studio
 $ brew install --cask android-platform-tools
 $ brew install --cask picgo
 $ brew install --cask vmware-fusion  # 免费虚拟机
+
+$ brew install --cask font-fira-code-nerd-font
+$ brew install --cask font-fira-mono-nerd-font
+$ brew install --cask font-lxgw-wenkai-gb
+$ brew install --cask font-monaspace
+$ brew install --cask font-maple-mono-nf-cn
+$ brew install --cask font-symbols-only-nerd-font
 ```
 ````
 
