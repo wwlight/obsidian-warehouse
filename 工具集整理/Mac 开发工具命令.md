@@ -383,6 +383,11 @@ echo '# pyenv end' >> ~/.zshrc
 source ~/.zshrc
 ```
 
+```bash
+$ sudo scoop install pyenv
+$ sudo scoop reset pyenv
+```
+
 ##### 常用命令
 
 ```bash
