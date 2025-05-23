@@ -5,9 +5,11 @@
 
 ```sh
 $ git config --global core.ignorecase false
+$ git config --local core.ignorecase false
 
 # 查询状态
 $ git config --get core.ignorecase
+$ git config --local --get core.ignorecase
 ```
 
 - 第二步：使用 git mv 命令进行重命名 (假设要将 demo 改为 Demo)
@@ -18,6 +20,13 @@ $ git mv demo temp_demo
 # 再改成目标名称
 $ git mv temp_demo Demo
 ``` 
+
+- 针对文件已经提交过（线上大小写同时存在），需要清除缓存再提交
+
+``` sh
+# 移除要删除的文件缓存
+$ git rm --cached filename
+```
 
 ### Git 强制同步远程最新代码
 

@@ -4,20 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7e66a557f8a589a4",
+        "id": "cd53e604811b7455",
         "type": "tabs",
         "children": [
           {
-            "id": "ae0523d5e87d2119",
+            "id": "c960daa657e9ff86",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "备忘录/unocss 记录.md",
-                "staged": false
+                "file": "错题集/git 问题记录.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (unocss 记录)"
+              "icon": "lucide-file",
+              "title": "git 问题记录"
             }
           }
         ]
@@ -63,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"Attachmets/\" ",
+                "query": "tag:#安装",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,8 +100,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ]
@@ -123,12 +125,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "错题集/git 问题记录.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "git 问题记录 的大纲"
             }
           },
           {
@@ -137,8 +140,8 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "checkmark",
+              "title": "Todo List"
             }
           },
           {
@@ -153,26 +156,6 @@
               },
               "icon": "lucide-archive",
               "title": "添加笔记属性"
-            }
-          },
-          {
-            "id": "5a910e8a717a9be7",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          },
-          {
-            "id": "4a7489e9aa690c3b",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
             }
           }
         ]
@@ -248,58 +231,58 @@
     "hiddenItems": {
       "switcher:打开快速切换": false,
       "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "canvas:新建白板": false,
       "templates:插入模板": false,
       "workspaces:管理工作区布局": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-git:Open Git source control": true,
+      "obsidian-advanced-slides:Show Slide Preview": true,
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "ae0523d5e87d2119",
+  "active": "736f32738161797d",
   "lastOpenFiles": [
-    "备忘录/汉语拼音和小鹤双拼.md",
-    "备忘录/unocss 记录.md",
-    "Attachmets/小鹤音部件字根键位图.png",
-    "备忘录/Mac 使用记录.md",
-    "工具集整理/Mac 开发工具命令.md",
-    "工具集整理/Windows 系统工作环境.md",
-    "工具集整理/Mac 系统工作环境.md",
+    "工具集整理/Git 命令记录.md",
     "书签导航.md",
-    "Attachmets/scoop_backup.json",
-    "Attachmets/Brewfile",
+    "工具集整理/Mac 开发工具命令.md",
     "错题集/git 问题记录.md",
     "错题集/开发问题记录.md",
-    "工具集整理/Git 命令记录.md",
-    "开源项目学习.md",
-    "备忘录/css 记录.md",
-    "工具集整理/bash 命令记录.md",
+    "Attachmets/小鹤音部件字根键位图.png",
+    "备忘录/汉语拼音和小鹤双拼.md",
+    "工具集整理/Mac 系统工作环境.md",
+    "工具集整理/Windows 系统工作环境.md",
     "工具集整理/常用工具命令.md",
-    "工具集整理/Obsidian 使用入门.md",
+    "Attachmets/Brewfile",
+    "Attachmets/Brewfile.md",
+    "工具集整理/BrewFle.md",
+    "Attachmets/dark-mode-angles.svg",
+    "Attachmets/git-lfs-graphic.gif",
+    "Attachmets/小鹤双拼键位口诀.jpg",
+    "Attachmets/小鹤双拼键盘布局.png",
+    "Attachmets/悟空拼音字母表.jpg",
+    "TODO/单位换算.md",
+    "Attachmets/scoop_backup.json",
+    "工具集整理/bash 命令记录.md",
     "README.md",
+    "开源项目学习.md",
     "备忘录/js 常用整理.md",
     "备忘录/js 实用小技巧.md",
-    "TODO/单位换算.md",
+    "工具集整理/Obsidian 使用入门.md",
     "备忘录/css 相关/css 渐变角度理解.md",
+    "备忘录/unocss 记录.md",
     "备忘录/VSCode 使用记录.md",
     "备忘录/魔方公式.md",
     "备忘录/lodash 记录.md",
     "面试题整理/简历相关.md",
     "面试题整理/面试题汇总.md",
-    "Attachmets/git-lfs-graphic.gif",
     "attachmets_temp/悟空拼音字母表.jpg",
     "attachmets_temp/小鹤双拼键盘布局.png",
     "attachmets_temp/小鹤双拼键位口诀.jpg",
     "attachmets_temp/dark-mode-angles.svg",
-    "attachmets_temp/Pasted image 20250109145925.png",
     "attachmets_temp",
-    "Attachmets/Pasted image 20250109145925.png",
-    "Attachmets/小鹤双拼键盘布局.png",
-    "Attachmets/悟空拼音字母表.jpg",
     "Attachmets",
     "错题集",
     "WeRead/教育学习",

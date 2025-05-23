@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "git 问题记录",
+      "path": "错题集/git 问题记录.md"
+    },
+    {
+      "basename": "Git 命令记录",
+      "path": "工具集整理/Git 命令记录.md"
+    },
+    {
+      "basename": "书签导航",
+      "path": "书签导航.md"
+    },
+    {
+      "basename": "Mac 开发工具命令",
+      "path": "工具集整理/Mac 开发工具命令.md"
+    },
+    {
+      "basename": "开发问题记录",
+      "path": "错题集/开发问题记录.md"
+    },
+    {
       "basename": "汉语拼音和小鹤双拼",
       "path": "备忘录/汉语拼音和小鹤双拼.md"
     },
@@ -13,24 +33,8 @@
       "path": "Attachmets/小鹤音部件字根键位图.png"
     },
     {
-      "basename": "书签导航",
-      "path": "书签导航.md"
-    },
-    {
       "basename": "Mac 系统工作环境",
       "path": "工具集整理/Mac 系统工作环境.md"
-    },
-    {
-      "basename": "git 问题记录",
-      "path": "错题集/git 问题记录.md"
-    },
-    {
-      "basename": "Git 命令记录",
-      "path": "工具集整理/Git 命令记录.md"
-    },
-    {
-      "basename": "Mac 开发工具命令",
-      "path": "工具集整理/Mac 开发工具命令.md"
     },
     {
       "basename": "Windows 系统工作环境",
@@ -63,10 +67,6 @@
     {
       "basename": "单位换算",
       "path": "TODO/单位换算.md"
-    },
-    {
-      "basename": "开发问题记录",
-      "path": "错题集/开发问题记录.md"
     },
     {
       "basename": "bash 命令记录",
