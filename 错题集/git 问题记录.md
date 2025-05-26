@@ -16,9 +16,9 @@ $ git config --local --get core.ignorecase
 
 ```sh
 # 先改成临时名称
-$ git mv demo temp_demo
+$ git mv filename demo.tmp
 # 再改成目标名称
-$ git mv temp_demo Demo
+$ git mv demo.tmp Filename
 ``` 
 
 - 针对文件已经提交过（线上大小写同时存在），需要清除缓存再提交
