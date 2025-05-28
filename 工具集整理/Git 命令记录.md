@@ -179,6 +179,8 @@ $ git push
 
 # 推送到主分支
 $ git push -u origin main
+# 等价于
+$ git push --set-upstream origin main
 
 # 本地分支推送到远端分支， 本地分支:远端分支
 $ git push origin <branch-name>:<branch-name>
