@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具集整理/Windows 系统工作环境.md",
+                "file": "工具集整理/Mac 开发工具命令.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Windows 系统工作环境"
+              "title": "Mac 开发工具命令"
             }
           }
         ],
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具集整理/Windows 系统工作环境.md",
+                "file": "工具集整理/Mac 开发工具命令.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Windows 系统工作环境 的大纲"
+              "title": "Mac 开发工具命令 的大纲"
             }
           },
           {
@@ -281,13 +281,13 @@
   },
   "active": "736f32738161797d",
   "lastOpenFiles": [
-    "工具集整理/Windows 开发工具命令.md",
+    "工具集整理/Git 命令记录.md",
+    "错题集/git 问题记录.md",
     "工具集整理/Windows 系统工作环境.md",
+    "工具集整理/Windows 开发工具命令.md",
     "工具集整理/Mac 系统工作环境.md",
     "工具集整理/Mac 开发工具命令.md",
     "心灵鸡汤/剪藏句子.md",
-    "工具集整理/Git 命令记录.md",
-    "错题集/git 问题记录.md",
     "Attachmets/小鹤音部件字根键位图.png",
     "Attachmets/小鹤双拼键位口诀.jpg",
     "Attachmets/小鹤双拼键盘布局.png",
