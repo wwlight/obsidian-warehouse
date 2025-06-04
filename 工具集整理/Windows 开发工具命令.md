@@ -64,7 +64,32 @@ title: 说明
 主要在 Powershell 中支持使用
 ```
 
-##### tasklist
+##### [netstat](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/netstat)
+
+- (`Network Statistics`) 用于显示网络连接、路由表、接口统计等信息。
+
+```bash
+-a  显示所有连接和监听端口
+-n  以数字形式显示地址和端口号
+-p  显示进程ID/名称（Linux）/协议类型（Windows）
+-r  显示路由表
+-s  显示每个协议的统计信息
+
+# windows 特有
+-o  显示拥有每个连接的进程ID
+-b  显示创建每个连接或监听端口的可执行文件
+
+# 查看所有活动连接
+$ netstat -ano
+# 查看特定端口的占用情况
+$ netstat -ano | findstr :80
+# 只查看TCP连接
+$ netstat -ano -p tcp
+# 查看路由表
+$ netstat -r
+``` 
+
+##### [tasklist](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/tasklist)
 
 - 显示本地计算机或远程计算机上当前正在运行的进程列表
 
@@ -73,7 +98,7 @@ $ tasklist /?
 $ tasklist | findstr "nginx"
 ```
 
-##### taskkill
+##### [taskkill](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/taskkill)
 
 - 结束一个或多个任务或进程。可以按进程 ID 或映像名称来结束进程。
 

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Windows 开发工具命令",
+      "path": "工具集整理/Windows 开发工具命令.md"
+    },
+    {
+      "basename": "Windows 系统工作环境",
+      "path": "工具集整理/Windows 系统工作环境.md"
+    },
+    {
       "basename": "Mac 开发工具命令",
       "path": "工具集整理/Mac 开发工具命令.md"
     },
@@ -9,24 +17,20 @@
       "path": "工具集整理/Git 命令记录.md"
     },
     {
-      "basename": "git 问题记录",
-      "path": "错题集/git 问题记录.md"
+      "basename": "bash 命令记录",
+      "path": "工具集整理/bash 命令记录.md"
     },
     {
-      "basename": "Windows 系统工作环境",
-      "path": "工具集整理/Windows 系统工作环境.md"
+      "basename": "常用工具命令",
+      "path": "工具集整理/常用工具命令.md"
     },
     {
-      "basename": "Windows 开发工具命令",
-      "path": "工具集整理/Windows 开发工具命令.md"
+      "basename": "Obsidian 使用入门",
+      "path": "工具集整理/Obsidian 使用入门.md"
     },
     {
       "basename": "Mac 系统工作环境",
       "path": "工具集整理/Mac 系统工作环境.md"
-    },
-    {
-      "basename": "剪藏句子",
-      "path": "心灵鸡汤/剪藏句子.md"
     },
     {
       "basename": "小鹤音部件字根键位图",
@@ -45,8 +49,12 @@
       "path": "Attachmets/悟空拼音字母表.jpg"
     },
     {
-      "basename": "bash 命令记录",
-      "path": "工具集整理/bash 命令记录.md"
+      "basename": "git 问题记录",
+      "path": "错题集/git 问题记录.md"
+    },
+    {
+      "basename": "剪藏句子",
+      "path": "心灵鸡汤/剪藏句子.md"
     },
     {
       "basename": "开发问题记录",
@@ -63,10 +71,6 @@
     {
       "basename": "unocss 记录",
       "path": "备忘录/unocss 记录.md"
-    },
-    {
-      "basename": "常用工具命令",
-      "path": "工具集整理/常用工具命令.md"
     },
     {
       "basename": "dark-mode-angles",
@@ -95,10 +99,6 @@
     {
       "basename": "VSCode 使用记录",
       "path": "备忘录/VSCode 使用记录.md"
-    },
-    {
-      "basename": "Obsidian 使用入门",
-      "path": "工具集整理/Obsidian 使用入门.md"
     },
     {
       "basename": "Drawing 2025-04-20 11.43.14.excalidraw",
