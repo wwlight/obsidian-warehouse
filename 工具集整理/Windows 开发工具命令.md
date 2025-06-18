@@ -28,7 +28,7 @@ $ scoop install -g [软件名]         # 全局安装(管理员权限)
 $ scoop uninstall [软件名]          # 卸载软件
 
 $ scoop update                     # 更新 Scoop 自身
-$ scoop update *                   # 更新所有应用
+$ scoop update --all               # 更新所有应用
 $ scoop update [软件名]             # 更新指定应用
 $ scoop status                     # 检查可更新的应用
 $ scoop hold [软件名]               # 禁止更新指定应用
