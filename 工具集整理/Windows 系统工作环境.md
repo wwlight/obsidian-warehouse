@@ -25,12 +25,6 @@ $ md D:\SystemApplication
 - ✅ [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - 为开发者提供**图标字体**补丁
 - ✅ [Scoop](https://scoop.sh/) - 适用于 Windows 的命令行安装程序
 
-```bash
-$ scoop import scoop_backup.json
-```
-
-![[scoop_backup.json]]
-
 ````ad-summary
 title:常用工具下载
 collapse: false
@@ -324,7 +318,7 @@ command_timeout = 10000
 add_newline = true
 
 # 将提示符中的 '❯' 替换为 '➜'
-[character] 
+[character]
 success_symbol = '[➜](bold green)'
 
 # 禁用 'package' 组件，将其隐藏
