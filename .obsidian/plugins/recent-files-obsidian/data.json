@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "windows 系统工作环境",
+      "path": "工具集整理/windows 系统工作环境.md"
+    },
+    {
+      "basename": "windows 开发工具命令",
+      "path": "工具集整理/windows 开发工具命令.md"
+    },
+    {
       "basename": "git 命令记录",
       "path": "工具集整理/git 命令记录.md"
     },
@@ -15,14 +23,6 @@
     {
       "basename": "开发问题记录",
       "path": "错题集/开发问题记录.md"
-    },
-    {
-      "basename": "windows 系统工作环境",
-      "path": "工具集整理/windows 系统工作环境.md"
-    },
-    {
-      "basename": "windows 开发工具命令",
-      "path": "工具集整理/windows 开发工具命令.md"
     },
     {
       "basename": "obsidian 使用入门",
