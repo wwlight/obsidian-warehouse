@@ -5,6 +5,10 @@
       "path": "书签导航.md"
     },
     {
+      "basename": "魔方公式",
+      "path": "备忘录/魔方公式.md"
+    },
+    {
       "basename": "windows 系统工作环境",
       "path": "工具集整理/windows 系统工作环境.md"
     },
@@ -159,10 +163,6 @@
     {
       "basename": "Git 问题记录",
       "path": "错题集/Git 问题记录.md"
-    },
-    {
-      "basename": "魔方公式",
-      "path": "备忘录/魔方公式.md"
     },
     {
       "basename": "Vue 相关",
