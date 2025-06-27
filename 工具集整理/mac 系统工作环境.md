@@ -26,6 +26,8 @@ collapse: false
 ```bash
 $ brew install git
 $ brew install starship
+$ brew install fnm
+$ brew install pnpm
 $ brew install gh
 $ brew install bun
 $ brew install gping
@@ -38,12 +40,10 @@ $ brew install lazygit
 $ brew install nginx
 $ brew install mysql
 $ brew install code-server
-$ brew install syncthing
 
-$ brew install --cask mihomo-party
-$ brew install --cask applite
-$ brew install --cask google-chrome
 $ brew install --cask arc
+$ brew install --cask google-chrome
+$ brew install --cask mihomo-party
 $ brew install --cask visual-studio-code
 $ brew install --cask cursor
 $ brew install --cask webstorm
@@ -59,10 +59,13 @@ $ brew install --cask cleanshot
 $ brew install --cask screen-studio
 $ brew install --cask switchhosts
 $ brew install --cask keycastr
+$ brew install --cask picgo
+
+$ brew install syncthing
+$ brew install --cask applite
 $ brew install --cask browserosaurus
 $ brew install --cask android-studio
 $ brew install --cask android-platform-tools
-$ brew install --cask picgo
 $ brew install --cask vmware-fusion  # 免费虚拟机
 
 $ brew install --cask font-fira-code-nerd-font
@@ -92,6 +95,7 @@ $ touch $HISTFILE
 $ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git $HOME\.zsh\plugins\fast-syntax-highlighting
 $ git clone https://github.com/zsh-users/zsh-autosuggestions.git $HOME\.zsh\plugins\zsh-autosuggestions
 $ git clone https://github.com/zsh-users/zsh-completions.git $HOME\.zsh\plugins\zsh-completions
+$ git clone https://github.com/marlonrichert/zsh-hist.git $HOME/.zsh/plugins/zsh-hist
 ```
 
 ````ad-info
@@ -100,15 +104,16 @@ collapse: closed
 
 ```bash
 # ~/.zshrc
+export PATH=$HOME/.npm_global/bin:$PATH  # 自定义 npm 全局包安装路径
 export ZSH=$HOME/.zsh
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 export HISTFILE=$ZSH/.zsh_history
 export HISTSIZE=5000
-export SAVEHIST=5000
+export SAVEHIST=4000
 setopt appendhistory
 setopt incappendhistory        # 实时写入，避免丢失
 unsetopt sharehistory          # 禁用共享，防止竞争
-setopt extended_history        # 记录时间戳
+unsetopt extended_history      # 不记录时间戳
 setopt hist_ignore_all_dups    # 完全去重
 setopt hist_save_no_dups       # 文件去重
 setopt hist_find_no_dups       # 搜索去重
@@ -121,17 +126,24 @@ setopt hist_verify             # 执行历史命令前先显示
 # zsh plugins
 source $ZSH/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 source $ZSH/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $ZSH/plugins/zsh-hist/zsh-hist.plugin.zsh # hist 历史记录
 source $ZSH/plugins/incr/incr.plugin.zsh
 fpath=($ZSH/plugins/zsh-completions/src $fpath)
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
-# plugins end
-
-export PATH=$HOME/.npm_global/bin:$PATH  # 自定义 npm 全局包安装路径
+# zsh plugins end
 
 # fnm
 eval "$(fnm env --use-on-cd)"
 # fnm end
+
+# pnpm
+export PNPM_HOME="$HOME/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
 
 # fzf
 source <(fzf --zsh)
@@ -173,6 +185,12 @@ eval "$(uv generate-shell-completion zsh)"
 eval "$(uvx --generate-shell-completion zsh)"
 # uv end
 
+# ngrok 自动补全
+if command -v ngrok &>/dev/null; then
+    eval "$(ngrok completion)"
+fi
+# ngrok end
+
 # alias
 alias ping="gping"
 alias of="onefetch"
@@ -187,7 +205,14 @@ alias grt='cd "$(git rev-parse --show-toplevel)"'
 alias gc='git branch | fzf | xargs git checkout' # 搜索 git 分支并切换
 alias t='tldr' # tldr 命令
 # alias end
+```
+````
 
+````ad-note
+title: history
+collapse: closed
+
+```sh
 # 添加清理历史记录的函数
 function history_clean() {
     # 创建临时文件
@@ -242,7 +267,6 @@ $ hyper install hyperpower
 - ✅ [Starship](https://starship.rs/zh-CN/) - 轻量、迅速、客制化的高颜值终端
 
 ```bash
-$ brew install starship
 $ cd .config && mkdir starship && cd starship && type null>starship.toml
 ```
 
@@ -293,7 +317,6 @@ $ git config --global --add safe.directory "*"
 
 ```bash
 # fnm 支持多项目单独切换版本
-$ brew install fnm
 $ echo 'eval "$(fnm env --use-on-cd)"' >> ~/.zshrc
 $ source ~/.zshrc
 
@@ -310,6 +333,11 @@ $ fnm env
 
 # 项目写入 node 版本
 $ node --version > .node-version
+```
+
+```sh
+$ pnpm setup
+$ pnpm self-update
 ```
 
 - ✅ 自定义 npm 全局包安装位置
