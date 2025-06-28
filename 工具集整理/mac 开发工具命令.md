@@ -68,10 +68,69 @@ $ brew cleanup                        # 清理相关的旧版本和缓存文件
 $ brew cleanup [软件名]                # 清理指定软件包的旧版本
 $ brew cleanup -n                     # 查看可清理的内容（不实际清理）
 
-$ brew bundle dump --force --file=~/Desktop/Brewfile  # 生成 Brewfile
-$ brew bundle install --file=~/Desktop/Brewfile       # 读取 Brewfile 并安装所有依赖
-$ brew bundle check                                   # 检查 Brewfile 中的软件是否已安装
+$ brew bundle dump --no-vscode --force --file=~/Desktop/Brewfile  # 生成 Brewfile
+$ brew bundle install --file=~/Desktop/Brewfile                   # 读取 Brewfile 并安装所有依赖
+$ brew bundle check                                               # 检查 Brewfile 中的软件是否已安装
 ```
+
+````ad-summary
+title: 常用工具下载
+collapse: false
+
+```bash
+$ brew install git
+$ brew install starship
+$ brew install fnm
+$ brew install pnpm
+$ brew install gh
+$ brew install bun
+$ brew install gping
+$ brew install onefetch
+$ brew install fzf
+$ brew install zoxide
+$ brew install tlrc  # 控制台命令速查表 tldr-pages
+$ brew install git-extras  # git 增强扩展工具
+$ brew install lsd
+$ brew install lazygit
+$ brew install nginx
+$ brew install mysql
+$ brew install code-server
+
+$ brew install --cask arc
+$ brew install --cask google-chrome
+$ brew install --cask mihomo-party
+$ brew install --cask visual-studio-code
+$ brew install --cask cursor
+$ brew install --cask webstorm
+$ brew install --cask intellij-idea
+$ brew install --cask hbuilderx
+$ brew install --cask hyper
+$ brew install --cask tabby
+$ brew install --cask raycast
+$ brew install --cask obsidian
+$ brew install --cask ngrok
+$ brew install --cask loop
+$ brew install --cask cleanshot
+$ brew install --cask screen-studio
+$ brew install --cask switchhosts
+$ brew install --cask keycastr
+$ brew install --cask picgo
+
+$ brew install syncthing
+$ brew install --cask applite
+$ brew install --cask browserosaurus
+$ brew install --cask android-studio
+$ brew install --cask android-platform-tools
+$ brew install --cask vmware-fusion  # 免费虚拟机
+
+$ brew install --cask font-fira-code-nerd-font
+$ brew install --cask font-fira-mono-nerd-font
+$ brew install --cask font-lxgw-wenkai
+$ brew install --cask font-monaspace
+$ brew install --cask font-maple-mono-nf-cn
+$ brew install --cask font-symbols-only-nerd-font
+```
+````
 
 ##### 部分工具使用配置
 

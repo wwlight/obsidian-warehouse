@@ -6,7 +6,7 @@
 
 ```bash
 # 第一步：设置安装目录
-$ $env:SCOOP='D:\DevelopmentApplication\Scoop'
+$ $env:SCOOP='D:\DevelopApplication\Scoop'
 $ [Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
 
 # 第二步：开启代理，在 powershell 中安装

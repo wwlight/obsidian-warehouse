@@ -13,70 +13,19 @@ title: 说明
 
 ### 🍀 准备工作
 
+```sh
+$ mkdir -p ~/.zsh/{plugins,cache,functions,zfunc}
+$ mkdir -p ~/.config/starship
+$ mkdir -p ~/.npm_global
+```
+
 - ✅ [Homebrew](https://brew.sh/) - 软件包的管理器｜[镜像](https://gitee.com/cunkai/HomebrewCN) `[!!success: 推荐]`
 - ❎️ [Ghelper](https://ghelper.net/) - 浏览器插件 | [极简插件](https://chrome.zzzmh.cn/)
-- ✅ [Mihomo Party](https://github.com/mihomo-party-org/mihomo-party) - 更易用的代理客户端
-- ✅ [SwitchHosts](https://switchhosts.vercel.app/zh) - 管理切换多个 hosts 的工具 | [GitHub Hosts](https://ineo6.github.io/hosts/)
 - ✅ [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - 为开发者提供**图标字体**补丁
 
-````ad-summary
-title: 常用工具下载
-collapse: false
+### ⭐ 同步配置
 
-```bash
-$ brew install git
-$ brew install starship
-$ brew install fnm
-$ brew install pnpm
-$ brew install gh
-$ brew install bun
-$ brew install gping
-$ brew install onefetch
-$ brew install fzf
-$ brew install zoxide
-$ brew install tlrc  # 控制台命令速查表 tldr-pages
-$ brew install git-extras  # git 增强扩展工具
-$ brew install lsd
-$ brew install lazygit
-$ brew install nginx
-$ brew install mysql
-$ brew install code-server
-
-$ brew install --cask arc
-$ brew install --cask google-chrome
-$ brew install --cask mihomo-party
-$ brew install --cask visual-studio-code
-$ brew install --cask cursor
-$ brew install --cask webstorm
-$ brew install --cask intellij-idea
-$ brew install --cask hbuilderx
-$ brew install --cask hyper
-$ brew install --cask tabby
-$ brew install --cask raycast
-$ brew install --cask obsidian
-$ brew install --cask ngrok
-$ brew install --cask loop
-$ brew install --cask cleanshot
-$ brew install --cask screen-studio
-$ brew install --cask switchhosts
-$ brew install --cask keycastr
-$ brew install --cask picgo
-
-$ brew install syncthing
-$ brew install --cask applite
-$ brew install --cask browserosaurus
-$ brew install --cask android-studio
-$ brew install --cask android-platform-tools
-$ brew install --cask vmware-fusion  # 免费虚拟机
-
-$ brew install --cask font-fira-code-nerd-font
-$ brew install --cask font-fira-mono-nerd-font
-$ brew install --cask font-lxgw-wenkai
-$ brew install --cask font-monaspace
-$ brew install --cask font-maple-mono-nf-cn
-$ brew install --cask font-symbols-only-nerd-font
-```
-````
+- ✅ [wwlight/use](https://github.com/wwlight/use)
 
 ### ✍🏻 终端配置
 
@@ -87,16 +36,11 @@ $ brew install --cask font-symbols-only-nerd-font
 		- [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 		- [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions)
 		- [incr](https://mimosa-pudica.net/zsh-incremental.html)
-	- & 参考资料：[Using ZSH without OMZ](https://dev.to/hbenvenutti/using-zsh-without-omz-4gch)、[npm completion](https://didiaohu.gitbooks.io/npm/content/yong-npm-script-da-zao-chao-liu-de-qian-duan-gong-zuo-liu/23-shi-xian-ming-ling-xing-zi-dong-bu-quan.html)
 
 ```bash
-$ touch $HOME/.zsh/plugins
-$ touch $HISTFILE
-
 $ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git $HOME/.zsh/plugins/fast-syntax-highlighting
 $ git clone https://github.com/zsh-users/zsh-autosuggestions.git $HOME/.zsh/plugins/zsh-autosuggestions
 $ git clone https://github.com/zsh-users/zsh-completions.git $HOME/.zsh/plugins/zsh-completions
-$ git clone https://github.com/marlonrichert/zsh-hist.git $HOME/.zsh/plugins/zsh-hist
 ```
 
 - ✅️ [Hyper](https://hyper.is/) - 是一款跨平台的终端软件
@@ -111,10 +55,6 @@ $ hyper install hyperpower
 ```
 
 - ✅ [Starship](https://starship.rs/zh-CN/) - 轻量、迅速、客制化的高颜值终端
-
-```bash
-$ cd .config && mkdir starship && cd starship && type null>starship.toml
-```
 
 ### 💻️ 开发环境
 
@@ -151,22 +91,10 @@ $ fnm env
 $ node --version > .node-version
 ```
 
-```sh
-$ pnpm setup
-$ pnpm self-update
-```
-
 - ✅ 自定义 npm 全局包安装位置
 
 ```bash
-$ mkdir -p ~/.npm_global
 $ npm config set prefix ~/.npm_global
-
-# 设置环境变量
-echo "# 自定义 npm 全局包安装路径" >> ~/.zshrc
-echo "export PATH=~/.npm_global/bin:$PATH" >> ~/.zshrc
-echo "# end" >> ~/.zshrc
-$ source ~/.zshrc
 
 $ npm i -g @antfu/ni
 ```
@@ -177,6 +105,8 @@ $ npm i -g @antfu/ni
 - ️❎️ [Applite](https://aerolite.dev/applite/index.html) - 简化使用 Homebrew 的第三方应用程序的安装和管理
 - ✅ [微信键盘](https://z.weixin.qq.com/)
 - ✅ [Arc](https://arc.net/) - 浏览器
+- ✅ [Mihomo Party](https://github.com/mihomo-party-org/mihomo-party) - 更易用的代理客户端
+- ✅ [SwitchHosts](https://switchhosts.vercel.app/zh) - 管理切换多个 hosts 的工具 | [GitHub Hosts](https://ineo6.github.io/hosts/)
 - ✅ [CleanMyMac X](https://cleanmymac.com/) - mac 清洁应用程序 | [国内代理商](https://www.mycleanmymac.com/triallp.html?utm_medium=wm&utm_source=wm.makeding.com&utm_content=buy_cmmx493_buy&utm_campaign=LM&utm_term=Janetwo&wm_cs_key=0db9266c-0b3f-4808-b176-99c97c3319fc)
 - ✅ [Tabby](https://tabby.sh/) - 跨平台终端应用程序，本地 shell、串行、SSH 和 Telnet 连接
 - ✅ [iShot Pro](https://apps.apple.com/cn/app/ishot-pro-%E4%B8%93%E4%B8%9A%E7%9A%84%E6%88%AA%E5%9B%BE%E8%B4%B4%E5%9B%BE%E5%BD%95%E5%B1%8F%E5%BD%95%E9%9F%B3ocr%E7%BF%BB%E8%AF%91%E5%8F%96%E8%89%B2%E5%B7%A5%E5%85%B7/id1611347086?mt=12) - 专业的截图贴图录屏录音 OCR 翻译取色工具

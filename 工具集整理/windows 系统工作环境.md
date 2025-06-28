@@ -12,14 +12,14 @@ title: 说明
 
 ### 🍀 准备工作
 
-- 🗂️ 创建文件夹：`DevelopmentApplication`、`SystemApplication`
+- 🗂️ 创建文件夹：`DevelopApplication`、`SystemApplication`
 
 ```bash
 # -p 自动创建父目录
-$ mkdir D:/{DevelopmentApplication,SystemApplication}
+$ mkdir -p D:/{DevelopApplication,SystemApplication}
 $ mkdir -p ~/.zsh/{plugins,cache,functions,zfunc}
 $ mkdir -p ~/.config/starship
-$ mkdir ~/.npm_global
+$ mkdir -p ~/.npm_global
 ```
 
 - ❎️ [Ghelper](https://ghelper.net/) - 浏览器插件 | [极简插件](https://chrome.zzzmh.cn/)
@@ -53,7 +53,7 @@ collapse: closed
 $ git clone https://github.com/tj/git-extras.git
 $ cd git-extras
 $ git checkout $(git describe --tags $(git rev-list --tags --max-count=1))
-$ ./install.cmd 'D:\DevelopmentApplication\Scoop\apps\git\current'
+$ ./install.cmd 'D:\DevelopApplication\Scoop\apps\git\current'
 $ git extras --help
 ```
 ````
@@ -76,12 +76,12 @@ $ hyper install hyperpower
 $ clink info
 
 # 下载插件
-$ git clone https://github.com/vladimir-kotikov/clink-completions D:\\DevelopmentApplication\\Scoop\\apps\\clink\\current\\scripts\\clink-completions
-$ git clone https://github.com/chrisant996/clink-gizmos D:\\DevelopmentApplication\\Scoop\\apps\\clink\\current\\scripts\\clink-gizmos
+$ git clone https://github.com/vladimir-kotikov/clink-completions D:\\DevelopApplication\\Scoop\\apps\\clink\\current\\scripts\\clink-completions
+$ git clone https://github.com/chrisant996/clink-gizmos D:\\DevelopApplication\\Scoop\\apps\\clink\\current\\scripts\\clink-gizmos
 
-$ clink installscripts D:\\DevelopmentApplication\\Scoop\\apps\\clink\\current\\scripts
-$ clink installscripts D:\\DevelopmentApplication\\Scoop\\apps\\clink\\current\\scripts\\clink-completions
-$ clink installscripts D:\\DevelopmentApplication\\Scoop\\apps\\clink\\current\\scripts\\clink-gizmos
+$ clink installscripts D:\\DevelopApplication\\Scoop\\apps\\clink\\current\\scripts
+$ clink installscripts D:\\DevelopApplication\\Scoop\\apps\\clink\\current\\scripts\\clink-completions
+$ clink installscripts D:\\DevelopApplication\\Scoop\\apps\\clink\\current\\scripts\\clink-gizmos
 
 # 使用方法
 $ clink autorun install    # 启用自动运行
@@ -100,7 +100,7 @@ $ENV:STARSHIP_CONFIG = "$HOME\\.config\\starship\\starship.toml"
 # end
 
 # powershell 5
-Invoke-Expression (& 'D:\DevelopmentApplication\Scoop\apps\starship\current\starship.exe' init powershell)
+Invoke-Expression (& 'D:\DevelopApplication\Scoop\apps\starship\current\starship.exe' init powershell)
 $ENV:STARSHIP_CONFIG = "$HOME\\.config\\starship\\starship.toml"
 # end
 
