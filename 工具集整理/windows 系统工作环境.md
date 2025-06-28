@@ -106,141 +106,6 @@ fi
 ````
 
 ````ad-info
-title: .zshrc 配置文件
-collapse: closed
-
-```bash
-# ~/.zshrc
-export ZSH=$HOME/.zsh
-export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
-export HISTFILE=$ZSH/.zsh_history
-export HISTSIZE=5000
-export SAVEHIST=5000
-setopt appendhistory
-setopt incappendhistory        # 实时写入，避免丢失
-unsetopt sharehistory          # 禁用共享，防止竞争
-setopt extended_history        # 记录时间戳
-setopt hist_ignore_all_dups    # 完全去重
-setopt hist_save_no_dups       # 文件去重
-setopt hist_find_no_dups       # 搜索去重
-setopt hist_expire_dups_first  # 优先删除重复项
-setopt hist_ignore_space       # 忽略以空格开头的命令
-setopt hist_reduce_blanks      # 去除多余空格
-setopt hist_ignore_dups        # 忽略连续重复命令
-setopt hist_verify             # 执行历史命令前先显示
-# zsh plugins
-source $ZSH/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
-source $ZSH/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-fpath=($ZSH/plugins/zsh-completions/src $fpath)
-ZSH_AUTOSUGGEST_STRATEGY=(history completion)
-ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
-# plugins end
-
-# fnm
-eval "$(fnm env --use-on-cd)"
-# fnm end
-
-# fzf
-source <(fzf --zsh)
-# fzf end
-
-# zoxide
-eval "$(zoxide init zsh --cmd cd)"
-function cdl() {
-    local dir
-    dir="$(zoxide query -l | fzf --reverse --height 40% \
-        --preview 'ls -l {}' \
-        --preview-window=right:60%)" && cd "${dir}"
-}
-function cdd() {
-    local dir
-    dir="$(find . -type d 2>/dev/null | fzf --reverse --height 40% \
-        --preview 'ls -l {}' \
-        --preview-window=right:60%)" && cd "${dir}"
-}
-# zoxide end
-
-# starship
-eval "$(starship init zsh)"
-export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
-function set_win_title(){
-    echo -ne "\033]0; $(basename "$USER") \007"
-}
-starship_precmd_user_func="set_win_title"
-precmd_functions+=(set_win_title)
-# starship end
-
-# uv python 版本管理工具
-autoload -Uz compinit && compinit
-eval "$(uv generate-shell-completion zsh)"
-eval "$(uvx --generate-shell-completion zsh)"
-# uv end
-
-# alias
-alias ping="gping"
-alias of="onefetch"
-alias nio="ni --prefer-offline"
-alias s="nr start"
-alias d="nr dev"
-alias b="nr build"
-alias cls="clear"
-alias gp='git push'
-alias gl='git pull'
-alias grt='cd "$(git rev-parse --show-toplevel)"'
-alias gc='git branch | fzf | xargs git checkout' # 搜索 git 分支并切换
-alias t='tldr' # tldr
-# alias end
-
-# 添加清理历史记录的函数
-function history_clean() {
-    # 创建临时文件
-    local tmp=$(mktemp)
-
-    # Windows 上没有 tail -r，使用 awk 逆序读取
-    awk '
-    {
-        # 保存所有行
-        lines[NR] = $0;
-    }
-    END {
-        # 反向处理每一行
-        for (i = NR; i >= 1; i--) {
-            line = lines[i];
-            if (index(line, ";") > 0) {
-                # 命令部分是分号后面的内容
-                cmd = substr(line, index(line, ";") + 1);
-                if (!seen[cmd]++) {
-                    # 第一次遇到这个命令（因为是反向处理的，所以是最新的）
-                    result[++count] = line;
-                }
-            } else {
-                # 处理没有分号的行（可能是没有时间戳的记录）
-                if (!seen[line]++) {
-                    result[++count] = line;
-                }
-            }
-        }
-
-        # 恢复原来的顺序（再次反转）
-        for (i = count; i > 0; i--) {
-            print result[i];
-        }
-    }' $HISTFILE > $tmp
-
-    # 确保处理成功后再替换原文件
-    if [ -s "$tmp" ]; then
-        cp $HISTFILE "$HISTFILE.bak"  # 创建备份
-        mv $tmp $HISTFILE
-        echo "历史记录已去重，保留了最新的命令记录"
-    else
-        echo "处理出错，历史记录未修改"
-        rm $tmp
-    fi
-}
-```
-````
-
-````ad-info
 title: git-extras 安装
 collapse: closed
 
@@ -307,36 +172,6 @@ os.setenv('STARSHIP_CONFIG', 'C:\\Users\\<username>\\.config\\starship\\starship
 # end
 ```
 
-````ad-info
-title: starship.toml 配置文件
-collapse: closed
-
-```bash
-command_timeout = 10000
-
-# 在提示符之间插入空行
-add_newline = true
-
-# 将提示符中的 '❯' 替换为 '➜'
-[character]
-success_symbol = '[➜](bold green)'
-
-# 禁用 'package' 组件，将其隐藏
-[package]
-disabled = true
-
-[localip]
-ssh_only = false
-format = '[$localipv4](bold green) '
-disabled = true
-
-[cmd_duration]
-min_time = 500
-format = 'underwent [$duration](bold yellow)'
-disabled = true
-```
-````
-
 ### 💻️ 开发环境
 
 ```bash
@@ -394,7 +229,7 @@ $ node --version > .node-version
 - ✅ 自定义 npm 全局包安装位置
 
 ```bash
-$ mkdir .npm_global
+$ mkdir -p ~/.npm_global
 $ npm config set prefix ~/.npm_global
 
 # 设置系统环境变量

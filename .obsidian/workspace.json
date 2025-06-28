@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具集整理/mac 系统工作环境.md",
+                "file": "工具集整理/windows 系统工作环境.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "mac 系统工作环境"
+              "title": "windows 系统工作环境"
             }
           }
         ]
@@ -125,13 +125,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具集整理/mac 系统工作环境.md",
+                "file": "工具集整理/windows 系统工作环境.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "mac 系统工作环境 的大纲"
+              "title": "windows 系统工作环境 的大纲"
             }
           },
           {
@@ -245,14 +245,14 @@
   },
   "active": "736f32738161797d",
   "lastOpenFiles": [
-    "工具集整理/mac 开发工具命令.md",
+    "工具集整理/windows 开发工具命令.md",
     "工具集整理/mac 系统工作环境.md",
+    "工具集整理/mac 开发工具命令.md",
     "书签导航.md",
     "备忘录/魔方公式.md",
     "工具集整理/windows 系统工作环境.md",
     "工具集整理/git 命令记录.md",
     "工具集整理/obsidian 使用入门.md",
-    "工具集整理/windows 开发工具命令.md",
     "备忘录/vscode 使用记录.md",
     "备忘录/mac 使用记录.md",
     "备忘录/汉语拼音和小鹤双拼.md",
