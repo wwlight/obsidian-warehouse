@@ -15,65 +15,20 @@ title: 说明
 - 🗂️ 创建文件夹：`DevelopmentApplication`、`SystemApplication`
 
 ```bash
-$ md D:\DevelopmentApplication
-$ md D:\SystemApplication
+# -p 自动创建父目录
+$ mkdir D:/{DevelopmentApplication,SystemApplication}
+$ mkdir -p ~/.zsh/{plugins,cache,functions,zfunc}
+$ mkdir -p ~/.config/starship
+$ mkdir ~/.npm_global
 ```
 
 - ❎️ [Ghelper](https://ghelper.net/) - 浏览器插件 | [极简插件](https://chrome.zzzmh.cn/)
-- ✅ [Mihomo Party](https://github.com/mihomo-party-org/mihomo-party) - 更易用的代理客户端
-- ✅ [SwitchHosts](https://switchhosts.vercel.app/zh) - 管理切换多个 hosts 的工具 | [GitHub Hosts](https://ineo6.github.io/hosts/)
-- ✅ [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - 为开发者提供**图标字体**补丁
 - ✅ [Scoop](https://scoop.sh/) - 适用于 Windows 的命令行安装程序
+- ✅ [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - 为开发者提供**图标字体**补丁
 
-````ad-summary
-title:常用工具下载
-collapse: false
+### ⭐ 同步配置
 
-```bash
-$ scoop install git
-$ scoop install winrar
-$ scoop install mihomo-party
-$ scoop install googlechrome
-$ scoop install vscode
-$ scoop install hyper
-$ scoop install starship
-$ scoop install clink
-$ scoop install switchhosts
-$ scoop install obsidian       # 写作应用程序
-$ scoop install fnm
-$ scoop install gsudo
-$ scoop install gping
-$ scoop install fzf
-$ scoop install zoxide
-$ scoop install nginx
-$ scoop install ngrok          # 反向代理，内网穿透
-$ scoop install winsw          # 可执行包装程序，起 windows 服务
-$ scoop install tlrc           # 控制台命令速查表 tldr-pages
-$ scoop install wechat
-$ scoop install webstorm
-$ scoop install potplayer      # 万能播放器
-$ scoop install keyviz         # 开源按键可视化工具
-$ scoop install powertoys      # 自定义 Windows 的实用工具
-$ scoop install onefetch
-$ scoop install uv             # Python 包和项目管理工具
-$ scoop install pyenv
-$ scoop install adb
-$ scoop install bun
-$ scoop install gh
-$ scoop install tabby          # 本地 shell、串行、SSH 和 Telnet 连接终端
-$ scoop install syncthing
-
-# 安装字体
-$ scoop bucket add nerd-fonts
-
-$ scoop install LXGWWenKaiMono
-$ scoop install FiraCode-NF
-$ scoop install FiraCode-NF-Mono
-$ scoop install Monaspace-NF
-$ scoop install Monaspace-NF-Mono
-$ scoop install Maple-Mono-NF-CN
-```
-````
+- ✅ [wwlight/use](https://github.com/wwlight/use)
 
 ### ✍🏻 终端配置
 
@@ -83,27 +38,12 @@ $ scoop install Maple-Mono-NF-CN
 		- [zdharma-continuum/fast-syntax-highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting)
 		- [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 		- [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions)
-	- & 参考资料：[Using ZSH without OMZ](https://dev.to/hbenvenutti/using-zsh-without-omz-4gch)、[npm completion](https://didiaohu.gitbooks.io/npm/content/yong-npm-script-da-zao-chao-liu-de-qian-duan-gong-zuo-liu/23-shi-xian-ming-ling-xing-zi-dong-bu-quan.html)
 
-```bash
-$ md $HOME/.zsh/plugins
-$ touch $HISTFILE # 安装成功才能使用
-
-$ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git $HOME\.zsh\plugins\fast-syntax-highlighting
-$ git clone https://github.com/zsh-users/zsh-autosuggestions.git $HOME\.zsh\plugins\zsh-autosuggestions
-$ git clone https://github.com/zsh-users/zsh-completions.git $HOME\.zsh\plugins\zsh-completions
+```sh
+$ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git $HOME/.zsh/plugins/fast-syntax-highlighting
+$ git clone https://github.com/zsh-users/zsh-autosuggestions.git $HOME/.zsh/plugins/zsh-autosuggestions
+$ git clone https://github.com/zsh-users/zsh-completions.git $HOME/.zsh/plugins/zsh-completions
 ```
-
-````ad-info
-title: .bashrc 配置文件
-collapse: closed
-
-```bash
-if [ -t 1 ]; then
-	exec zsh
-fi
-```
-````
 
 ````ad-info
 title: git-extras 安装
@@ -154,8 +94,6 @@ $ scoop hold clink         # 禁止更新
 - ✅ [Starship](https://starship.rs/zh-CN/) - 轻量、迅速、客制化的高颜值终端
 
 ```bash
-$ cd .config && mkdir starship && cd starship && type null>starship.toml
-
 # powershell 7
 Invoke-Expression (&starship init powershell)
 $ENV:STARSHIP_CONFIG = "$HOME\\.config\\starship\\starship.toml"
@@ -229,17 +167,7 @@ $ node --version > .node-version
 - ✅ 自定义 npm 全局包安装位置
 
 ```bash
-$ mkdir -p ~/.npm_global
 $ npm config set prefix ~/.npm_global
-
-# 设置系统环境变量
-C:\Users\wwlight\.npm_global
-```
-
-```bash
-$ npm i -g nrm        # npm 镜像管理器
-$ npm i -g pnpm
-$ npm i -g yarn
 ```
 
 ```bash
@@ -262,6 +190,8 @@ Remove-Item Alias:ni -Force -ErrorAction Ignore
 
 - ✅ [微信键盘](https://z.weixin.qq.com/)
 - ✅ [IDM](https://vip.jokerps.com/?s=idm&type=post) - 是一款优秀下载工具
+- ✅ [Mihomo Party](https://github.com/mihomo-party-org/mihomo-party) - 更易用的代理客户端
+- ✅ [SwitchHosts](https://switchhosts.vercel.app/zh) - 管理切换多个 hosts 的工具 | [GitHub Hosts](https://ineo6.github.io/hosts/)
 - ✅ [LocalSend](https://localsend.org/) - 免费、开源、跨平台，将文件分享到附近的设备
 - ✅ [FSCapture](https://www.faststone.org/) - 强大、轻便但功能齐全的屏幕捕捉和屏幕录像工具（网上随便搜索注册码）
 - ✅ [PixPin](https://pixpinapp.com/) - 功能强大使用简单的截图/贴图工具

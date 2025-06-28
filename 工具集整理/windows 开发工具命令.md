@@ -40,19 +40,69 @@ $ scoop cleanup [软件名]               # 清理旧版本
 
 # Bucket 本质上是一个 应用程序清单的仓库，它负责存储和管理应用程序的清单，扩展 Scoop 的应用程序范围，简化软件的安装和更新过程。
 $ scoop bucket list                   # 列出已添加的所有 Bucke
-$ scoop bucket update                 # 更新所有已添加的 Bucket
 $ scoop bucket known                  # 列出所有官方认可的 Bucket
-$ scoop bucket add [name]             # 添加 Bucket
-$ scoop bucket rm [name]              # 删除 Bucket
+$ scoop bucket add [名称]              # 添加 Bucket
+$ scoop bucket rm [名称]               # 删除 Bucket
 
-$ scoop export > scoop_backup.json    # 导出已安装 Scoop 应用
-$ scoop import scoop_backup.json      # 从备份文件恢复所有应用
+$ scoop export > ~/Desktop/scoop_backup.json   # 导出已安装 Scoop 应用
+$ scoop import ~/Desktop/scoop_backup.json     # 从备份文件恢复所有应用
 
 $ scoop alias list
 $ scoop alias add [名称] [命令]         # scoop alias add ls 'scoop list'
 $ scoop alias rm [名称]
 $ scoop alias show [名称]
 ```
+
+````ad-summary
+title:常用工具下载
+collapse: false
+
+```bash
+$ scoop install git
+$ scoop install winrar
+$ scoop install mihomo-party
+$ scoop install googlechrome
+$ scoop install vscode
+$ scoop install hyper
+$ scoop install starship
+$ scoop install clink
+$ scoop install switchhosts
+$ scoop install obsidian       # 写作应用程序
+$ scoop install gh
+$ scoop install gsudo
+$ scoop install gping
+$ scoop install fnm
+$ scoop install fzf
+$ scoop install zoxide
+$ scoop install nginx
+$ scoop install ngrok          # 反向代理，内网穿透
+$ scoop install winsw          # 可执行包装程序，起 windows 服务
+$ scoop install tlrc           # 控制台命令速查表 tldr-pages
+$ scoop install eza            # ls 命令替代品
+$ scoop install wechat
+$ scoop install webstorm
+$ scoop install potplayer      # 万能播放器
+$ scoop install keyviz         # 开源按键可视化工具
+$ scoop install powertoys      # 自定义 Windows 的实用工具
+$ scoop install onefetch
+$ scoop install uv             # Python 包和项目管理工具
+$ scoop install pyenv
+
+$ scoop install adb
+$ scoop install bun
+$ scoop install tabby          # SSH 和 Telnet 连接终端
+$ scoop install syncthing
+
+# 安装字体
+$ scoop bucket add nerd-fonts
+$ scoop install LXGWWenKaiMono
+$ scoop install FiraCode-NF
+$ scoop install FiraCode-NF-Mono
+$ scoop install Monaspace-NF
+$ scoop install Monaspace-NF-Mono
+$ scoop install Maple-Mono-NF-CN
+```
+````
 
 ### 常用 windows 命令
 
