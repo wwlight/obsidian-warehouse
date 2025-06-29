@@ -38,6 +38,21 @@ $ git fetch --all
 $ git reset --hard origin/main
 ```
 
+### 重新关联本地项目到远程 Git 仓库
+
+- 场景：误删除了本地 Git 项目的 `.git` 目录
+
+```sh
+$ git init
+$ git remote add origin <origin_url>
+$ git fetch
+$ git reset --hard origin/main # 丢弃本地
+$ git branch --set-upstream-to=origin/main main # 设置上游跟踪
+
+# 第 4、5 两步等价于
+$ git checkout -B main origin/main
+``` 
+
 ### Git LFS 大文件存储
 
 ```ad-info

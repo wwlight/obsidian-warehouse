@@ -111,6 +111,28 @@ title: 说明
 主要在 Powershell 中支持使用
 ```
 
+##### Powershell
+
+```sh
+$ E:                     # 切换盘符
+$ systeminfo             # 显示完整的系统信息
+$ $PROFILE               # 配置文件地址
+$ $psversiontable        # 查看版本
+```
+
+##### Cmd
+
+```sh
+$ E:                     # 切换盘符
+$ E: & \directory        # 直接切换到其他盘符的某个目录
+$ cd /d D:\directory     # 强制切换
+$ systeminfo             # 显示完整的系统信息
+$ ver                    # 查看版本
+$ dir                    # 查看当前目录内容
+$ dir ad                 # 仅查看文件夹
+$ tree                   # 以树状图显示目录结构
+```
+
 ##### [netstat](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/netstat)
 
 - (`Network Statistics`) 用于显示网络连接、路由表、接口统计等信息。

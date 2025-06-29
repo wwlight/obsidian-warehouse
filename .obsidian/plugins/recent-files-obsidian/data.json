@@ -1,14 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "mac 开发工具命令",
-      "path": "工具集整理/mac 开发工具命令.md"
-    },
-    {
-      "basename": "mac 系统工作环境",
-      "path": "工具集整理/mac 系统工作环境.md"
-    },
-    {
       "basename": "windows 开发工具命令",
       "path": "工具集整理/windows 开发工具命令.md"
     },
@@ -17,8 +9,8 @@
       "path": "工具集整理/windows 系统工作环境.md"
     },
     {
-      "basename": "bash 命令记录",
-      "path": "工具集整理/bash 命令记录.md"
+      "basename": "常用工具命令",
+      "path": "工具集整理/常用工具命令.md"
     },
     {
       "basename": "开发问题记录",
@@ -27,6 +19,18 @@
     {
       "basename": "git 问题记录",
       "path": "错题集/git 问题记录.md"
+    },
+    {
+      "basename": "mac 开发工具命令",
+      "path": "工具集整理/mac 开发工具命令.md"
+    },
+    {
+      "basename": "mac 系统工作环境",
+      "path": "工具集整理/mac 系统工作环境.md"
+    },
+    {
+      "basename": "bash 命令记录",
+      "path": "工具集整理/bash 命令记录.md"
     },
     {
       "basename": "vscode 使用记录",
@@ -47,10 +51,6 @@
     {
       "basename": "git 命令记录",
       "path": "工具集整理/git 命令记录.md"
-    },
-    {
-      "basename": "常用工具命令",
-      "path": "工具集整理/常用工具命令.md"
     },
     {
       "basename": "Mac 系统工作环境",

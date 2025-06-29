@@ -91,10 +91,6 @@ $ git config --global --add safe.directory "*"
 # 管理员身份运行 PowerShell
 $ get-ExecutionPolicy
 $ set-ExecutionPolicy RemoteSigned
-
-$ $PROFILE                                    # powershell 配置文件地址
-$ code $PROFILE                               # 直接打开配置文件
-$ $psversiontable                             # powershell 版本
 ```
 
 - ✅ [fnm](https://github.com/Schniz/fnm) - 快速简单的 Node 版本管理器
