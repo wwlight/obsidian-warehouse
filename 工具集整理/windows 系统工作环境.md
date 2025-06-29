@@ -38,26 +38,6 @@ $ mkdir -p ~/.npm_global
 		- [zdharma-continuum/fast-syntax-highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting)
 		- [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 		- [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions)
-
-```sh
-$ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git $HOME/.zsh/plugins/fast-syntax-highlighting
-$ git clone https://github.com/zsh-users/zsh-autosuggestions.git $HOME/.zsh/plugins/zsh-autosuggestions
-$ git clone https://github.com/zsh-users/zsh-completions.git $HOME/.zsh/plugins/zsh-completions
-```
-
-````ad-info
-title: git-extras 安装
-collapse: closed
-
-```bash
-$ git clone https://github.com/tj/git-extras.git
-$ cd git-extras
-$ git checkout $(git describe --tags $(git rev-list --tags --max-count=1))
-$ ./install.cmd 'D:\DevelopApplication\Scoop\apps\git\current'
-$ git extras --help
-```
-````
-
 - ✅️ [Hyper](https://hyper.is/) - 跨平台的终端软件
     - [awesome-hyper](https://github.com/bnb/awesome-hyper)
     - 配置文件位置：`~\AppData\Roaming\Hyper\.hyper.js`
@@ -74,16 +54,6 @@ $ hyper install hyperpower
 
 ```bash
 $ clink info
-
-# 下载插件
-$ git clone https://github.com/vladimir-kotikov/clink-completions D:\\DevelopApplication\\Scoop\\apps\\clink\\current\\scripts\\clink-completions
-$ git clone https://github.com/chrisant996/clink-gizmos D:\\DevelopApplication\\Scoop\\apps\\clink\\current\\scripts\\clink-gizmos
-
-$ clink installscripts D:\\DevelopApplication\\Scoop\\apps\\clink\\current\\scripts
-$ clink installscripts D:\\DevelopApplication\\Scoop\\apps\\clink\\current\\scripts\\clink-completions
-$ clink installscripts D:\\DevelopApplication\\Scoop\\apps\\clink\\current\\scripts\\clink-gizmos
-
-# 使用方法
 $ clink autorun install    # 启用自动运行
 $ clink autorun uninstall  # 禁用自动运行
 $ clink inject             # 临时运行
@@ -97,17 +67,14 @@ $ scoop hold clink         # 禁止更新
 # powershell 7
 Invoke-Expression (&starship init powershell)
 $ENV:STARSHIP_CONFIG = "$HOME\\.config\\starship\\starship.toml"
-# end
 
 # powershell 5
-Invoke-Expression (& 'D:\DevelopApplication\Scoop\apps\starship\current\starship.exe' init powershell)
+Invoke-Expression (& "$env:SCOOP\\apps\\starship\\current\\starship.exe" init powershell)
 $ENV:STARSHIP_CONFIG = "$HOME\\.config\\starship\\starship.toml"
-# end
 
 # cmd 在 clink\current\scripts 文件中添加 starship.lua
 load(io.popen('starship init cmd'):read("*a"))()
-os.setenv('STARSHIP_CONFIG', 'C:\\Users\\<username>\\.config\\starship\\starship.toml')
-# end
+os.setenv('STARSHIP_CONFIG', "$HOME\\.config\\starship\\starship.toml")
 ```
 
 ### 💻️ 开发环境
