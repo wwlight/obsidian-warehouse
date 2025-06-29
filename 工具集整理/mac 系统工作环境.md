@@ -7,7 +7,6 @@ title: 说明
 
 ### ℹ️ 说明
 
-- 省事方式：可借助 [Mac 迁移助理](https://support.apple.com/zh-cn/102613) 进行快速同步
 - ✅：免费｜推荐
 - ❎：收费｜了解｜科学
 
@@ -21,7 +20,6 @@ $ mkdir -p ~/.npm_global
 
 - ✅ [Homebrew](https://brew.sh/) - 软件包的管理器｜[镜像](https://gitee.com/cunkai/HomebrewCN) `[!!success: 推荐]`
 - ❎️ [Ghelper](https://ghelper.net/) - 浏览器插件 | [极简插件](https://chrome.zzzmh.cn/)
-- ✅ [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - 为开发者提供**图标字体**补丁
 
 ### ⭐ 同步配置
 
@@ -29,13 +27,7 @@ $ mkdir -p ~/.npm_global
 
 ### ✍🏻 终端配置
 
-- ✅ [zsh](https://www.zsh.org/) - 功能强大的 shell
-	- 系统自带
-	- zsh plugins：
-		- [zdharma-continuum/fast-syntax-highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting)
-		- [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-		- [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions)
-		- [incr](https://mimosa-pudica.net/zsh-incremental.html)
+- ✅ [zsh](https://www.zsh.org/) - 功能强大的 shell，系统自带
 - ✅️ [Hyper](https://hyper.is/) - 是一款跨平台的终端软件
 	- [awesome-hyper](https://github.com/bnb/awesome-hyper)
 	- 配置文件位置：`~/Library/Application Support/Hyper/.hyper.js`
@@ -88,6 +80,8 @@ $ node --version > .node-version
 
 ```bash
 $ npm config set prefix ~/.npm_global
+# .zshrc
+path=($HOME/.npm_global/bin $path)
 
 $ npm i -g @antfu/ni
 ```

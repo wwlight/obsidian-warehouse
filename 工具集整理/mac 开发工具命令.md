@@ -68,9 +68,12 @@ $ brew cleanup                        # 清理相关的旧版本和缓存文件
 $ brew cleanup [软件名]                # 清理指定软件包的旧版本
 $ brew cleanup -n                     # 查看可清理的内容（不实际清理）
 
-$ brew bundle dump --no-vscode --force --file=~/Desktop/Brewfile  # 生成 Brewfile
-$ brew bundle install --file=~/Desktop/Brewfile                   # 读取 Brewfile 并安装所有依赖
-$ brew bundle check                                               # 检查 Brewfile 中的软件是否已安装
+# 生成 Brewfile
+$ brew bundle dump --no-vscode --force --file=~/Desktop/Brewfile
+# 读取 Brewfile 并安装所有依赖
+$ brew bundle install --file=~/Desktop/Brewfile
+# 检查 Brewfile 中的软件是否已安装                   
+$ brew bundle check                                               
 ```
 
 ````ad-summary

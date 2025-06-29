@@ -12,8 +12,6 @@ title: 说明
 
 ### 🍀 准备工作
 
-- 🗂️ 创建文件夹：`DevelopApplication`、`SystemApplication`
-
 ```bash
 # -p 自动创建父目录
 $ mkdir -p D:/{DevelopApplication,SystemApplication}
@@ -23,8 +21,18 @@ $ mkdir -p ~/.npm_global
 ```
 
 - ❎️ [Ghelper](https://ghelper.net/) - 浏览器插件 | [极简插件](https://chrome.zzzmh.cn/)
+- ✅ [Mihomo Party](https://github.com/mihomo-party-org/mihomo-party) - 更易用的代理客户端
 - ✅ [Scoop](https://scoop.sh/) - 适用于 Windows 的命令行安装程序
-- ✅ [Nerd Fonts](https://www.nerdfonts.com/font-downloads) - 为开发者提供**图标字体**补丁
+
+```bash
+# 第一步：设置安装目录
+$ $env:SCOOP='D:\DevelopApplication\Scoop'
+$ [Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
+
+# 第二步：开启代理，在 powershell 中安装
+$ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+$ iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
+```
 
 ### ⭐ 同步配置
 
@@ -33,11 +41,6 @@ $ mkdir -p ~/.npm_global
 ### ✍🏻 终端配置
 
 - ✅ [zsh](https://www.zsh.org/) - 功能强大的 shell
-	- 将 [zsh 安装包](https://packages.msys2.org/packages/zsh?repo=msys&variant=x86_64) 解压到 git 的安装根目录下
-	- Zsh plugins：
-		- [zdharma-continuum/fast-syntax-highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting)
-		- [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-		- [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions)
 - ✅️ [Hyper](https://hyper.is/) - 跨平台的终端软件
     - [awesome-hyper](https://github.com/bnb/awesome-hyper)
     - 配置文件位置：`~\AppData\Roaming\Hyper\.hyper.js`
@@ -71,10 +74,6 @@ $ENV:STARSHIP_CONFIG = "$HOME\\.config\\starship\\starship.toml"
 # powershell 5
 Invoke-Expression (& "$env:SCOOP\\apps\\starship\\current\\starship.exe" init powershell)
 $ENV:STARSHIP_CONFIG = "$HOME\\.config\\starship\\starship.toml"
-
-# cmd 在 clink\current\scripts 文件中添加 starship.lua
-load(io.popen('starship init cmd'):read("*a"))()
-os.setenv('STARSHIP_CONFIG', "$HOME\\.config\\starship\\starship.toml")
 ```
 
 ### 💻️ 开发环境
@@ -135,6 +134,8 @@ $ node --version > .node-version
 
 ```bash
 $ npm config set prefix ~/.npm_global
+# .zshrc
+path=($HOME/.npm_global $path)
 ```
 
 ```bash
@@ -157,7 +158,6 @@ Remove-Item Alias:ni -Force -ErrorAction Ignore
 
 - ✅ [微信键盘](https://z.weixin.qq.com/)
 - ✅ [IDM](https://vip.jokerps.com/?s=idm&type=post) - 是一款优秀下载工具
-- ✅ [Mihomo Party](https://github.com/mihomo-party-org/mihomo-party) - 更易用的代理客户端
 - ✅ [SwitchHosts](https://switchhosts.vercel.app/zh) - 管理切换多个 hosts 的工具 | [GitHub Hosts](https://ineo6.github.io/hosts/)
 - ✅ [LocalSend](https://localsend.org/) - 免费、开源、跨平台，将文件分享到附近的设备
 - ✅ [FSCapture](https://www.faststone.org/) - 强大、轻便但功能齐全的屏幕捕捉和屏幕录像工具（网上随便搜索注册码）
