@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e8c059bedd7e3b2f",
+        "id": "554e84e84a1d3685",
         "type": "tabs",
         "children": [
           {
-            "id": "71dfbe9eef752b4d",
+            "id": "33e2b9312dd85cb9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "书签导航.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "书签导航"
+              "title": "新标签页"
             }
           }
         ]
@@ -125,13 +120,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "书签导航.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "书签导航 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -245,6 +239,7 @@
   },
   "active": "736f32738161797d",
   "lastOpenFiles": [
+    "书签导航.md",
     "工具集整理/bash 命令记录.md",
     "工具集整理/mac 系统工作环境.md",
     "工具集整理/mac 开发工具命令.md",
@@ -253,7 +248,6 @@
     "错题集/git 问题记录.md",
     "工具集整理/常用工具命令.md",
     "错题集/开发问题记录.md",
-    "书签导航.md",
     "备忘录/魔方公式.md",
     "工具集整理/git 命令记录.md",
     "工具集整理/obsidian 使用入门.md",
