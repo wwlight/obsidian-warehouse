@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "windows 开发工具命令",
-      "path": "工具集整理/windows 开发工具命令.md"
+      "basename": "书签导航",
+      "path": "书签导航.md"
+    },
+    {
+      "basename": "bash 命令记录",
+      "path": "工具集整理/bash 命令记录.md"
+    },
+    {
+      "basename": "mac 系统工作环境",
+      "path": "工具集整理/mac 系统工作环境.md"
+    },
+    {
+      "basename": "mac 开发工具命令",
+      "path": "工具集整理/mac 开发工具命令.md"
     },
     {
       "basename": "windows 系统工作环境",
       "path": "工具集整理/windows 系统工作环境.md"
+    },
+    {
+      "basename": "windows 开发工具命令",
+      "path": "工具集整理/windows 开发工具命令.md"
+    },
+    {
+      "basename": "git 问题记录",
+      "path": "错题集/git 问题记录.md"
     },
     {
       "basename": "常用工具命令",
@@ -17,28 +37,8 @@
       "path": "错题集/开发问题记录.md"
     },
     {
-      "basename": "git 问题记录",
-      "path": "错题集/git 问题记录.md"
-    },
-    {
-      "basename": "mac 开发工具命令",
-      "path": "工具集整理/mac 开发工具命令.md"
-    },
-    {
-      "basename": "mac 系统工作环境",
-      "path": "工具集整理/mac 系统工作环境.md"
-    },
-    {
-      "basename": "bash 命令记录",
-      "path": "工具集整理/bash 命令记录.md"
-    },
-    {
       "basename": "vscode 使用记录",
       "path": "备忘录/vscode 使用记录.md"
-    },
-    {
-      "basename": "书签导航",
-      "path": "书签导航.md"
     },
     {
       "basename": "obsidian 使用入门",

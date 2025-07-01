@@ -30,12 +30,12 @@ $ git rm --cached filename
 
 ### Git 强制同步远程最新代码
 
+- 代码回滚导致本地与远程版本不一致，无法直接拉取远程仓库
+
 ```bash
 # 检出远程所有分支最新数据
 $ git fetch --all
-
-# 强制将本地 main 分支重置到和远程仓库 (origin/main) 一致的状态
-$ git reset --hard origin/main
+$ git reset --hard origin/main # 丢弃本地
 ```
 
 ### 重新关联本地项目到远程 Git 仓库
@@ -48,8 +48,7 @@ $ git remote add origin <origin_url>
 $ git fetch
 $ git reset --hard origin/main # 丢弃本地
 $ git branch --set-upstream-to=origin/main main # 设置上游跟踪
-
-# 第 4、5 两步等价于
+# 等价于
 $ git checkout -B main origin/main
 ``` 
 
