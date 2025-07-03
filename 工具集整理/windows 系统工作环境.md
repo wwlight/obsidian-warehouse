@@ -67,12 +67,9 @@ $ scoop hold clink         # 禁止更新
 - ✅ [Starship](https://starship.rs/zh-CN/) - 轻量、迅速、客制化的高颜值终端
 
 ```bash
-# powershell 7
+# powershell
 Invoke-Expression (&starship init powershell)
-$ENV:STARSHIP_CONFIG = "$HOME\\.config\\starship\\starship.toml"
-
-# powershell 5
-Invoke-Expression (& "$env:SCOOP\\apps\\starship\\current\\starship.exe" init powershell)
+# Invoke-Expression (& "$env:SCOOP\\apps\\starship\\current\\starship.exe" init powershell)
 $ENV:STARSHIP_CONFIG = "$HOME\\.config\\starship\\starship.toml"
 ```
 
@@ -97,21 +94,6 @@ $ set-ExecutionPolicy RemoteSigned
 
 ```bash
 # fnm 支持多项目单独切换版本
-$ echo 'eval "$(fnm env --use-on-cd)"' >> ~/.zshrc
-$ source ~/.zshrc
-
-# powershell 7 & powershell 5 需配置
-# fnm
-fnm env --use-on-cd | Out-String | Invoke-Expression
-# fnm end
-
-# cmd 在目标路径后追加
-/k %USERPROFILE%\bashrc.cmd
-# 在 ~ 目录下创建 bashrc.cmd，内容如下：
-@echo off
-FOR /f "tokens=*" %%z IN ('fnm env --use-on-cd') DO CALL %%z
-# end
-
 $ fnm ls
 $ fnm ls-remote
 $ fnm ls-remote | grep v20
