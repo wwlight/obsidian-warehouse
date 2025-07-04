@@ -122,6 +122,9 @@ $ (Get-Host).Version     # 查看版本
 $ dir                    # 查看当前目录内容
 $ dir ad                 # 仅查看文件夹
 $ tree                   # 以树状图显示目录结构
+$ $psversiontable        # 查看版本
+$ get-ExecutionPolicy
+$ set-ExecutionPolicy RemoteSigned
 ```
 
 ##### Cmd
