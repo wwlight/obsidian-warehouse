@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "常用工具命令",
-      "path": "工具集整理/常用工具命令.md"
+      "basename": "Linux 管理命令速查手册",
+      "path": "工具集整理/Linux 管理命令速查手册.md"
     },
     {
       "basename": "系统常用软件",
@@ -13,16 +13,28 @@
       "path": "工具集整理/bash 命令记录.md"
     },
     {
+      "basename": "书签导航",
+      "path": "书签导航.md"
+    },
+    {
+      "basename": "obsidian 使用入门",
+      "path": "工具集整理/obsidian 使用入门.md"
+    },
+    {
+      "basename": "windows 开发工具命令",
+      "path": "工具集整理/windows 开发工具命令.md"
+    },
+    {
+      "basename": "常用工具命令",
+      "path": "工具集整理/常用工具命令.md"
+    },
+    {
       "basename": "git 命令记录",
       "path": "工具集整理/git 命令记录.md"
     },
     {
       "basename": "mac 开发工具命令",
       "path": "工具集整理/mac 开发工具命令.md"
-    },
-    {
-      "basename": "obsidian 使用入门",
-      "path": "工具集整理/obsidian 使用入门.md"
     },
     {
       "basename": "开发问题记录",
@@ -33,16 +45,8 @@
       "path": "问题集/git 问题记录.md"
     },
     {
-      "basename": "windows 开发工具命令",
-      "path": "工具集整理/windows 开发工具命令.md"
-    },
-    {
       "basename": "windows 系统工作环境",
       "path": "工具集整理/windows 系统工作环境.md"
-    },
-    {
-      "basename": "书签导航",
-      "path": "书签导航.md"
     },
     {
       "basename": "mac 系统工作环境",
@@ -195,10 +199,6 @@
     {
       "basename": "只管去做（潜心3年磨一剑，最新万字修订版）-邹小强",
       "path": "➤其他资源/WeRead/个人成长/只管去做（潜心3年磨一剑，最新万字修订版）-邹小强.md"
-    },
-    {
-      "basename": "打开心智-李睿秋",
-      "path": "➤其他资源/WeRead/个人成长/打开心智-李睿秋.md"
     }
   ],
   "omittedPaths": [],
