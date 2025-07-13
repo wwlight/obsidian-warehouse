@@ -212,6 +212,31 @@ location / {
 ```
 ````
 
+```bash
+# nginx 启动失败
+
+# 查看错误日志
+$ tail -f /opt/homebrew/var/log/nginx/error.log
+
+$ brew services stop nginx
+$ rm -f ~/Library/LaunchAgents/homebrew.mxcl.nginx.plist
+
+# 停止所有 nginx 进程
+$ ps aux | grep nginx
+$ sudo kill -9 nginx
+
+# 创建 run 目录并设置权限
+$ sudo mkdir -p /opt/homebrew/var/run
+$ sudo chown -R $(whoami):admin /opt/homebrew/var/run
+$ sudo chmod 755 /opt/homebrew/var/run
+# 修复日志目录权限
+$ sudo chown -R $(whoami):admin /opt/homebrew/var/log/nginx
+$ sudo chmod -R 755 /opt/homebrew/var/log/nginx
+
+# 重新启动
+$ brew services reload nginx
+```
+
 ###### MySQL 常用命令
 
 ```bash
@@ -229,29 +254,42 @@ $ mysql_secure_installation          # 初次安装后设置 root 用户的密�
 $ mysql --version                    # 查看 MySQL 版本
 ```
 
-##### 常见问题
+```sh
+# mysql 启动问题
 
-###### Brew services list 报错可尝试
+# 查看日志
+$ tail -f /opt/homebrew/var/mysql/$(hostname).err
 
-```bash
-$ brew untap homebrew/services        # 删除当前的 services
-$ brew tap homebrew/services          # 重新安装
+$ brew services stop mysql
+$ rm -f ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
+
+# 停止所有 mysql 进程
+$ ps aux | grep mysqld
+$ sudo pkill -9 mysqld
+
+# 彻底清理数据目录并初始化
+$ sudo rm -rf /opt/homebrew/var/mysql
+$ sudo mkdir -p /opt/homebrew/var/mysql
+$ sudo chown -R _mysql:mysql /opt/homebrew/var/mysql
+$ sudo chmod -R 750 /opt/homebrew/var/mysql
+$ mysqld --initialize --user=_mysql \
+--basedir=/opt/homebrew/opt/mysql \
+--datadir=/opt/homebrew/var/mysql
+
+# 修复数据目录权限
+$ sudo chown -R _mysql:mysql /opt/homebrew/var/mysql
+$ sudo chmod -R 755 /opt/homebrew/var/mysql
+
+# 重新启动
+$ brew services reload mysql
 ```
 
-###### Brew services start nginx 出现警告
+##### 常见问题
 
 ```bash
-Warning: nginx must be run as non-root to start at user login!
-Bootstrap failed: 5: Input/output error
-Error: Failure while executing; `/bin/launchctl bootstrap system /Library/LaunchDaemons/homebrew.mxcl.nginx.plist` exited with 5.
-
-# 解决方案：
-$ brew services stop nginx
-$ sudo rm -f ~/Library/LaunchAgents/homebrew.mxcl.nginx.plist
-$ brew services reload nginx
-
-# 验证 `/opt/homebrew/` 的相关权限
-$ sudo chown -R $(whoami):admin /opt/homebrew
+# Brew services list 报错可尝试
+$ brew untap homebrew/services        # 删除当前的 services
+$ brew tap homebrew/services          # 重新安装
 ```
 
 ### [SDKMAN](https://sdkman.io/) 开发工具包管理工具
