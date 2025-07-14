@@ -1,48 +1,100 @@
 {
   "recentFiles": [
     {
-      "basename": "mac 开发工具命令",
-      "path": "工具集整理/mac 开发工具命令.md"
-    },
-    {
       "basename": "常用工具命令",
       "path": "工具集整理/常用工具命令.md"
+    },
+    {
+      "basename": "开发问题记录",
+      "path": "工具集整理/开发问题记录.md"
     },
     {
       "basename": "系统常用软件",
       "path": "工具集整理/系统常用软件.md"
     },
     {
-      "basename": "bash 命令记录",
-      "path": "工具集整理/bash 命令记录.md"
+      "basename": "windows 开发工具命令",
+      "path": "工具集整理/windows 开发工具命令.md"
+    },
+    {
+      "basename": "悟空拼音字母表",
+      "path": "attachmets/悟空拼音字母表.jpg"
+    },
+    {
+      "basename": "小鹤音部件字根键位图",
+      "path": "attachmets/小鹤音部件字根键位图.png"
+    },
+    {
+      "basename": "git-lfs-graphic",
+      "path": "attachmets/git-lfs-graphic.gif"
+    },
+    {
+      "basename": "dark-mode-angles",
+      "path": "attachmets/dark-mode-angles.svg"
+    },
+    {
+      "basename": "小鹤双拼键位口诀",
+      "path": "attachmets/小鹤双拼键位口诀.jpg"
+    },
+    {
+      "basename": "小鹤双拼键盘布局",
+      "path": "attachmets/小鹤双拼键盘布局.png"
+    },
+    {
+      "basename": "剪藏句子",
+      "path": "心灵鸡汤/剪藏句子.md"
+    },
+    {
+      "basename": "git 问题记录",
+      "path": "工具集整理/git 问题记录.md"
+    },
+    {
+      "basename": "开源项目学习",
+      "path": "开源项目学习.md"
+    },
+    {
+      "basename": "mac 使用记录",
+      "path": "工具集整理/mac 使用记录.md"
     },
     {
       "basename": "git 命令记录",
       "path": "工具集整理/git 命令记录.md"
     },
     {
-      "basename": "Linux 管理命令速查手册",
-      "path": "工具集整理/Linux 管理命令速查手册.md"
+      "basename": "bash 命令记录",
+      "path": "工具集整理/bash 命令记录.md"
     },
     {
-      "basename": "书签导航",
-      "path": "书签导航.md"
+      "basename": "js 常用整理",
+      "path": "备忘录/js 常用整理.md"
+    },
+    {
+      "basename": "css 记录",
+      "path": "备忘录/css 相关/css 记录.md"
+    },
+    {
+      "basename": "魔方公式",
+      "path": "备忘录/魔方公式.md"
+    },
+    {
+      "basename": "css 渐变角度理解",
+      "path": "备忘录/css 相关/css 渐变角度理解.md"
     },
     {
       "basename": "obsidian 使用入门",
       "path": "工具集整理/obsidian 使用入门.md"
     },
     {
-      "basename": "windows 开发工具命令",
-      "path": "工具集整理/windows 开发工具命令.md"
+      "basename": "书签导航",
+      "path": "书签导航.md"
     },
     {
-      "basename": "开发问题记录",
-      "path": "问题集/开发问题记录.md"
+      "basename": "mac 开发工具命令",
+      "path": "工具集整理/mac 开发工具命令.md"
     },
     {
-      "basename": "git 问题记录",
-      "path": "问题集/git 问题记录.md"
+      "basename": "Linux 管理命令速查手册",
+      "path": "工具集整理/Linux 管理命令速查手册.md"
     },
     {
       "basename": "windows 系统工作环境",
@@ -51,14 +103,6 @@
     {
       "basename": "mac 系统工作环境",
       "path": "工具集整理/mac 系统工作环境.md"
-    },
-    {
-      "basename": "vscode 使用记录",
-      "path": "备忘录/vscode 使用记录.md"
-    },
-    {
-      "basename": "魔方公式",
-      "path": "备忘录/魔方公式.md"
     },
     {
       "basename": "Mac 系统工作环境",
@@ -86,15 +130,11 @@
     },
     {
       "basename": "unocss 记录",
-      "path": "备忘录/unocss 记录.md"
+      "path": "备忘录/css 相关/unocss 记录.md"
     },
     {
       "basename": "lodash 记录",
       "path": "备忘录/lodash 记录.md"
-    },
-    {
-      "basename": "剪藏句子",
-      "path": "心灵鸡汤/剪藏句子.md"
     },
     {
       "basename": "Mac 使用记录",
@@ -105,36 +145,8 @@
       "path": "工具集整理/Obsidian 使用入门.md"
     },
     {
-      "basename": "小鹤音部件字根键位图",
-      "path": "attachmets/小鹤音部件字根键位图.png"
-    },
-    {
-      "basename": "小鹤双拼键位口诀",
-      "path": "attachmets/小鹤双拼键位口诀.jpg"
-    },
-    {
-      "basename": "小鹤双拼键盘布局",
-      "path": "attachmets/小鹤双拼键盘布局.png"
-    },
-    {
-      "basename": "悟空拼音字母表",
-      "path": "attachmets/悟空拼音字母表.jpg"
-    },
-    {
-      "basename": "dark-mode-angles",
-      "path": "attachmets/dark-mode-angles.svg"
-    },
-    {
-      "basename": "git-lfs-graphic",
-      "path": "attachmets/git-lfs-graphic.gif"
-    },
-    {
       "basename": "单位换算",
       "path": "TODO/单位换算.md"
-    },
-    {
-      "basename": "开源项目学习",
-      "path": "开源项目学习.md"
     },
     {
       "basename": "README",
@@ -149,20 +161,8 @@
       "path": "未命名.canvas"
     },
     {
-      "basename": "css 渐变角度理解",
-      "path": "备忘录/css 相关/css 渐变角度理解.md"
-    },
-    {
       "basename": "未命名",
       "path": "备忘录/未命名.md"
-    },
-    {
-      "basename": "js 常用整理",
-      "path": "备忘录/js 常用整理.md"
-    },
-    {
-      "basename": "css 记录",
-      "path": "备忘录/css 记录.md"
     },
     {
       "basename": "js 实用小技巧",
@@ -195,10 +195,6 @@
     {
       "basename": "坚持，一种可以养成的习惯-古川武士",
       "path": "➤其他资源/WeRead/个人成长/坚持，一种可以养成的习惯-古川武士.md"
-    },
-    {
-      "basename": "只管去做（潜心3年磨一剑，最新万字修订版）-邹小强",
-      "path": "➤其他资源/WeRead/个人成长/只管去做（潜心3年磨一剑，最新万字修订版）-邹小强.md"
     }
   ],
   "omittedPaths": [],

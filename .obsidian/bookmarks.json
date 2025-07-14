@@ -24,13 +24,6 @@
             {
               "type": "file",
               "ctime": 1736147204060,
-              "path": "备忘录/css 记录.md",
-              "subpath": "#^-",
-              "title": "css 记录"
-            },
-            {
-              "type": "file",
-              "ctime": 1736147204060,
               "path": "备忘录/js 常用整理.md",
               "subpath": "#^-",
               "title": "js 常用整理"
@@ -48,13 +41,6 @@
               "path": "备忘录/lodash 记录.md",
               "subpath": "#^-",
               "title": "lodash 记录"
-            },
-            {
-              "type": "file",
-              "ctime": 1736147204060,
-              "path": "备忘录/unocss 记录.md",
-              "subpath": "#^-",
-              "title": "unocss 记录"
             }
           ],
           "title": "备忘录"
