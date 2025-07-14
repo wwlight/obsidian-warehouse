@@ -1,20 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "常用工具命令",
-      "path": "工具集整理/常用工具命令.md"
-    },
-    {
-      "basename": "开发问题记录",
-      "path": "工具集整理/开发问题记录.md"
+      "basename": "书签导航",
+      "path": "书签导航.md"
     },
     {
       "basename": "系统常用软件",
-      "path": "工具集整理/系统常用软件.md"
+      "path": "工具集/系统常用软件.md"
     },
     {
       "basename": "windows 开发工具命令",
-      "path": "工具集整理/windows 开发工具命令.md"
+      "path": "工具集/windows 开发工具命令.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "js 实用小技巧",
+      "path": "备忘录/js 实用小技巧.md"
+    },
+    {
+      "basename": "git 问题记录",
+      "path": "工具集/git 问题记录.md"
+    },
+    {
+      "basename": "开发问题记录",
+      "path": "工具集/开发问题记录.md"
+    },
+    {
+      "basename": "mac 使用记录",
+      "path": "工具集/mac 使用记录.md"
+    },
+    {
+      "basename": "mac 开发工具命令",
+      "path": "工具集/mac 开发工具命令.md"
+    },
+    {
+      "basename": "汉语拼音和小鹤双拼",
+      "path": "备忘录/汉语拼音和小鹤双拼.md"
+    },
+    {
+      "basename": "lodash 记录",
+      "path": "备忘录/lodash 记录.md"
+    },
+    {
+      "basename": "常用工具命令",
+      "path": "工具集/常用工具命令.md"
     },
     {
       "basename": "悟空拼音字母表",
@@ -41,28 +73,12 @@
       "path": "attachmets/小鹤双拼键盘布局.png"
     },
     {
-      "basename": "剪藏句子",
-      "path": "心灵鸡汤/剪藏句子.md"
-    },
-    {
-      "basename": "git 问题记录",
-      "path": "工具集整理/git 问题记录.md"
-    },
-    {
-      "basename": "开源项目学习",
-      "path": "开源项目学习.md"
-    },
-    {
-      "basename": "mac 使用记录",
-      "path": "工具集整理/mac 使用记录.md"
-    },
-    {
       "basename": "git 命令记录",
-      "path": "工具集整理/git 命令记录.md"
+      "path": "工具集/git 命令记录.md"
     },
     {
       "basename": "bash 命令记录",
-      "path": "工具集整理/bash 命令记录.md"
+      "path": "工具集/bash 命令记录.md"
     },
     {
       "basename": "js 常用整理",
@@ -82,15 +98,7 @@
     },
     {
       "basename": "obsidian 使用入门",
-      "path": "工具集整理/obsidian 使用入门.md"
-    },
-    {
-      "basename": "书签导航",
-      "path": "书签导航.md"
-    },
-    {
-      "basename": "mac 开发工具命令",
-      "path": "工具集整理/mac 开发工具命令.md"
+      "path": "工具集/obsidian 使用入门.md"
     },
     {
       "basename": "Linux 管理命令速查手册",
@@ -125,16 +133,8 @@
       "path": "备忘录/VSCode 使用记录.md"
     },
     {
-      "basename": "汉语拼音和小鹤双拼",
-      "path": "备忘录/汉语拼音和小鹤双拼.md"
-    },
-    {
       "basename": "unocss 记录",
       "path": "备忘录/css 相关/unocss 记录.md"
-    },
-    {
-      "basename": "lodash 记录",
-      "path": "备忘录/lodash 记录.md"
     },
     {
       "basename": "Mac 使用记录",
@@ -149,10 +149,6 @@
       "path": "TODO/单位换算.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
       "basename": "Drawing 2025-04-20 11.43.14.excalidraw",
       "path": "Excalidraw/Drawing 2025-04-20 11.43.14.excalidraw.md"
     },
@@ -163,10 +159,6 @@
     {
       "basename": "未命名",
       "path": "备忘录/未命名.md"
-    },
-    {
-      "basename": "js 实用小技巧",
-      "path": "备忘录/js 实用小技巧.md"
     },
     {
       "basename": "07-Bash 命令记录",
