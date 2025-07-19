@@ -9,6 +9,14 @@
       "path": "工具集/系统常用软件.md"
     },
     {
+      "basename": "mac 使用记录",
+      "path": "工具集/mac 使用记录.md"
+    },
+    {
+      "basename": "mac 开发工具命令",
+      "path": "工具集/mac 开发工具命令.md"
+    },
+    {
       "basename": "windows 开发工具命令",
       "path": "工具集/windows 开发工具命令.md"
     },
@@ -27,14 +35,6 @@
     {
       "basename": "开发问题记录",
       "path": "工具集/开发问题记录.md"
-    },
-    {
-      "basename": "mac 使用记录",
-      "path": "工具集/mac 使用记录.md"
-    },
-    {
-      "basename": "mac 开发工具命令",
-      "path": "工具集/mac 开发工具命令.md"
     },
     {
       "basename": "汉语拼音和小鹤双拼",
